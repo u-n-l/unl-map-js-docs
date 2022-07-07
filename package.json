@@ -1,11 +1,12 @@
 {
-  "name": "maplibre-gl-js-docs",
+  "name": "unl-map-js-docs",
   "description": "MapLibre GL JS documentation website",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maplibre/maplibre-gl-js-docs.git"
+    "url": "git://github.com/u-n-l/unl-map-js-docs"
   },
+  "homepage": "https://u-n-l.github.io/unl-map-js-docs/",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/plugin-proposal-class-properties": "^7.17.12",
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-xss": "^0.1.11",
     "execa": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "github-slugger": "1.2.1",
     "husky": "^4.3.0",
     "jest": "^26.4.1",
@@ -72,7 +74,9 @@
     "build": "batfish build",
     "serve-static": "batfish serve-static",
     "pretest": "npm run lint",
+    "deploy": "gh-pages -d _site",
     "prebuild": "npm run build-docs",
+    "predeploy": "npm run build",
     "prestart": "npm run build-docs",
     "test": "tape test/*.test.js | tap-min && npm run lint-md && jest",
     "start": "NODE_OPTIONS=\"--max_old_space_size=4096\" DEPLOY_ENV=local batfish start",
