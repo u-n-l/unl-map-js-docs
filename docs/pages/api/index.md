@@ -2,20 +2,20 @@
 title: API Reference
 description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
 contentType: API
-navOrder: 1
-order: 1
+navOrder: 3
+order: 3
 layout: page
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Quickstart from '../../components/quickstart';"
-- "import Example from '../../components/example';"
-- "import SimpleMapHtml from '../example/simple-map.html';"
-- "import Copyable from '../../components/copyable';"
-- "import urls from '../../components/urls';"
+  - "import Quickstart from '../../components/quickstart';"
+  - "import Example from '../../components/example';"
+  - "import SimpleMapHtml from '../example/simple-map.html';"
+  - "import Copyable from '../../components/copyable';"
+  - "import urls from '../../components/urls';"
 overviewHeader:
   title: MapLibre GL JS
   features:
@@ -30,7 +30,6 @@ overviewHeader:
 
 MapLibre GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and [MapLibre styles](https://maplibre.org/maplibre-gl-js-docs/style-spec/). It is part of the [MapLibre GL ecosystem](https://github.com/maplibre).
 
-
 ## Quickstart
 
 {{
@@ -39,30 +38,28 @@ MapLibre GL JS is a JavaScript library that uses WebGL to render interactive map
           title: 'MapLibre GL JS map',
           description: ''
         }}
-        location={this.props.location}
-        html={SimpleMapHtml}
-        displaySnippet={false}
-        height={300}
-    />
+location={this.props.location}
+html={SimpleMapHtml}
+displaySnippet={false}
+height={300}
+/>
 }}
-
 
 {{
 <Quickstart />
 }}
 
-
 ## Reading this documentation
 
 This documentation is divided into several sections:
 
-* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
-* [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
-* [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
-* [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
-* [**User interaction handlers**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
-* [**Sources**](https://maplibre.org/maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/).
-* [**Events**](https://maplibre.org/maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise.
+- [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
+- [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
+- [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
+- [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
+- [**User interaction handlers**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
+- [**Sources**](https://maplibre.org/maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/).
+- [**Events**](https://maplibre.org/maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise.
 
 Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
 
@@ -88,10 +85,12 @@ For strict CSP environments without `worker-src blob: ; child-src blob:` enabled
 
 {{
 <Copyable lang="html">{`<script src='${urls.js().replace('.js', '-csp.js')}'></script>
+
 <script>
 mapboxgl.workerUrl = "${urls.js().replace('.js', '-csp-worker.js')}";
 ...
 </script>`}</Copyable>
+
 }}
 
 If you use the `sandbox` directive, and your [access token is restricted to certain URLs](https://docs.mapbox.com/accounts/overview/tokens/#url-restrictions), the `allow-same-origin` value is required. This allows requests to have a `Referer` header that is not `null`. See the section on [Referrer Policies](https://maplibre.org/maplibre-gl-js-docs/overview/#referrer-policies) for further information.
@@ -112,19 +111,19 @@ Note too that if the CSS isn't available by the first render, as soon as the CSS
 
 ## Dependencies
 
-The dependencies for MapLibre GL JS (`.js` & `.css`) are distributed via [UNPKG.com](https://unpkg.com).  UNPKG can distribute a fixed version, a [semver range](https://semver.org/), a tag, or omit the version/tag entirely to use the `latest` tag.
+The dependencies for MapLibre GL JS (`.js` & `.css`) are distributed via [UNPKG.com](https://unpkg.com). UNPKG can distribute a fixed version, a [semver range](https://semver.org/), a tag, or omit the version/tag entirely to use the `latest` tag.
 
-You can view a listing of all the files in the MapLibre GL JS package by appending a `/` at the end of the MapLibre slug.  This is useful to review other revisions or older `CHANGELOG`s.
+You can view a listing of all the files in the MapLibre GL JS package by appending a `/` at the end of the MapLibre slug. This is useful to review other revisions or older `CHANGELOG`s.
 
-* [https://unpkg.com/maplibre-gl/](https://unpkg.com/maplibre-gl/)
+- [https://unpkg.com/maplibre-gl/](https://unpkg.com/maplibre-gl/)
 
-*Examples*
+_Examples_
 
-| Use Case  | `.js` | `.css` |
-| :------- | :---: | :----: |
-| `latest` | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl/dist/maplibre-gl.js) | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl/dist/maplibre-gl.css) |
-| Use a fixed version `1.14.0` | [https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js) | [https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.css) |
-| Use at least `1.14.x` | [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js) | [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css) |
-| Return metadata as JSON on `latest` to review `lastModified` & `size`. | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta) | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta)  |
-| `CHANGELOG.md` for `latest` | [https://unpkg.com/browse/maplibre-gl/CHANGELOG.md](https://unpkg.com/browse/maplibre-gl/CHANGELOG.md) |  |
-| `LICENSE.txt` for `latest` | [https://unpkg.com/browse/maplibre-gl/LICENSE.txt](https://unpkg.com/browse/maplibre-gl/LICENSE.txt) |  |
+| Use Case                                                               |                                                        `.js`                                                         |                                                         `.css`                                                         |
+| :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| `latest`                                                               |        [https://unpkg.com/maplibre-gl/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl/dist/maplibre-gl.js)        |        [https://unpkg.com/maplibre-gl/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl/dist/maplibre-gl.css)        |
+| Use a fixed version `1.14.0`                                           | [https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.js) | [https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl@1.14.0/dist/maplibre-gl.css) |
+| Use at least `1.14.x`                                                  |  [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js)  |  [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css)  |
+| Return metadata as JSON on `latest` to review `lastModified` & `size`. |   [https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta)   |   [https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta)   |
+| `CHANGELOG.md` for `latest`                                            |        [https://unpkg.com/browse/maplibre-gl/CHANGELOG.md](https://unpkg.com/browse/maplibre-gl/CHANGELOG.md)        |                                                                                                                        |
+| `LICENSE.txt` for `latest`                                             |         [https://unpkg.com/browse/maplibre-gl/LICENSE.txt](https://unpkg.com/browse/maplibre-gl/LICENSE.txt)         |                                                                                                                        |

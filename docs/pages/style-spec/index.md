@@ -2,8 +2,8 @@
 title: Style Specification
 description: "This specification defines and describes the visual appearance of a map: what data to draw, the order to draw it in, and how to style the data when drawing it."
 contentType: specification
-navOrder: 5
-order: 1
+navOrder: 7
+order: 7
 layout: page
 hideFeedback: true
 products:

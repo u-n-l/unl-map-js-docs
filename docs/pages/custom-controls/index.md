@@ -4,7 +4,7 @@ description: Custom controls built on top of maplibre.
 contentType: example
 language:
   - JavaScript
-navOrder: 2
+navOrder: 4
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
