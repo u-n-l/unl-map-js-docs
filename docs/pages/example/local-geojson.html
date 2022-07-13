@@ -1,61 +1,61 @@
 <style>
-    #file {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+  #file {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 </style>
 <div id="map"></div>
 <input
-    type="file"
-    id="file"
-    name="file"
-    accept="application/geo+json,application/vnd.geo+json,.geojson"
+  type="file"
+  id="file"
+  name="file"
+  accept="application/geo+json,application/vnd.geo+json,.geojson"
 />
 <script>
-    var map = new maplibregl.Map({
-        container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-        center: [-8.3226655, 53.7654751],
-        zoom: 8
-    });
+  var map = new UnlSdk.Map({
+    container: "map",
+    apiKey: "QcVw1BwU4hJJpwRlL7hq6tdDPQKr3iAG",
+    vpmId: "f2880ebb-4be3-4902-8fda-feddcf6920db",
+    center: [-8.3226655, 53.7654751],
+    zoom: 8,
+  });
 
-    function handleFileSelect(evt) {
-        var file = evt.target.files[0]; // Read first selected file
+  function handleFileSelect(evt) {
+    var file = evt.target.files[0]; // Read first selected file
 
-        var reader = new FileReader();
+    var reader = new FileReader();
 
-        reader.onload = function (theFile) {
-            // Parse as (geo)JSON
-            var geoJSONcontent = JSON.parse(theFile.target.result);
+    reader.onload = function (theFile) {
+      // Parse as (geo)JSON
+      var geoJSONcontent = JSON.parse(theFile.target.result);
 
-            // Add as source to the map
-            map.addSource('uploaded-source', {
-                'type': 'geojson',
-                'data': geoJSONcontent
-            });
+      // Add as source to the map
+      map.addSource("uploaded-source", {
+        type: "geojson",
+        data: geoJSONcontent,
+      });
 
-            map.addLayer({
-                'id': 'uploaded-polygons',
-                'type': 'fill',
-                'source': 'uploaded-source',
-                'paint': {
-                    'fill-color': '#888888',
-                    'fill-outline-color': 'red',
-                    'fill-opacity': 0.4
-                },
-                // filter for (multi)polygons; for also displaying linestrings
-                // or points add more layers with different filters
-                'filter': ['==', '$type', 'Polygon']
-            });
-        };
+      map.addLayer({
+        id: "uploaded-polygons",
+        type: "fill",
+        source: "uploaded-source",
+        paint: {
+          "fill-color": "#888888",
+          "fill-outline-color": "red",
+          "fill-opacity": 0.4,
+        },
+        // filter for (multi)polygons; for also displaying linestrings
+        // or points add more layers with different filters
+        filter: ["==", "$type", "Polygon"],
+      });
+    };
 
-        // Read the GeoJSON as text
-        reader.readAsText(file, 'UTF-8');
-    }
+    // Read the GeoJSON as text
+    reader.readAsText(file, "UTF-8");
+  }
 
-    document
-        .getElementById('file')
-        .addEventListener('change', handleFileSelect, false);
+  document
+    .getElementById("file")
+    .addEventListener("change", handleFileSelect, false);
 </script>

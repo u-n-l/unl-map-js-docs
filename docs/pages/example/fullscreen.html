@@ -1,13 +1,13 @@
 <div id="map"></div>
 
 <script>
-    var map = new maplibregl.Map({
-        container: 'map', // container id
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL', //stylesheet location
-        center: [11.255, 43.77], // starting position
-        zoom: 13 // starting zoom
-    });
+  var map = new UnlSdk.Map({
+    container: "map", // container id
+    apiKey: "QcVw1BwU4hJJpwRlL7hq6tdDPQKr3iAG",
+    vpmId: "f2880ebb-4be3-4902-8fda-feddcf6920db",
+    center: [11.255, 43.77], // starting position
+    zoom: 13, // starting zoom
+  });
 
-    map.addControl(new maplibregl.FullscreenControl());
+  map.addControl(new UnlSdk.FullscreenControl());
 </script>
