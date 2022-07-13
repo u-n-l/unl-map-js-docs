@@ -1,20 +1,15 @@
-import { version } from '../../maplibre-gl-js/package.json';
-import { prefixUrl } from '@mapbox/batfish/modules/prefix-url';
+const UNL_MAP_JS_VERSION = "1.0.2";
 
-function url(ext, options) {
-    if (options && options.local && process.env.DEPLOY_ENV === 'local') {
-        return prefixUrl(`/dist/maplibre-gl.${ext}`);
-    } else {
-        return `https://unpkg.com/maplibre-gl@${version}/dist/maplibre-gl.${ext}`;
-    }
+function url(ext) {
+  return `https://unpkg.com/js-map-sdk@${UNL_MAP_JS_VERSION}/lib/unl-map-js.${ext}`;
 }
 
-function js(options) {
-    return url('js', options);
+function js() {
+  return url("js");
 }
 
-function css(options) {
-    return url('css', options);
+function css() {
+  return url("css");
 }
 
 export default { js, css };
