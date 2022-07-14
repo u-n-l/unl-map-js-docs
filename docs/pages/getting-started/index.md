@@ -24,27 +24,26 @@ npm install unl-map-js
 #### When using modules
 
 ```
-import UnlSdk from "unl_map_sdk";
+import UnlSdk from "unl-map-js";
 ```
 
 #### When using CDN
 
 ```
-<script src='../v1.0.0/unl-map-js.js'></script>
+<script src="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.js"></script>
 ```
 
 ### CSS
 
-#### When using modules
-
 ```
-import 'unl-map-js/lib/unl-map-js.css'
-```
-
-#### When using CDN
-
-```
-<link rel='stylesheet' href='../unl-map-js/v1.0.0/unl-map-js.css' type='text/css' />
+ <link
+      href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+ <link
+      href="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.css"
+      rel="stylesheet"
+    />
 ```
 
 ### Typescript
@@ -64,7 +63,14 @@ Typescript definition files are included as part of this package.
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../lib/unl-map-js.css" />
+    <link
+      href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Hello world</title>
   </head>
@@ -78,7 +84,7 @@ Typescript definition files are included as part of this package.
 #### index.js
 
 ```js
-import UnlSdk from "unl_map_sdk";
+import UnlSdk from "unl-map-js";
 
 const map = new UnlSdk.Map({
 apiKey:  <YOUR-UNL-API-KEY>,
