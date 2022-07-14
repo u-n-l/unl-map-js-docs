@@ -98,8 +98,8 @@ class PageShell extends React.Component {
       >
         <PageLayout
           domain={{
-            title: "MapLibre",
-            path: "https://maplibre.org/",
+            title: "UNL Map JS",
+            path: "https://u-n-l.github.io/unl-map-js-docs",
           }}
           hideSearch={true}
           location={location}
