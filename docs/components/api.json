@@ -317,35 +317,7 @@
             },
             {
               "title": "param",
-              "description": "If `true`, the MapLibre logo will be shown",
-              "lineNumber": 34,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "NameExpression",
-                  "name": "boolean"
-                }
-              },
-              "name": "options.maplibreLogo",
-              "default": "false"
-            },
-            {
-              "title": "param",
-              "description": "A string representing the position of the MapLibre wordmark on the map. Valid options are `top-left`,`top-right`, `bottom-left`, `bottom-right`.",
-              "lineNumber": 35,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "NameExpression",
-                  "name": "string"
-                }
-              },
-              "name": "options.logoPosition",
-              "default": "'bottom-left'"
-            },
-            {
-              "title": "param",
-              "description": "If `true`, map creation will fail if the performance of MapLibre\n  GL JS would be dramatically worse than expected (i.e. a software renderer would be used).",
+              "description": "If `true`, map creation will fail if the performance of UNL\n  Map JS would be dramatically worse than expected (i.e. a software renderer would be used).",
               "lineNumber": 36,
               "type": {
                 "type": "OptionalType",
@@ -617,7 +589,7 @@
             },
             {
               "title": "param",
-              "description": "The initial pitch (tilt) of the map, measured in degrees away from the plane of the screen (0-85). If `pitch` is not specified in the constructor options, UNL Map JS will look for it in the map's style object. If it is not specified in the style, either, it will default to `0`. Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.",
+              "description": "The initial pitch (tilt) of the map, measured in degrees away from the plane of the screen (0-85). If `pitch` is not specified in the constructor options, UNL Map JS will look for it in the map's style object. If it is not specified in the style, either, it will default to `0`. Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the UNL project.",
               "lineNumber": 54,
               "type": {
                 "type": "OptionalType",
@@ -782,7 +754,7 @@
             },
             {
               "title": "example",
-              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n  center: [-122.420679, 37.772537],\n  zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
+              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n center: [-122.420679, 37.772537],\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
               "lineNumber": 75
             },
             {
@@ -938,7 +910,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "The minimum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project."
+                            "value": "The minimum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues."
                           }
                         ]
                       }
@@ -962,7 +934,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "The maximum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project."
+                            "value": "The maximum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues."
                           }
                         ]
                       }
@@ -973,56 +945,6 @@
                     "name": "number"
                   },
                   "default": "60"
-                },
-                {
-                  "title": "param",
-                  "name": "options.style",
-                  "lineNumber": 16,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "The map's MapLibre style. This must be an a JSON object conforming to\nthe schema described in the "
-                          },
-                          {
-                            "type": "link",
-                            "title": null,
-                            "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "MapLibre Style Specification"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": ", or a URL to\nsuch JSON."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "OptionalType",
-                    "expression": {
-                      "type": "UnionType",
-                      "elements": [
-                        {
-                          "type": "NameExpression",
-                          "name": "Object"
-                        },
-                        {
-                          "type": "NameExpression",
-                          "name": "string"
-                        }
-                      ]
-                    }
-                  }
                 },
                 {
                   "title": "param",
@@ -1210,218 +1132,6 @@
                 },
                 {
                   "title": "param",
-                  "name": "options.attributionControl",
-                  "lineNumber": 32,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "If "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "true"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", an "
-                          },
-                          {
-                            "type": "link",
-                            "url": "AttributionControl",
-                            "title": null,
-                            "jsdoc": true,
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "AttributionControl"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": " will be added to the map."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "NameExpression",
-                    "name": "boolean"
-                  },
-                  "default": "true"
-                },
-                {
-                  "title": "param",
-                  "name": "options.customAttribution",
-                  "lineNumber": 33,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "String or strings to show in an "
-                          },
-                          {
-                            "type": "link",
-                            "url": "AttributionControl",
-                            "title": null,
-                            "jsdoc": true,
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "AttributionControl"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": ". Only applicable if "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "options.attributionControl"
-                          },
-                          {
-                            "type": "text",
-                            "value": " is "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "true"
-                          },
-                          {
-                            "type": "text",
-                            "value": "."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "OptionalType",
-                    "expression": {
-                      "type": "UnionType",
-                      "elements": [
-                        {
-                          "type": "NameExpression",
-                          "name": "string"
-                        },
-                        {
-                          "type": "TypeApplication",
-                          "expression": {
-                            "type": "NameExpression",
-                            "name": "Array"
-                          },
-                          "applications": [
-                            {
-                              "type": "NameExpression",
-                              "name": "string"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                {
-                  "title": "param",
-                  "name": "options.maplibreLogo",
-                  "lineNumber": 34,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "If "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "true"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", the MapLibre logo will be shown."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "NameExpression",
-                    "name": "boolean"
-                  },
-                  "default": "false"
-                },
-                {
-                  "title": "param",
-                  "name": "options.logoPosition",
-                  "lineNumber": 35,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "A string representing the position of the MapLibre wordmark on the map. Valid options are "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "top-left"
-                          },
-                          {
-                            "type": "text",
-                            "value": ","
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "top-right"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "bottom-left"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "bottom-right"
-                          },
-                          {
-                            "type": "text",
-                            "value": "."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "NameExpression",
-                    "name": "string"
-                  },
-                  "default": "'bottom-left'"
-                },
-                {
-                  "title": "param",
                   "name": "options.failIfMajorPerformanceCaveat",
                   "lineNumber": 36,
                   "description": {
@@ -1440,7 +1150,7 @@
                           },
                           {
                             "type": "text",
-                            "value": ", map creation will fail if the performance of MapLibre\nGL JS would be dramatically worse than expected (i.e. a software renderer would be used)."
+                            "value": ", map creation will fail if the performance of UNL\n Map JS would be dramatically worse than expected (i.e. a software renderer would be used)."
                           }
                         ]
                       }
@@ -2248,7 +1958,7 @@
                           },
                           {
                             "type": "text",
-                            "value": ". Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project."
+                            "value": ". Values greater than 60 degrees are experimental and may result in rendering issues."
                           }
                         ]
                       }
@@ -51531,286 +51241,6 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "An "
-                  },
-                  {
-                    "type": "inlineCode",
-                    "value": "AttributionControl"
-                  },
-                  {
-                    "type": "text",
-                    "value": " control presents the map's attribution information."
-                  }
-                ]
-              }
-            ]
-          },
-          "tags": [
-            {
-              "title": "implements",
-              "description": null,
-              "lineNumber": 3,
-              "type": {
-                "type": "NameExpression",
-                "name": "IControl"
-              },
-              "name": "IControl"
-            },
-            {
-              "title": "param",
-              "description": null,
-              "lineNumber": 4,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "NameExpression",
-                  "name": "Object"
-                }
-              },
-              "name": "options"
-            },
-            {
-              "title": "param",
-              "description": "If `true`, force a compact attribution that shows the full attribution on mouse hover. If `false`, force the full attribution control. The default is a responsive attribution that collapses when the map is less than 640 pixels wide. **Attribution should not be collapsed if it can comfortably fit on the map. `compact` should only be used to modify default attribution when map size makes it impossible to fit default attribution and when the automatic compact resizing for default settings are not sufficient.**",
-              "lineNumber": 5,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "NameExpression",
-                  "name": "boolean"
-                }
-              },
-              "name": "options.compact"
-            },
-            {
-              "title": "param",
-              "description": "String or strings to show in addition to any other attributions.",
-              "lineNumber": 6,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "UnionType",
-                  "elements": [
-                    {
-                      "type": "NameExpression",
-                      "name": "string"
-                    },
-                    {
-                      "type": "TypeApplication",
-                      "expression": {
-                        "type": "NameExpression",
-                        "name": "Array"
-                      },
-                      "applications": [
-                        {
-                          "type": "NameExpression",
-                          "name": "string"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              "name": "options.customAttribution"
-            },
-            {
-              "title": "example",
-              "description": "var map = new UnlSdk.Map({attributionControl: false})\n    .addControl(new UnlSdk.AttributionControl({\n        compact: true\n    }));",
-              "lineNumber": 7
-            }
-          ],
-          "loc": {
-            "start": {
-              "line": 12,
-              "column": 0
-            },
-            "end": {
-              "line": 24,
-              "column": 3
-            }
-          },
-          "context": {
-            "loc": {
-              "start": {
-                "line": 25,
-                "column": 0
-              },
-              "end": {
-                "line": 196,
-                "column": 1
-              }
-            }
-          },
-          "augments": [],
-          "examples": [
-            {
-              "description": "var map = new UnlSdk.Map({attributionControl: false})\n    .addControl(new UnlSdk.AttributionControl({\n        compact: true\n    }));"
-            }
-          ],
-          "implements": [
-            {
-              "title": "implements",
-              "description": null,
-              "lineNumber": 3,
-              "type": {
-                "type": "NameExpression",
-                "name": "IControl"
-              },
-              "name": "IControl"
-            }
-          ],
-          "params": [
-            {
-              "title": "param",
-              "name": "options",
-              "lineNumber": 4,
-              "type": {
-                "type": "OptionalType",
-                "expression": {
-                  "type": "NameExpression",
-                  "name": "Object"
-                }
-              },
-              "properties": [
-                {
-                  "title": "param",
-                  "name": "options.compact",
-                  "lineNumber": 5,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "If "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "true"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", force a compact attribution that shows the full attribution on mouse hover. If "
-                          },
-                          {
-                            "type": "inlineCode",
-                            "value": "false"
-                          },
-                          {
-                            "type": "text",
-                            "value": ", force the full attribution control. The default is a responsive attribution that collapses when the map is less than 640 pixels wide. "
-                          },
-                          {
-                            "type": "strong",
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Attribution should not be collapsed if it can comfortably fit on the map. "
-                              },
-                              {
-                                "type": "inlineCode",
-                                "value": "compact"
-                              },
-                              {
-                                "type": "text",
-                                "value": " should only be used to modify default attribution when map size makes it impossible to fit default attribution and when the automatic compact resizing for default settings are not sufficient."
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "OptionalType",
-                    "expression": {
-                      "type": "NameExpression",
-                      "name": "boolean"
-                    }
-                  }
-                },
-                {
-                  "title": "param",
-                  "name": "options.customAttribution",
-                  "lineNumber": 6,
-                  "description": {
-                    "type": "root",
-                    "children": [
-                      {
-                        "type": "paragraph",
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "String or strings to show in addition to any other attributions."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "OptionalType",
-                    "expression": {
-                      "type": "UnionType",
-                      "elements": [
-                        {
-                          "type": "NameExpression",
-                          "name": "string"
-                        },
-                        {
-                          "type": "TypeApplication",
-                          "expression": {
-                            "type": "NameExpression",
-                            "name": "Array"
-                          },
-                          "applications": [
-                            {
-                              "type": "NameExpression",
-                              "name": "string"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
-              "default": "{}"
-            }
-          ],
-          "properties": [],
-          "returns": [],
-          "sees": [],
-          "throws": [],
-          "todos": [],
-          "yields": [],
-          "name": "AttributionControl",
-          "kind": "class",
-          "path": [
-            {
-              "name": "AttributionControl",
-              "kind": "class"
-            }
-          ],
-          "members": {
-            "global": [],
-            "inner": [],
-            "instance": [],
-            "events": [],
-            "static": []
-          },
-          "namespace": "AttributionControl"
-        },
-        {
-          "description": {
-            "type": "root",
-            "children": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "type": "text",
                     "value": "A "
                   },
                   {
@@ -71582,185 +71012,6 @@
       }
     ],
     "namespace": "expressions"
-  },
-  {
-    "description": {
-      "type": "root",
-      "children": [
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "type": "text",
-              "value": "A "
-            },
-            {
-              "type": "inlineCode",
-              "value": "LogoControl"
-            },
-            {
-              "type": "text",
-              "value": " is a control that adds the watermark."
-            }
-          ]
-        }
-      ]
-    },
-    "tags": [
-      {
-        "title": "implements",
-        "description": null,
-        "lineNumber": 3,
-        "type": {
-          "type": "NameExpression",
-          "name": "IControl"
-        },
-        "name": "IControl"
-      },
-      {
-        "title": "param",
-        "description": null,
-        "lineNumber": 4,
-        "type": {
-          "type": "OptionalType",
-          "expression": {
-            "type": "NameExpression",
-            "name": "Object"
-          }
-        },
-        "name": "options"
-      },
-      {
-        "title": "param",
-        "description": "If `true`, force a compact logo. If `false`, force the full logo. The default is a responsive logo that collapses when the map is less than 640 pixels wide.\n*",
-        "lineNumber": 5,
-        "type": {
-          "type": "OptionalType",
-          "expression": {
-            "type": "NameExpression",
-            "name": "boolean"
-          }
-        },
-        "name": "options.compact"
-      }
-    ],
-    "loc": {
-      "start": {
-        "line": 11,
-        "column": 0
-      },
-      "end": {
-        "line": 17,
-        "column": 4
-      }
-    },
-    "context": {
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 0
-        },
-        "end": {
-          "line": 77,
-          "column": 1
-        }
-      }
-    },
-    "augments": [],
-    "examples": [],
-    "implements": [
-      {
-        "title": "implements",
-        "description": null,
-        "lineNumber": 3,
-        "type": {
-          "type": "NameExpression",
-          "name": "IControl"
-        },
-        "name": "IControl"
-      }
-    ],
-    "params": [
-      {
-        "title": "param",
-        "name": "options",
-        "lineNumber": 4,
-        "type": {
-          "type": "OptionalType",
-          "expression": {
-            "type": "NameExpression",
-            "name": "Object"
-          }
-        },
-        "properties": [
-          {
-            "title": "param",
-            "name": "options.compact",
-            "lineNumber": 5,
-            "description": {
-              "type": "root",
-              "children": [
-                {
-                  "type": "paragraph",
-                  "children": [
-                    {
-                      "type": "text",
-                      "value": "If "
-                    },
-                    {
-                      "type": "inlineCode",
-                      "value": "true"
-                    },
-                    {
-                      "type": "text",
-                      "value": ", force a compact logo. If "
-                    },
-                    {
-                      "type": "inlineCode",
-                      "value": "false"
-                    },
-                    {
-                      "type": "text",
-                      "value": ", force the full logo. The default is a responsive logo that collapses when the map is less than 640 pixels wide.\n*"
-                    }
-                  ]
-                }
-              ]
-            },
-            "type": {
-              "type": "OptionalType",
-              "expression": {
-                "type": "NameExpression",
-                "name": "boolean"
-              }
-            }
-          }
-        ],
-        "default": "{}"
-      }
-    ],
-    "properties": [],
-    "returns": [],
-    "sees": [],
-    "throws": [],
-    "todos": [],
-    "yields": [],
-    "name": "LogoControl",
-    "kind": "class",
-    "members": {
-      "global": [],
-      "inner": [],
-      "instance": [],
-      "events": [],
-      "static": []
-    },
-    "path": [
-      {
-        "name": "LogoControl",
-        "kind": "class"
-      }
-    ],
-    "namespace": "LogoControl"
   },
   {
     "description": {
