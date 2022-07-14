@@ -1,7 +1,7 @@
-const UNL_MAP_JS_VERSION = "1.0.2";
+const UNL_MAP_JS_VERSION = "0.0.1";
 
 function url(ext) {
-  return `https://unpkg.com/js-map-sdk@${UNL_MAP_JS_VERSION}/lib/unl-map-js.${ext}`;
+  return `https://unpkg.com/unl-map-js@${UNL_MAP_JS_VERSION}/lib/unl-map-js.${ext}`;
 }
 
 function js() {
