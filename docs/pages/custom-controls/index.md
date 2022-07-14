@@ -1,6 +1,6 @@
 ---
-title: Custom controls
-description: Custom controls built on top of maplibre.
+title: UNL Plugins
+description: UNL plugins built on top of maplibre.
 contentType: example
 language:
   - JavaScript
@@ -11,7 +11,7 @@ products:
   - UNL Map JS
 ---
 
-On top of maplibre-gl-js, this package exposes the following custom controls that can be initialised during the map instantiation with the default options or added later using the `addControl` function on the map reference.
+On top of maplibre-gl-js, this package exposes the following plugins that can be initialised during the map instantiation with the default options or added later using the `addControl` function on the map reference.
 
 ## UNL grid and cells
 
