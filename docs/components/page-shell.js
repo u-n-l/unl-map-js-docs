@@ -15,7 +15,6 @@ import filters from "@mapbox/batfish/data/filters";
 import apiNavigation from "@mapbox/batfish/data/api-navigation";
 
 import { styleSpecNavigation } from "../data/style-spec-navigation";
-import plugins from "../data/plugins.json";
 
 import Search from "./api/search";
 import AppropriateImage from "./appropriate-image";
@@ -63,17 +62,6 @@ class PageShell extends React.Component {
         styleSpecNavigation.filter((f) => f.path === location.pathname)[0]
           .subnav || frontMatter.headings
       );
-    } else if (subSection === "/maplibre-gl-js-docs/plugins/") {
-      const headings = Object.keys(plugins).reduce((arr, key) => {
-        arr.push({
-          slug: slug(key),
-          text: key,
-          level: 2,
-        });
-        return arr;
-      }, []);
-
-      return headings || [];
     } else {
       return frontMatter.headings;
     }

@@ -1,4 +1,4 @@
----
+lu---
 title: Expressions
 id: expressions
 description: An expression defines a formula for computing the value of the property using the operators described in this section.
@@ -7,9 +7,9 @@ order: 10
 layout: page
 hideFeedback: true
 products:
+
 - Mapbox Style Specification
-prependJs:
-    - "import ExpressionReference from '../../components/style-spec/expression-reference';"
+  prependJs: - "import ExpressionReference from '../../components/style-spec/expression-reference';"
 
 ---
 
@@ -33,25 +33,25 @@ A _data expression_ is any expression that access feature data -- that is, any e
 
 ```json
 {
-    "circle-color": [
-        "rgb",
-        // red is higher when feature.properties.temperature is higher
-        ["get", "temperature"],
-        // green is always zero
-        0,
-        // blue is higher when feature.properties.temperature is lower
-        ["-", 100, ["get", "temperature"]]
-    ]
+  "circle-color": [
+    "rgb",
+    // red is higher when feature.properties.temperature is higher
+    ["get", "temperature"],
+    // green is always zero
+    0,
+    // blue is higher when feature.properties.temperature is lower
+    ["-", 100, ["get", "temperature"]]
+  ]
 }
 ```
 
 <!--copyeditor ignore in-terms-of-->
+
 This example uses the [`get`](#get) operator to get the `temperature` value of each feature. That value is used to compute arguments to the [`rgb`](#rgb) operator, defining a color in terms of its red, green, and blue components.
 
 <!--copyeditor ignore however-->
+
 Data expressions are allowed as the value of the [`filter`](/maplibre-gl-js-docs/style-spec/layers/#filter) property, and as values for most paint and layout properties. However, some paint and layout properties do not yet support data expressions. The level of support is indicated by the "data-driven styling" row of the "SDK Support" table for each property. Data expressions with the [`feature-state`](#feature-state) operator are allowed only on paint properties.
-
-
 
 ## Camera expressions
 
@@ -59,13 +59,17 @@ A _camera expression_ is any expression that uses the [`zoom`](#zoom) operator. 
 
 ```json
 {
-    "circle-radius": [
-        "interpolate", ["linear"], ["zoom"],
-        // zoom is 5 (or less) -> circle radius will be 1px
-        5, 1,
-        // zoom is 10 (or greater) -> circle radius will be 5px
-        10, 5
-    ]
+  "circle-radius": [
+    "interpolate",
+    ["linear"],
+    ["zoom"],
+    // zoom is 5 (or less) -> circle radius will be 1px
+    5,
+    1,
+    // zoom is 10 (or greater) -> circle radius will be 5px
+    10,
+    5
+  ]
 }
 ```
 
@@ -113,13 +117,17 @@ A single expression may use a mix of data operators, camera operators, and other
 
 ```json
 {
-    "circle-radius": [
-        "interpolate", ["linear"], ["zoom"],
-        // when zoom is 0, set each feature's circle radius to the value of its "rating" property
-        0, ["get", "rating"],
-        // when zoom is 10, set each feature's circle radius to four times the value of its "rating" property
-        10, ["*", 4, ["get", "rating"]]
-    ]
+  "circle-radius": [
+    "interpolate",
+    ["linear"],
+    ["zoom"],
+    // when zoom is 0, set each feature's circle radius to the value of its "rating" property
+    0,
+    ["get", "rating"],
+    // when zoom is 10, set each feature's circle radius to four times the value of its "rating" property
+    10,
+    ["*", 4, ["get", "rating"]]
+  ]
 }
 ```
 
@@ -134,11 +142,14 @@ When working with feature data, the type of a feature property value is typicall
 <!--copyeditor disable however-->
 <!--copyeditor disable clear-->
 <!--copyeditor ignore indicate-->
+
 In most cases, this verification will occur automatically wherever it is needed. However, in certain situations, the SDK may be unable to automatically determine the expected result type of a data expression from surrounding context. For example, it is not clear whether the expression `["&lt;", ["get", "a"], ["get", "b"]]` is attempting to compare strings or numbers. In situations like this, you can use one of the _type assertion_ expression operators to indicate the expected type of a data expression: `["&lt;", ["number", ["get", "a"]], ["number", ["get", "b"]]]`. A type assertion checks that the feature data matches the expected type of the data expression. If this check fails, it produces an error and causes the whole expression to fall back to the default value for the property being defined. The assertion operators are [`array`](#types-array), [`boolean`](#types-boolean), [`number`](#types-number), and [`string`](#types-string).
+
 <!--copyeditor enable however-->
 <!--copyeditor enable clear-->
 
 <!--copyeditor ignore perform-->
+
 Expressions perform only one kind of implicit type conversion: a data expression used in a context where a [color](#types-color) is expected will convert a string representation of a color to a color value. In all other cases, if you want to convert between types, you must use one of the _type conversion_ expression operators: [`to-boolean`](#types-to-boolean), [`to-number`](#types-to-number), [`to-string`](#types-to-string), or [`to-color`](#types-to-color). For example, if you have a feature property that stores numeric values in string format, and you want to use those values as numbers rather than strings, you can use an expression such as `["to-number", ["get", "property-name"]]`.
 
 If an expression accepts an array argument and the user supplies an array literal, that array _must_ be wrapped in a `literal` expression (see the examples below). When GL-JS encounters an array in a style-spec property value, it will assume that the array is an expression and try to parse it; the library has no way to distinguish between an expression which failed validation and an array literal unless the developer makes this distinction explicit with the `literal` operator. The `literal` operator is not necessary if the array is returned from a sub-expression, e.g. `["in", 1, ["get", "myArrayProp"]]`.
@@ -159,7 +170,6 @@ If an expression accepts an array argument and the user supplies an array litera
 
 <!-- This h1 is an exception as the following headings need to be an h2 for scrollspy to work on the sidebar. See site.css for override styles for these headings. -->
 
-
 ## Types
 
 The expressions in this section are for testing for and converting between different data types like strings, numbers, and boolean values.
@@ -178,7 +188,7 @@ Often, such tests and conversions are unnecessary, but they may be necessary in 
 
 ## Decision
 
-The expressions in this section can be used to add conditional logic to your styles. For example, the [`'case'`](#case)  expression provides "if/then/else" logic, and [`'match'`](#match) allows you to map specific values of an input expression to different output expressions.
+The expressions in this section can be used to add conditional logic to your styles. For example, the [`'case'`](#case) expression provides "if/then/else" logic, and [`'match'`](#match) allows you to map specific values of an input expression to different output expressions.
 
 {{<ExpressionReference group='Decision' />}}
 
