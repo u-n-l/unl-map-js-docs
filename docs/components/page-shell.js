@@ -22,10 +22,10 @@ import AppropriateImage from "./appropriate-image";
 import Browser from "@mapbox/dr-ui/browser";
 import redirectApiRef from "../util/api-ref-redirect";
 import classnames from "classnames";
-import { version } from "../../maplibre-gl-js/package.json";
 import { version as styleSpecVersion } from "../../maplibre-gl-js/src/style-spec/package.json";
 
 import slug from "slugg";
+import { UNL_MAP_JS_VERSION } from "./urls.js";
 
 const redirectStyleSpec = require("../util/style-spec-redirect");
 
@@ -108,7 +108,7 @@ class PageShell extends React.Component {
             ...(frontMatter.overviewHeader && {
               overviewHeader: {
                 ...frontMatter.overviewHeader,
-                version: isStyleSpec ? styleSpecVersion : version,
+                version: isStyleSpec ? styleSpecVersion : UNL_MAP_JS_VERSION,
                 ...(frontMatter.overviewHeader.image && {
                   image: (
                     <div className="overview-header-browser mb6">
