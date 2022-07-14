@@ -17,7 +17,7 @@ prependJs:
   - "import Copyable from '../../components/copyable';"
   - "import urls from '../../components/urls';"
 overviewHeader:
-  title: MapLibre GL JS
+  title: UNL Map JS
   features:
     - "Custom map styles"
     - "Fast vector maps"
