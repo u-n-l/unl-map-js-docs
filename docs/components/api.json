@@ -811,8 +811,7 @@
                 "line": 2830,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+            }
           },
           "augments": [
             {
@@ -2966,8 +2965,7 @@
                       "line": 533,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -3344,8 +3342,7 @@
                       "line": 1734,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -4085,8 +4082,7 @@
                       "line": 1975,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -5010,8 +5006,7 @@
                       "line": 1554,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -5234,8 +5229,7 @@
                       "line": 1594,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -5373,8 +5367,7 @@
                       "line": 319,
                       "column": 28
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -5537,8 +5530,7 @@
                       "line": 511,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -5869,8 +5861,7 @@
                       "line": 344,
                       "column": 44
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -5986,8 +5977,7 @@
                       "line": 332,
                       "column": 28
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -6103,8 +6093,7 @@
                       "line": 326,
                       "column": 34
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -6345,8 +6334,7 @@
                       "line": 897,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -6689,8 +6677,7 @@
                       "line": 636,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -7292,8 +7279,7 @@
                       "line": 676,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -7961,8 +7947,7 @@
                       "line": 1173,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -8443,8 +8428,7 @@
                       "line": 344,
                       "column": 59
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -8578,8 +8562,7 @@
                       "line": 649,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -8726,8 +8709,7 @@
                       "line": 2345,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -8951,8 +8933,7 @@
                       "line": 2333,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -9096,8 +9077,7 @@
                       "line": 173,
                       "column": 100
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -9205,8 +9185,7 @@
                       "line": 2317,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -9424,8 +9403,7 @@
                       "line": 2308,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -9683,8 +9661,7 @@
                       "line": 2096,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -9837,8 +9814,7 @@
                       "line": 2026,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -10046,8 +10022,7 @@
                       "line": 2155,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -10197,8 +10172,7 @@
                       "line": 2180,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -10312,8 +10286,7 @@
                       "line": 659,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -10429,8 +10402,7 @@
                       "line": 830,
                       "column": 53
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -10539,8 +10511,7 @@
                       "line": 760,
                       "column": 51
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -10648,8 +10619,7 @@
                       "line": 795,
                       "column": 53
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -10758,8 +10728,7 @@
                       "line": 725,
                       "column": 51
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -10869,8 +10838,7 @@
                       "line": 373,
                       "column": 67
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -10993,8 +10961,7 @@
                       "line": 2127,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -11146,8 +11113,7 @@
                       "line": 471,
                       "column": 55
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -11251,8 +11217,7 @@
                       "line": 623,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -11456,8 +11421,7 @@
                       "line": 843,
                       "column": 71
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -11676,8 +11640,7 @@
                       "line": 1644,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -11918,8 +11881,7 @@
                       "line": 1504,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12034,8 +11996,7 @@
                       "line": 239,
                       "column": 53
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12158,8 +12119,7 @@
                       "line": 574,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12335,8 +12295,7 @@
                       "line": 1808,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12473,8 +12432,7 @@
                       "line": 903,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12587,8 +12545,7 @@
                       "line": 923,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12727,8 +12684,7 @@
                       "line": 1572,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12865,8 +12821,7 @@
                       "line": 1517,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -12979,8 +12934,7 @@
                       "line": 913,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -13180,8 +13134,7 @@
                       "line": 776,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -13417,8 +13370,7 @@
                       "line": 338,
                       "column": 30
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -13534,8 +13486,7 @@
                       "line": 1860,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -13669,8 +13620,7 @@
                       "line": 2453,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -13844,8 +13794,7 @@
                       "line": 1845,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -14057,8 +14006,7 @@
                       "line": 1991,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -14290,8 +14238,7 @@
                       "line": 1179,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -14480,8 +14427,7 @@
                       "line": 1179,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -14733,8 +14679,7 @@
                       "line": 1083,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -16460,8 +16405,7 @@
                       "line": 1137,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -16666,8 +16610,7 @@
                       "line": 1137,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -17035,8 +16978,7 @@
                       "line": 206,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -17303,8 +17245,7 @@
                       "line": 229,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -17553,8 +17494,7 @@
                       "line": 877,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -17844,8 +17784,7 @@
                       "line": 1315,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -18488,8 +18427,7 @@
                       "line": 1357,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -18801,8 +18739,7 @@
                       "line": 2649,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -18918,8 +18855,7 @@
                       "line": 2693,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -19016,8 +18952,7 @@
                       "line": 557,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -19273,8 +19208,7 @@
                       "line": 2275,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -19548,8 +19482,7 @@
                       "line": 1824,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -19687,8 +19620,7 @@
                       "line": 2009,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -19813,8 +19745,7 @@
                       "line": 1620,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -19962,8 +19893,7 @@
                       "line": 2815,
                       "column": 54
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -20076,8 +20006,7 @@
                       "line": 426,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -20262,8 +20191,7 @@
                       "line": 445,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -20456,8 +20384,7 @@
                       "line": 615,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -20659,8 +20586,7 @@
                       "line": 411,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -20869,8 +20795,7 @@
                       "line": 313,
                       "column": 34
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -21007,8 +20932,7 @@
                       "line": 365,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -21207,8 +21131,7 @@
                       "line": 189,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -21636,8 +21559,7 @@
                       "line": 2223,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -22048,8 +21970,7 @@
                       "line": 2086,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -22417,8 +22338,7 @@
                       "line": 2051,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -22657,8 +22577,7 @@
                       "line": 2144,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -22950,8 +22869,7 @@
                       "line": 2171,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -23186,8 +23104,7 @@
                       "line": 685,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -23367,8 +23284,7 @@
                       "line": 823,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -23549,8 +23465,7 @@
                       "line": 751,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -23730,8 +23645,7 @@
                       "line": 788,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -23937,8 +23851,7 @@
                       "line": 716,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -24148,8 +24061,7 @@
                       "line": 393,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -24377,8 +24289,7 @@
                       "line": 2116,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -24722,8 +24633,7 @@
                       "line": 487,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -24909,8 +24819,7 @@
                       "line": 638,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -25044,8 +24953,7 @@
                       "line": 863,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -25396,8 +25304,7 @@
                       "line": 1397,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -25652,8 +25559,7 @@
                       "line": 1413,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -25871,8 +25777,7 @@
                       "line": 261,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -26045,8 +25950,7 @@
                       "line": 2773,
                       "column": 76
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26146,8 +26050,7 @@
                       "line": 2755,
                       "column": 62
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26261,8 +26164,7 @@
                       "line": 2739,
                       "column": 76
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -26387,8 +26289,7 @@
                       "line": 463,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26549,8 +26450,7 @@
                       "line": 1187,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26684,8 +26584,7 @@
                       "line": 356,
                       "column": 34
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26801,8 +26700,7 @@
                       "line": 350,
                       "column": 44
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -26894,8 +26792,7 @@
                       "line": 2712,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -27061,8 +26958,7 @@
                       "line": 893,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -27288,8 +27184,7 @@
                       "line": 1786,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -27587,8 +27482,7 @@
                       "line": 312,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -27802,8 +27696,7 @@
                       "line": 334,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28024,8 +27917,7 @@
                       "line": 290,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28255,8 +28147,7 @@
                       "line": 1090,
                       "column": 21
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28398,8 +28289,7 @@
                       "line": 1071,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28536,8 +28426,7 @@
                       "line": 1052,
                       "column": 20
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28719,8 +28608,7 @@
                       "line": 543,
                       "column": 13
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -28889,8 +28777,7 @@
                       "line": 658,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29028,8 +28915,7 @@
                       "line": 1265,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29187,8 +29073,7 @@
                       "line": 1414,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29353,8 +29238,7 @@
                       "line": 1324,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29526,8 +29410,7 @@
                       "line": 572,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29672,8 +29555,7 @@
                       "line": 846,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -29829,8 +29711,7 @@
                       "line": 865,
                       "column": 15
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30006,8 +29887,7 @@
                       "line": 828,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30167,8 +30047,7 @@
                       "line": 1245,
                       "column": 13
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30349,8 +30228,7 @@
                       "line": 1207,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30471,8 +30349,7 @@
                       "line": 1163,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30716,8 +30593,7 @@
                       "line": 1433,
                       "column": 23
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -30906,8 +30782,7 @@
                       "line": 595,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -31117,8 +30992,7 @@
                       "line": 620,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -31354,8 +31228,7 @@
                       "line": 513,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -31548,8 +31421,7 @@
                       "line": 639,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -31736,8 +31608,7 @@
                       "line": 481,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -31990,8 +31861,7 @@
                       "line": 448,
                       "column": 15
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32166,8 +32036,7 @@
                       "line": 790,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32348,8 +32217,7 @@
                       "line": 810,
                       "column": 15
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32525,8 +32393,7 @@
                       "line": 770,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32668,8 +32535,7 @@
                       "line": 1015,
                       "column": 13
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32802,8 +32668,7 @@
                       "line": 1034,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -32936,8 +32801,7 @@
                       "line": 995,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33060,8 +32924,7 @@
                       "line": 1224,
                       "column": 14
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33230,8 +33093,7 @@
                       "line": 1185,
                       "column": 14
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33328,8 +33190,7 @@
                       "line": 1107,
                       "column": 14
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33461,8 +33322,7 @@
                       "line": 958,
                       "column": 14
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33613,8 +33473,7 @@
                       "line": 976,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33765,8 +33624,7 @@
                       "line": 940,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -33908,8 +33766,7 @@
                       "line": 1303,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34042,8 +33899,7 @@
                       "line": 1433,
                       "column": 23
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34208,8 +34064,7 @@
                       "line": 1366,
                       "column": 25
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34342,8 +34197,7 @@
                       "line": 1284,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34500,8 +34354,7 @@
                       "line": 1345,
                       "column": 24
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34639,8 +34492,7 @@
                       "line": 1387,
                       "column": 25
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34811,8 +34663,7 @@
                       "line": 750,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -34949,8 +34800,7 @@
                       "line": 713,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35112,8 +34962,7 @@
                       "line": 732,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35270,8 +35119,7 @@
                       "line": 694,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -35413,8 +35261,7 @@
                       "line": 1124,
                       "column": 24
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35511,8 +35358,7 @@
                       "line": 1141,
                       "column": 28
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35634,8 +35480,7 @@
                       "line": 676,
                       "column": 13
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35777,8 +35622,7 @@
                       "line": 903,
                       "column": 12
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -35929,8 +35773,7 @@
                       "line": 922,
                       "column": 15
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -36081,8 +35924,7 @@
                       "line": 884,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -36259,8 +36101,7 @@
                 "line": 106,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -36380,8 +36221,7 @@
                 "line": 123,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -36529,8 +36369,7 @@
                 "line": 246,
                 "column": 24
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -36753,8 +36592,7 @@
                 "line": 246,
                 "column": 24
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -36993,8 +36831,7 @@
                 "line": 246,
                 "column": 24
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -37130,8 +36967,7 @@
                 "line": 148,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -37256,8 +37092,7 @@
                 "line": 187,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -37395,8 +37230,7 @@
                 "line": 199,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -37582,8 +37416,7 @@
                 "line": 123,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -37943,8 +37776,7 @@
                 "line": 63,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -38346,8 +38178,7 @@
                 "line": 134,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -38537,8 +38368,7 @@
                       "line": 125,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -38636,8 +38466,7 @@
                       "line": 133,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -38735,8 +38564,7 @@
                       "line": 129,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -38834,8 +38662,7 @@
                       "line": 121,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -39033,8 +38860,7 @@
                 "line": 74,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -39330,8 +39156,7 @@
                 "line": 125,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -39427,8 +39252,7 @@
                       "line": 87,
                       "column": 41
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -39530,8 +39354,7 @@
                       "line": 83,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -39666,8 +39489,7 @@
                       "line": 114,
                       "column": 43
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -39802,8 +39624,7 @@
                       "line": 124,
                       "column": 26
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -39965,8 +39786,7 @@
                       "line": 104,
                       "column": 27
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -40070,8 +39890,7 @@
                       "line": 79,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_image.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -40413,8 +40232,7 @@
                 "line": 158,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -40476,8 +40294,7 @@
                       "line": 78,
                       "column": 15
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -40636,8 +40453,7 @@
                       "line": 145,
                       "column": 54
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -40815,8 +40631,7 @@
                       "line": 157,
                       "column": 57
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -40987,8 +40802,7 @@
                       "line": 133,
                       "column": 35
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -41306,8 +41120,7 @@
                       "line": 115,
                       "column": 31
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -41489,8 +41302,7 @@
                       "line": 86,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -41621,8 +41433,7 @@
                       "line": 82,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style/style_layer/custom_style_layer.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -41806,8 +41617,7 @@
                 "line": 81,
                 "column": 11
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -41896,8 +41706,7 @@
                 "line": 92,
                 "column": 27
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -42190,8 +41999,7 @@
                 "line": 671,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+            }
           },
           "augments": [
             {
@@ -42840,8 +42648,7 @@
                       "line": 257,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -42981,8 +42788,7 @@
                       "line": 329,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43121,8 +42927,7 @@
                       "line": 301,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -43271,8 +43076,7 @@
                       "line": 480,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43384,8 +43188,7 @@
                       "line": 670,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43526,8 +43329,7 @@
                       "line": 417,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -43635,8 +43437,7 @@
                       "line": 632,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43748,8 +43549,7 @@
                       "line": 651,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43853,8 +43653,7 @@
                       "line": 613,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -43963,8 +43762,7 @@
                       "line": 282,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -44094,8 +43892,7 @@
                       "line": 605,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -44249,8 +44046,7 @@
                       "line": 321,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -44457,8 +44253,7 @@
                       "line": 491,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -44623,8 +44418,7 @@
                       "line": 662,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -44820,8 +44614,7 @@
                       "line": 381,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -45043,8 +44836,7 @@
                       "line": 624,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -45211,8 +45003,7 @@
                       "line": 643,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -45402,8 +45193,7 @@
                       "line": 437,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -45538,8 +45328,7 @@
                       "line": 533,
                       "column": 37
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -45674,8 +45463,7 @@
                       "line": 556,
                       "column": 44
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -45810,8 +45598,7 @@
                       "line": 521,
                       "column": 46
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -46077,8 +45864,7 @@
                 "line": 590,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+            }
           },
           "augments": [
             {
@@ -46738,8 +46524,7 @@
                       "line": 446,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -46884,8 +46669,7 @@
                       "line": 180,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -47127,8 +46911,7 @@
                       "line": 323,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -47261,8 +47044,7 @@
                       "line": 253,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -47366,8 +47148,7 @@
                       "line": 384,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -47458,8 +47239,7 @@
                       "line": 187,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -47580,8 +47360,7 @@
                       "line": 240,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -47695,8 +47474,7 @@
                       "line": 461,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -47818,8 +47596,7 @@
                       "line": 431,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -48008,8 +47785,7 @@
                       "line": 375,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -48245,8 +48021,7 @@
                       "line": 279,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -48400,8 +48175,7 @@
                       "line": 397,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -48536,8 +48310,7 @@
                       "line": 473,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -48704,8 +48477,7 @@
                       "line": 342,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -48852,8 +48624,7 @@
                       "line": 490,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -49022,8 +48793,7 @@
                       "line": 307,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -49163,8 +48933,7 @@
                       "line": 237,
                       "column": 38
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -49308,8 +49077,7 @@
                       "line": 177,
                       "column": 37
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/popup.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -49470,8 +49238,7 @@
                 "line": 90,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/control.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -49591,8 +49358,7 @@
                       "line": 89,
                       "column": 56
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -49744,8 +49510,7 @@
                       "line": 63,
                       "column": 33
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -49920,8 +49685,7 @@
                       "line": 76,
                       "column": 29
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -50133,8 +49897,7 @@
                 "line": 145,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/navigation_control.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -50618,8 +50381,7 @@
                 "line": 552,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+            }
           },
           "augments": [
             {
@@ -50953,8 +50715,7 @@
                       "line": 539,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51101,8 +50862,7 @@
                       "line": 554,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51278,8 +51038,7 @@
                       "line": 554,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51455,8 +51214,7 @@
                       "line": 554,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51622,8 +51380,7 @@
                       "line": 554,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51720,8 +51477,7 @@
                       "line": 554,
                       "column": 32
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/geolocate_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -51883,8 +51639,7 @@
                 "line": 196,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/attribution_control.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -52148,8 +51903,7 @@
                 "line": 82,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/scale_control.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -52319,8 +52073,7 @@
                       "line": 81,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/scale_control.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -52501,8 +52254,7 @@
                 "line": 145,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/fullscreen_control.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -52839,8 +52591,7 @@
                 "line": 151,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -53049,8 +52800,7 @@
                       "line": 102,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -53196,8 +52946,7 @@
                       "line": 69,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -53365,8 +53114,7 @@
                       "line": 120,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -53520,8 +53268,7 @@
                       "line": 81,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -53650,8 +53397,7 @@
                       "line": 57,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -53842,8 +53588,7 @@
                       "line": 150,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -54117,8 +53862,7 @@
                 "line": 169,
                 "column": 21
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -54365,8 +54109,7 @@
                 "line": 258,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -54508,8 +54251,7 @@
                       "line": 237,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -54660,8 +54402,7 @@
                       "line": 107,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -54803,8 +54544,7 @@
                       "line": 119,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -54912,8 +54652,7 @@
                       "line": 168,
                       "column": 46
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55017,8 +54756,7 @@
                       "line": 175,
                       "column": 47
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55122,8 +54860,7 @@
                       "line": 133,
                       "column": 47
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55227,8 +54964,7 @@
                       "line": 140,
                       "column": 82
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55332,8 +55068,7 @@
                       "line": 161,
                       "column": 47
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55437,8 +55172,7 @@
                       "line": 147,
                       "column": 82
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55542,8 +55276,7 @@
                       "line": 126,
                       "column": 47
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55647,8 +55380,7 @@
                       "line": 154,
                       "column": 46
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55760,8 +55492,7 @@
                       "line": 210,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -55875,8 +55606,7 @@
                       "line": 48,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -56030,8 +55760,7 @@
                       "line": 59,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -56198,8 +55927,7 @@
                       "line": 188,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -56330,8 +56058,7 @@
                       "line": 201,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -56515,8 +56242,7 @@
                       "line": 257,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -56753,8 +56479,7 @@
                 "line": 273,
                 "column": 106
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/lng_lat_bounds.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -56931,8 +56656,7 @@
                 "line": 25,
                 "column": 49
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/camera.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -57221,8 +56945,7 @@
                 "line": 146,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/mercator_coordinate.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -57417,8 +57140,7 @@
                       "line": 144,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/mercator_coordinate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -57535,8 +57257,7 @@
                       "line": 131,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/mercator_coordinate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -57657,8 +57378,7 @@
                       "line": 119,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/mercator_coordinate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -57818,8 +57538,7 @@
                       "line": 105,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/mercator_coordinate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -58034,8 +57753,7 @@
                 "line": 97,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -58173,8 +57891,7 @@
                       "line": 69,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -58375,8 +58092,7 @@
                       "line": 52,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -58562,8 +58278,7 @@
                       "line": 96,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/geo/edge_insets.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -58719,8 +58434,7 @@
                 "line": 163,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -58790,7 +58504,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000036!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts 00000026",
               "code": "{\n    _map: Map;\n    _el: HTMLElement;\n    _container: HTMLElement;\n    _enabled: boolean;\n    _active: boolean;\n    _startPos: Point;\n    _lastPos: Point;\n    _box: HTMLElement;\n    _clickTolerance: number;\n\n    /**\n     * @private\n     */\n    constructor(map: Map, options: {\n        clickTolerance: number;\n    }) {\n        this._map = map;\n        this._el = map.getCanvasContainer();\n        this._container = map.getContainer();\n        this._clickTolerance = options.clickTolerance || 1;\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"box zoom\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"box zoom\" interaction is enabled.\n     */\n    isEnabled() {\n        return !!this._enabled;\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"box zoom\" interaction is active, i.e. currently being used.\n     *\n     * @returns {boolean} `true` if the \"box zoom\" interaction is active.\n     */\n    isActive() {\n        return !!this._active;\n    }\n\n    /**\n     * Enables the \"box zoom\" interaction.\n     *\n     * @example\n     *   map.boxZoom.enable();\n     */\n    enable() {\n        if (this.isEnabled()) return;\n        this._enabled = true;\n    }\n\n    /**\n     * Disables the \"box zoom\" interaction.\n     *\n     * @example\n     *   map.boxZoom.disable();\n     */\n    disable() {\n        if (!this.isEnabled()) return;\n        this._enabled = false;\n    }\n\n    mousedown(e: MouseEvent, point: Point) {\n        if (!this.isEnabled()) return;\n        if (!(e.shiftKey && e.button === 0)) return;\n\n        DOM.disableDrag();\n        this._startPos = this._lastPos = point;\n        this._active = true;\n    }\n\n    mousemoveWindow(e: MouseEvent, point: Point) {\n        if (!this._active) return;\n\n        const pos = point;\n\n        if (this._lastPos.equals(pos) || (!this._box && pos.dist(this._startPos) < this._clickTolerance)) {\n            return;\n        }\n\n        const p0 = this._startPos;\n        this._lastPos = pos;\n\n        if (!this._box) {\n            this._box = DOM.create('div', 'maplibregl-boxzoom mapboxgl-boxzoom', this._container);\n            this._container.classList.add('maplibregl-crosshair', 'mapboxgl-crosshair');\n            this._fireEvent('boxzoomstart', e);\n        }\n\n        const minX = Math.min(p0.x, pos.x),\n            maxX = Math.max(p0.x, pos.x),\n            minY = Math.min(p0.y, pos.y),\n            maxY = Math.max(p0.y, pos.y);\n\n        DOM.setTransform(this._box, `translate(${minX}px,${minY}px)`);\n\n        this._box.style.width = `${maxX - minX}px`;\n        this._box.style.height = `${maxY - minY}px`;\n    }\n\n    mouseupWindow(e: MouseEvent, point: Point) {\n        if (!this._active) return;\n\n        if (e.button !== 0) return;\n\n        const p0 = this._startPos,\n            p1 = point;\n\n        this.reset();\n\n        DOM.suppressClick();\n\n        if (p0.x === p1.x && p0.y === p1.y) {\n            this._fireEvent('boxzoomcancel', e);\n        } else {\n            this._map.fire(new Event('boxzoomend', {originalEvent: e}));\n            return {\n                cameraAnimation: map => map.fitScreenCoordinates(p0, p1, this._map.getBearing(), {linear: true})\n            };\n        }\n    }\n\n    keydown(e: KeyboardEvent) {\n        if (!this._active) return;\n\n        if (e.keyCode === 27) {\n            this.reset();\n            this._fireEvent('boxzoomcancel', e);\n        }\n    }\n\n    reset() {\n        this._active = false;\n\n        this._container.classList.remove('maplibregl-crosshair', 'mapboxgl-crosshair');\n\n        if (this._box) {\n            DOM.remove(this._box);\n            this._box = null;\n        }\n\n        DOM.enableDrag();\n\n        delete this._startPos;\n        delete this._lastPos;\n    }\n\n    _fireEvent(type: string, e: any) {\n        return this._map.fire(new Event(type, {originalEvent: e}));\n    }\n}"
             },
@@ -58861,8 +58575,7 @@
                       "line": 73,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -58944,8 +58657,7 @@
                       "line": 62,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -59031,8 +58743,7 @@
                       "line": 51,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -59140,8 +58851,7 @@
                       "line": 42,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/box_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -59253,8 +58963,7 @@
                 "line": 343,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -59315,7 +59024,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000035!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts 00000064",
               "code": "{\n    _map: Map;\n    _el: HTMLElement;\n    _enabled: boolean;\n    _active: boolean;\n    _zooming: boolean;\n    _aroundCenter: boolean;\n    _around: LngLat;\n    _aroundPoint: Point;\n    _type: 'wheel' | 'trackpad' | null;\n    _lastValue: number;\n    _timeout: ReturnType<typeof setTimeout>; // used for delayed-handling of a single wheel movement\n    _finishTimeout: ReturnType<typeof setTimeout>; // used to delay final '{move,zoom}end' events\n\n    _lastWheelEvent: any;\n    _lastWheelEventTime: number;\n\n    _startZoom: number;\n    _targetZoom: number;\n    _delta: number;\n    _easing: ((a: number) => number);\n    _prevEase: {\n        start: number;\n        duration: number;\n        easing: (_: number) => number;\n    };\n\n    _frameId: boolean;\n    _handler: HandlerManager;\n\n    _defaultZoomRate: number;\n    _wheelZoomRate: number;\n\n    /**\n     * @private\n     */\n    constructor(map: Map, handler: HandlerManager) {\n        this._map = map;\n        this._el = map.getCanvasContainer();\n        this._handler = handler;\n\n        this._delta = 0;\n\n        this._defaultZoomRate = defaultZoomRate;\n        this._wheelZoomRate = wheelZoomRate;\n\n        bindAll(['_onTimeout'], this);\n    }\n\n    /**\n     * Set the zoom rate of a trackpad\n     * @param {number} [zoomRate=1/100] The rate used to scale trackpad movement to a zoom value.\n     * @example\n     * // Speed up trackpad zoom\n     * map.scrollZoom.setZoomRate(1/25);\n     */\n    setZoomRate(zoomRate: number) {\n        this._defaultZoomRate = zoomRate;\n    }\n\n    /**\n     * Set the zoom rate of a mouse wheel\n     * @param {number} [wheelZoomRate=1/450] The rate used to scale mouse wheel movement to a zoom value.\n     * @example\n     * // Slow down zoom of mouse wheel\n     * map.scrollZoom.setWheelZoomRate(1/600);\n     */\n    setWheelZoomRate(wheelZoomRate: number) {\n        this._wheelZoomRate = wheelZoomRate;\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"scroll to zoom\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"scroll to zoom\" interaction is enabled.\n     */\n    isEnabled() {\n        return !!this._enabled;\n    }\n\n    /*\n    * Active state is turned on and off with every scroll wheel event and is set back to false before the map\n    * render is called, so _active is not a good candidate for determining if a scroll zoom animation is in\n    * progress.\n    */\n    isActive() {\n        return !!this._active || this._finishTimeout !== undefined;\n    }\n\n    isZooming() {\n        return !!this._zooming;\n    }\n\n    /**\n     * Enables the \"scroll to zoom\" interaction.\n     *\n     * @param {Object} [options] Options object.\n     * @param {string} [options.around] If \"center\" is passed, map will zoom around center of map\n     *\n     * @example\n     *   map.scrollZoom.enable();\n     * @example\n     *  map.scrollZoom.enable({ around: 'center' })\n     */\n    enable(options?: any) {\n        if (this.isEnabled()) return;\n        this._enabled = true;\n        this._aroundCenter = options && options.around === 'center';\n    }\n\n    /**\n     * Disables the \"scroll to zoom\" interaction.\n     *\n     * @example\n     *   map.scrollZoom.disable();\n     */\n    disable() {\n        if (!this.isEnabled()) return;\n        this._enabled = false;\n    }\n\n    wheel(e: WheelEvent) {\n        if (!this.isEnabled()) return;\n        let value = e.deltaMode === WheelEvent.DOM_DELTA_LINE ? e.deltaY * 40 : e.deltaY;\n        const now = browser.now(),\n            timeDelta = now - (this._lastWheelEventTime || 0);\n\n        this._lastWheelEventTime = now;\n\n        if (value !== 0 && (value % wheelZoomDelta) === 0) {\n            // This one is definitely a mouse wheel event.\n            this._type = 'wheel';\n\n        } else if (value !== 0 && Math.abs(value) < 4) {\n            // This one is definitely a trackpad event because it is so small.\n            this._type = 'trackpad';\n\n        } else if (timeDelta > 400) {\n            // This is likely a new scroll action.\n            this._type = null;\n            this._lastValue = value;\n\n            // Start a timeout in case this was a singular event, and dely it by up to 40ms.\n            this._timeout = setTimeout(this._onTimeout, 40, e);\n\n        } else if (!this._type) {\n            // This is a repeating event, but we don't know the type of event just yet.\n            // If the delta per time is small, we assume it's a fast trackpad; otherwise we switch into wheel mode.\n            this._type = (Math.abs(timeDelta * value) < 200) ? 'trackpad' : 'wheel';\n\n            // Make sure our delayed event isn't fired again, because we accumulate\n            // the previous event (which was less than 40ms ago) into this event.\n            if (this._timeout) {\n                clearTimeout(this._timeout);\n                this._timeout = null;\n                value += this._lastValue;\n            }\n        }\n\n        // Slow down zoom if shift key is held for more precise zooming\n        if (e.shiftKey && value) value = value / 4;\n\n        // Only fire the callback if we actually know what type of scrolling device the user uses.\n        if (this._type) {\n            this._lastWheelEvent = e;\n            this._delta -= value;\n            if (!this._active) {\n                this._start(e);\n            }\n        }\n\n        e.preventDefault();\n    }\n\n    _onTimeout(initialEvent: any) {\n        this._type = 'wheel';\n        this._delta -= this._lastValue;\n        if (!this._active) {\n            this._start(initialEvent);\n        }\n    }\n\n    _start(e: any) {\n        if (!this._delta) return;\n\n        if (this._frameId) {\n            this._frameId = null;\n        }\n\n        this._active = true;\n        if (!this.isZooming()) {\n            this._zooming = true;\n        }\n\n        if (this._finishTimeout) {\n            clearTimeout(this._finishTimeout);\n            delete this._finishTimeout;\n        }\n\n        const pos = DOM.mousePos(this._el, e);\n\n        this._around = LngLat.convert(this._aroundCenter ? this._map.getCenter() : this._map.unproject(pos));\n        this._aroundPoint = this._map.transform.locationPoint(this._around);\n        if (!this._frameId) {\n            this._frameId = true;\n            this._handler._triggerRenderFrame();\n        }\n    }\n\n    renderFrame() {\n        if (!this._frameId) return;\n        this._frameId = null;\n\n        if (!this.isActive()) return;\n        const tr = this._map.transform;\n\n        // if we've had scroll events since the last render frame, consume the\n        // accumulated delta, and update the target zoom level accordingly\n        if (this._delta !== 0) {\n            // For trackpad events and single mouse wheel ticks, use the default zoom rate\n            const zoomRate = (this._type === 'wheel' && Math.abs(this._delta) > wheelZoomDelta) ? this._wheelZoomRate : this._defaultZoomRate;\n            // Scale by sigmoid of scroll wheel delta.\n            let scale = maxScalePerFrame / (1 + Math.exp(-Math.abs(this._delta * zoomRate)));\n\n            if (this._delta < 0 && scale !== 0) {\n                scale = 1 / scale;\n            }\n\n            const fromScale = typeof this._targetZoom === 'number' ? tr.zoomScale(this._targetZoom) : tr.scale;\n            this._targetZoom = Math.min(tr.maxZoom, Math.max(tr.minZoom, tr.scaleZoom(fromScale * scale)));\n\n            // if this is a mouse wheel, refresh the starting zoom and easing\n            // function we're using to smooth out the zooming between wheel\n            // events\n            if (this._type === 'wheel') {\n                this._startZoom = tr.zoom;\n                this._easing = this._smoothOutEasing(200);\n            }\n\n            this._delta = 0;\n        }\n\n        const targetZoom = typeof this._targetZoom === 'number' ?\n            this._targetZoom : tr.zoom;\n        const startZoom = this._startZoom;\n        const easing = this._easing;\n\n        let finished = false;\n        let zoom;\n        if (this._type === 'wheel' && startZoom && easing) {\n            assert(easing && typeof startZoom === 'number');\n\n            const t = Math.min((browser.now() - this._lastWheelEventTime) / 200, 1);\n            const k = easing(t);\n            zoom = interpolate(startZoom, targetZoom, k);\n            if (t < 1) {\n                if (!this._frameId) {\n                    this._frameId = true;\n                }\n            } else {\n                finished = true;\n            }\n        } else {\n            zoom = targetZoom;\n            finished = true;\n        }\n\n        this._active = true;\n\n        if (finished) {\n            this._active = false;\n            this._finishTimeout = setTimeout(() => {\n                this._zooming = false;\n                this._handler._triggerRenderFrame();\n                delete this._targetZoom;\n                delete this._finishTimeout;\n            }, 200);\n        }\n\n        return {\n            noInertia: true,\n            needsRenderFrame: !finished,\n            zoomDelta: zoom - tr.zoom,\n            around: this._aroundPoint,\n            originalEvent: this._lastWheelEvent\n        };\n    }\n\n    _smoothOutEasing(duration: number) {\n        let easing = _ease;\n\n        if (this._prevEase) {\n            const ease = this._prevEase,\n                t = (browser.now() - ease.start) / ease.duration,\n                speed = ease.easing(t + 0.01) - ease.easing(t),\n\n                // Quick hack to make new bezier that is continuous with last\n                x = 0.27 / Math.sqrt(speed * speed + 0.0001) * 0.01,\n                y = Math.sqrt(0.27 * 0.27 - x * x);\n\n            easing = bezier(x, y, 0.25, 1);\n        }\n\n        this._prevEase = {\n            start: browser.now(),\n            duration,\n            easing\n        };\n\n        return easing;\n    }\n\n    reset() {\n        this._active = false;\n    }\n}"
             },
@@ -59386,8 +59095,7 @@
                       "line": 147,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -59500,8 +59208,7 @@
                       "line": 136,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -59645,8 +59352,7 @@
                       "line": 106,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -59764,8 +59470,7 @@
                       "line": 97,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -59886,8 +59591,7 @@
                       "line": 86,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/scroll_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -60002,8 +59706,7 @@
                 "line": 86,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -60073,7 +59776,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000039!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts 00000025",
               "code": "{\n\n    _el: HTMLElement;\n    _mousePan: MousePanHandler;\n    _touchPan: TouchPanHandler;\n    _inertiaOptions: DragPanOptions;\n\n    /**\n     * @private\n    */\n    constructor(el: HTMLElement, mousePan: MousePanHandler, touchPan: TouchPanHandler) {\n        this._el = el;\n        this._mousePan = mousePan;\n        this._touchPan = touchPan;\n    }\n\n    /**\n     * Enables the \"drag to pan\" interaction.\n     *\n     * @param {Object} [options] Options object\n     * @param {number} [options.linearity=0] factor used to scale the drag velocity\n     * @param {Function} [options.easing=bezier(0, 0, 0.3, 1)] easing function applled to `map.panTo` when applying the drag.\n     * @param {number} [options.maxSpeed=1400] the maximum value of the drag velocity.\n     * @param {number} [options.deceleration=2500] the rate at which the speed reduces after the pan ends.\n     *\n     * @example\n     *   map.dragPan.enable();\n     * @example\n     *   map.dragPan.enable({\n     *      linearity: 0.3,\n     *      easing: bezier(0, 0, 0.3, 1),\n     *      maxSpeed: 1400,\n     *      deceleration: 2500,\n     *   });\n     */\n    enable(options?: DragPanOptions) {\n        this._inertiaOptions = options || {};\n        this._mousePan.enable();\n        this._touchPan.enable();\n        this._el.classList.add('maplibregl-touch-drag-pan', 'mapboxgl-touch-drag-pan');\n    }\n\n    /**\n     * Disables the \"drag to pan\" interaction.\n     *\n     * @example\n     * map.dragPan.disable();\n     */\n    disable() {\n        this._mousePan.disable();\n        this._touchPan.disable();\n        this._el.classList.remove('maplibregl-touch-drag-pan', 'mapboxgl-touch-drag-pan');\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"drag to pan\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"drag to pan\" interaction is enabled.\n     */\n    isEnabled() {\n        return this._mousePan.isEnabled() && this._touchPan.isEnabled();\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"drag to pan\" interaction is active, i.e. currently being used.\n     *\n     * @returns {boolean} `true` if the \"drag to pan\" interaction is active.\n     */\n    isActive() {\n        return this._mousePan.isActive() || this._touchPan.isActive();\n    }\n}"
             },
@@ -60144,8 +59847,7 @@
                       "line": 67,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -60301,8 +60003,7 @@
                       "line": 55,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -60524,8 +60225,7 @@
                       "line": 85,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -60633,8 +60333,7 @@
                       "line": 76,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_pan.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -60754,8 +60453,7 @@
                 "line": 67,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -60868,7 +60566,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000038!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts 00000020",
               "code": "{\n\n    _mouseRotate: MouseRotateHandler;\n    _mousePitch: MousePitchHandler;\n    _pitchWithRotate: boolean;\n\n    /**\n     * @param {Object} [options]\n     * @param {number} [options.bearingSnap] The threshold, measured in degrees, that determines when the map's\n     *   bearing will snap to north.\n     * @param {bool} [options.pitchWithRotate=true] Control the map pitch in addition to the bearing\n     * @private\n     */\n    constructor(options: {\n        pitchWithRotate: boolean;\n    }, mouseRotate: MouseRotateHandler, mousePitch: MousePitchHandler) {\n        this._pitchWithRotate = options.pitchWithRotate;\n        this._mouseRotate = mouseRotate;\n        this._mousePitch = mousePitch;\n    }\n\n    /**\n     * Enables the \"drag to rotate\" interaction.\n     *\n     * @example\n     * map.dragRotate.enable();\n     */\n    enable() {\n        this._mouseRotate.enable();\n        if (this._pitchWithRotate) this._mousePitch.enable();\n    }\n\n    /**\n     * Disables the \"drag to rotate\" interaction.\n     *\n     * @example\n     * map.dragRotate.disable();\n     */\n    disable() {\n        this._mouseRotate.disable();\n        this._mousePitch.disable();\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"drag to rotate\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"drag to rotate\" interaction is enabled.\n     */\n    isEnabled() {\n        return this._mouseRotate.isEnabled() && (!this._pitchWithRotate || this._mousePitch.isEnabled());\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"drag to rotate\" interaction is active, i.e. currently being used.\n     *\n     * @returns {boolean} `true` if the \"drag to rotate\" interaction is active.\n     */\n    isActive() {\n        return this._mouseRotate.isActive() || this._mousePitch.isActive();\n    }\n}"
             },
@@ -61002,8 +60700,7 @@
                       "line": 48,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -61085,8 +60782,7 @@
                       "line": 37,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -61172,8 +60868,7 @@
                       "line": 66,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -61281,8 +60976,7 @@
                       "line": 57,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/drag_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -61594,8 +61288,7 @@
                 "line": 196,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -61637,7 +61330,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000040!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts 00000034",
               "code": "{\n    _enabled: boolean;\n    _active: boolean;\n    _panStep: number;\n    _bearingStep: number;\n    _pitchStep: number;\n    _rotationDisabled: boolean;\n\n    /**\n    * @private\n    */\n    constructor() {\n        const stepOptions = defaultOptions;\n        this._panStep = stepOptions.panStep;\n        this._bearingStep = stepOptions.bearingStep;\n        this._pitchStep = stepOptions.pitchStep;\n        this._rotationDisabled = false;\n    }\n\n    reset() {\n        this._active = false;\n    }\n\n    keydown(e: KeyboardEvent) {\n        if (e.altKey || e.ctrlKey || e.metaKey) return;\n\n        let zoomDir = 0;\n        let bearingDir = 0;\n        let pitchDir = 0;\n        let xDir = 0;\n        let yDir = 0;\n\n        switch (e.keyCode) {\n            case 61:\n            case 107:\n            case 171:\n            case 187:\n                zoomDir = 1;\n                break;\n\n            case 189:\n            case 109:\n            case 173:\n                zoomDir = -1;\n                break;\n\n            case 37:\n                if (e.shiftKey) {\n                    bearingDir = -1;\n                } else {\n                    e.preventDefault();\n                    xDir = -1;\n                }\n                break;\n\n            case 39:\n                if (e.shiftKey) {\n                    bearingDir = 1;\n                } else {\n                    e.preventDefault();\n                    xDir = 1;\n                }\n                break;\n\n            case 38:\n                if (e.shiftKey) {\n                    pitchDir = 1;\n                } else {\n                    e.preventDefault();\n                    yDir = -1;\n                }\n                break;\n\n            case 40:\n                if (e.shiftKey) {\n                    pitchDir = -1;\n                } else {\n                    e.preventDefault();\n                    yDir = 1;\n                }\n                break;\n\n            default:\n                return;\n        }\n\n        if (this._rotationDisabled) {\n            bearingDir = 0;\n            pitchDir = 0;\n        }\n\n        return {\n            cameraAnimation: (map: Map) => {\n                const zoom = map.getZoom();\n                map.easeTo({\n                    duration: 300,\n                    easeId: 'keyboardHandler',\n                    easing: easeOut,\n\n                    zoom: zoomDir ? Math.round(zoom) + zoomDir * (e.shiftKey ? 2 : 1) : zoom,\n                    bearing: map.getBearing() + bearingDir * this._bearingStep,\n                    pitch: map.getPitch() + pitchDir * this._pitchStep,\n                    offset: [-xDir * this._panStep, -yDir * this._panStep],\n                    center: map.getCenter()\n                }, {originalEvent: e});\n            }\n        };\n    }\n\n    /**\n     * Enables the \"keyboard rotate and zoom\" interaction.\n     *\n     * @example\n     *   map.keyboard.enable();\n     */\n    enable() {\n        this._enabled = true;\n    }\n\n    /**\n     * Disables the \"keyboard rotate and zoom\" interaction.\n     *\n     * @example\n     *   map.keyboard.disable();\n     */\n    disable() {\n        this._enabled = false;\n        this.reset();\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"keyboard rotate and zoom\"\n     * interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"keyboard rotate and zoom\"\n     * interaction is enabled.\n     */\n    isEnabled() {\n        return this._enabled;\n    }\n\n    /**\n     * Returns true if the handler is enabled and has detected the start of a\n     * zoom/rotate gesture.\n     *\n     * @returns {boolean} `true` if the handler is enabled and has detected the\n     * start of a zoom/rotate gesture.\n     */\n    isActive() {\n        return this._active;\n    }\n\n    /**\n     * Disables the \"keyboard pan/rotate\" interaction, leaving the\n     * \"keyboard zoom\" interaction enabled.\n     *\n     * @example\n     *   map.keyboard.disableRotation();\n     */\n    disableRotation() {\n        this._rotationDisabled = true;\n    }\n\n    /**\n     * Enables the \"keyboard pan/rotate\" interaction.\n     *\n     * @example\n     *   map.keyboard.enable();\n     *   map.keyboard.enableRotation();\n     */\n    enableRotation() {\n        this._rotationDisabled = false;\n    }\n}"
             },
@@ -61708,8 +61401,7 @@
                       "line": 151,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -61791,8 +61483,7 @@
                       "line": 184,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -61874,8 +61565,7 @@
                       "line": 140,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -61957,8 +61647,7 @@
                       "line": 195,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -62044,8 +61733,7 @@
                       "line": 173,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -62153,8 +61841,7 @@
                       "line": 162,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/keyboard.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -62266,8 +61953,7 @@
                 "line": 60,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -62328,7 +62014,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000041!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts 00000016",
               "code": "{\n\n    _clickZoom: ClickZoomHandler;\n    _tapZoom: TapZoomHandler;\n\n    /**\n     * @private\n    */\n    constructor(clickZoom: ClickZoomHandler, TapZoom: TapZoomHandler) {\n        this._clickZoom = clickZoom;\n        this._tapZoom = TapZoom;\n    }\n\n    /**\n     * Enables the \"double click to zoom\" interaction.\n     *\n     * @example\n     * map.doubleClickZoom.enable();\n     */\n    enable() {\n        this._clickZoom.enable();\n        this._tapZoom.enable();\n    }\n\n    /**\n     * Disables the \"double click to zoom\" interaction.\n     *\n     * @example\n     * map.doubleClickZoom.disable();\n     */\n    disable() {\n        this._clickZoom.disable();\n        this._tapZoom.disable();\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"double click to zoom\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"double click to zoom\" interaction is enabled.\n     */\n    isEnabled() {\n        return this._clickZoom.isEnabled() && this._tapZoom.isEnabled();\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"double click to zoom\" interaction is active, i.e. currently being used.\n     *\n     * @returns {boolean} `true` if the \"double click to zoom\" interaction is active.\n     */\n    isActive() {\n        return this._clickZoom.isActive() || this._tapZoom.isActive();\n    }\n}"
             },
@@ -62399,8 +62085,7 @@
                       "line": 41,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -62482,8 +62167,7 @@
                       "line": 30,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -62569,8 +62253,7 @@
                       "line": 59,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -62678,8 +62361,7 @@
                       "line": 50,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/dblclick_zoom.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -62800,8 +62482,7 @@
                 "line": 108,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -62880,7 +62561,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000002!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/map.ts:00000042!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts 00000023",
               "code": "{\n\n    _el: HTMLElement;\n    _touchZoom: TouchZoomHandler;\n    _touchRotate: TouchRotateHandler;\n    _tapDragZoom: TapDragZoomHandler;\n    _rotationDisabled: boolean;\n    _enabled: boolean;\n\n    /**\n     * @private\n    */\n    constructor(el: HTMLElement, touchZoom: TouchZoomHandler, touchRotate: TouchRotateHandler, tapDragZoom: TapDragZoomHandler) {\n        this._el = el;\n        this._touchZoom = touchZoom;\n        this._touchRotate = touchRotate;\n        this._tapDragZoom = tapDragZoom;\n        this._rotationDisabled = false;\n        this._enabled = true;\n    }\n\n    /**\n     * Enables the \"pinch to rotate and zoom\" interaction.\n     *\n     * @param {Object} [options] Options object.\n     * @param {string} [options.around] If \"center\" is passed, map will zoom around the center\n     *\n     * @example\n     *   map.touchZoomRotate.enable();\n     * @example\n     *   map.touchZoomRotate.enable({ around: 'center' });\n     */\n    enable(options?: {\n        around?: 'center';\n    } | null) {\n        this._touchZoom.enable(options);\n        if (!this._rotationDisabled) this._touchRotate.enable(options);\n        this._tapDragZoom.enable();\n        this._el.classList.add('maplibregl-touch-zoom-rotate', 'mapboxgl-touch-zoom-rotate');\n    }\n\n    /**\n     * Disables the \"pinch to rotate and zoom\" interaction.\n     *\n     * @example\n     *   map.touchZoomRotate.disable();\n     */\n    disable() {\n        this._touchZoom.disable();\n        this._touchRotate.disable();\n        this._tapDragZoom.disable();\n        this._el.classList.remove('maplibregl-touch-zoom-rotate', 'mapboxgl-touch-zoom-rotate');\n    }\n\n    /**\n     * Returns a Boolean indicating whether the \"pinch to rotate and zoom\" interaction is enabled.\n     *\n     * @returns {boolean} `true` if the \"pinch to rotate and zoom\" interaction is enabled.\n     */\n    isEnabled() {\n        return this._touchZoom.isEnabled() &&\n            (this._rotationDisabled || this._touchRotate.isEnabled()) &&\n            this._tapDragZoom.isEnabled();\n    }\n\n    /**\n     * Returns true if the handler is enabled and has detected the start of a zoom/rotate gesture.\n     *\n     * @returns {boolean} //eslint-disable-line\n     */\n    isActive() {\n        return this._touchZoom.isActive() || this._touchRotate.isActive() || this._tapDragZoom.isActive();\n    }\n\n    /**\n     * Disables the \"pinch to rotate\" interaction, leaving the \"pinch to zoom\"\n     * interaction enabled.\n     *\n     * @example\n     *   map.touchZoomRotate.disableRotation();\n     */\n    disableRotation() {\n        this._rotationDisabled = true;\n        this._touchRotate.disable();\n    }\n\n    /**\n     * Enables the \"pinch to rotate\" interaction.\n     *\n     * @example\n     *   map.touchZoomRotate.enable();\n     *   map.touchZoomRotate.enableRotation();\n     */\n    enableRotation() {\n        this._rotationDisabled = false;\n        if (this._touchZoom.isEnabled()) this._touchRotate.enable();\n    }\n}"
             },
@@ -62951,8 +62632,7 @@
                       "line": 63,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63034,8 +62714,7 @@
                       "line": 95,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63148,8 +62827,7 @@
                       "line": 50,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63289,8 +62967,7 @@
                       "line": 107,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63376,8 +63053,7 @@
                       "line": 83,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -63481,8 +63157,7 @@
                       "line": 74,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/shim/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -63594,8 +63269,7 @@
                 "line": 305,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/touch_zoom_rotate.ts"
+            }
           },
           "augments": [
             {
@@ -63682,8 +63356,7 @@
                       "line": 266,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63779,8 +63452,7 @@
                       "line": 266,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -63880,8 +63552,7 @@
                       "line": 266,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -64003,8 +63674,7 @@
                       "line": 266,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/handler/touch_zoom_rotate.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -64213,8 +63883,7 @@
                 "line": 353,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts"
+            }
           },
           "augments": [
             {
@@ -64410,7 +64079,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000026!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts 00000091",
               "code": "{\n    type: 'geojson';\n    id: string;\n    minzoom: number;\n    maxzoom: number;\n    tileSize: number;\n    attribution: string;\n    promoteId: PromoteIdSpecification;\n\n    isTileClipped: boolean;\n    reparseOverscaled: boolean;\n    _data: GeoJSON.GeoJSON | string;\n    _options: any;\n    workerOptions: any;\n    map: Map;\n    actor: Actor;\n    _pendingLoads: number;\n    _collectResourceTiming: boolean;\n    _removed: boolean;\n\n    /**\n     * @private\n     */\n    constructor(id: string, options: GeoJSONSourceOptions, dispatcher: Dispatcher, eventedParent: Evented) {\n        super();\n\n        this.id = id;\n\n        // `type` is a property rather than a constant to make it easy for 3rd\n        // parties to use GeoJSONSource to build their own source types.\n        this.type = 'geojson';\n\n        this.minzoom = 0;\n        this.maxzoom = 18;\n        this.tileSize = 512;\n        this.isTileClipped = true;\n        this.reparseOverscaled = true;\n        this._removed = false;\n        this._pendingLoads = 0;\n\n        this.actor = dispatcher.getActor();\n        this.setEventedParent(eventedParent);\n\n        this._data = (options.data as any);\n        this._options = extend({}, options);\n\n        this._collectResourceTiming = options.collectResourceTiming;\n\n        if (options.maxzoom !== undefined) this.maxzoom = options.maxzoom;\n        if (options.type) this.type = options.type;\n        if (options.attribution) this.attribution = options.attribution;\n        this.promoteId = options.promoteId;\n\n        const scale = EXTENT / this.tileSize;\n\n        // sent to the worker, along with `url: ...` or `data: literal geojson`,\n        // so that it can load/parse/index the geojson data\n        // extending with `options.workerOptions` helps to make it easy for\n        // third-party sources to hack/reuse GeoJSONSource.\n        this.workerOptions = extend({\n            source: this.id,\n            cluster: options.cluster || false,\n            geojsonVtOptions: {\n                buffer: (options.buffer !== undefined ? options.buffer : 128) * scale,\n                tolerance: (options.tolerance !== undefined ? options.tolerance : 0.375) * scale,\n                extent: EXTENT,\n                maxZoom: this.maxzoom,\n                lineMetrics: options.lineMetrics || false,\n                generateId: options.generateId || false\n            },\n            superclusterOptions: {\n                maxZoom: options.clusterMaxZoom !== undefined ? options.clusterMaxZoom : this.maxzoom - 1,\n                minPoints: Math.max(2, options.clusterMinPoints || 2),\n                extent: EXTENT,\n                radius: (options.clusterRadius || 50) * scale,\n                log: false,\n                generateId: options.generateId || false\n            },\n            clusterProperties: options.clusterProperties,\n            filter: options.filter\n        }, options.workerOptions);\n    }\n\n    load() {\n        // although GeoJSON sources contain no metadata, we fire this event to let the SourceCache\n        // know its ok to start requesting tiles.\n        this._updateWorkerData('metadata');\n    }\n\n    onAdd(map: Map) {\n        this.map = map;\n        this.load();\n    }\n\n    /**\n     * Sets the GeoJSON data and re-renders the map.\n     *\n     * @param {Object|string} data A GeoJSON data object or a URL to one. The latter is preferable in the case of large GeoJSON files.\n     * @returns {GeoJSONSource} this\n     */\n    setData(data: GeoJSON.GeoJSON | string) {\n        this._data = data;\n        this._updateWorkerData('content');\n\n        return this;\n    }\n\n    /**\n     * For clustered sources, fetches the zoom at which the given cluster expands.\n     *\n     * @param clusterId The value of the cluster's `cluster_id` property.\n     * @param callback A callback to be called when the zoom value is retrieved (`(error, zoom) => { ... }`).\n     * @returns {GeoJSONSource} this\n     */\n    getClusterExpansionZoom(clusterId: number, callback: Callback<number>) {\n        this.actor.send('geojson.getClusterExpansionZoom', {clusterId, source: this.id}, callback);\n        return this;\n    }\n\n    /**\n     * For clustered sources, fetches the children of the given cluster on the next zoom level (as an array of GeoJSON features).\n     *\n     * @param clusterId The value of the cluster's `cluster_id` property.\n     * @param callback A callback to be called when the features are retrieved (`(error, features) => { ... }`).\n     * @returns {GeoJSONSource} this\n     */\n    getClusterChildren(clusterId: number, callback: Callback<Array<GeoJSON.Feature>>) {\n        this.actor.send('geojson.getClusterChildren', {clusterId, source: this.id}, callback);\n        return this;\n    }\n\n    /**\n     * For clustered sources, fetches the original points that belong to the cluster (as an array of GeoJSON features).\n     *\n     * @param clusterId The value of the cluster's `cluster_id` property.\n     * @param limit The maximum number of features to return.\n     * @param offset The number of features to skip (e.g. for pagination).\n     * @param callback A callback to be called when the features are retrieved (`(error, features) => { ... }`).\n     * @returns {GeoJSONSource} this\n     * @example\n     * // Retrieve cluster leaves on click\n     * map.on('click', 'clusters', function(e) {\n     *   var features = map.queryRenderedFeatures(e.point, {\n     *     layers: ['clusters']\n     *   });\n     *\n     *   var clusterId = features[0].properties.cluster_id;\n     *   var pointCount = features[0].properties.point_count;\n     *   var clusterSource = map.getSource('clusters');\n     *\n     *   clusterSource.getClusterLeaves(clusterId, pointCount, 0, function(error, features) {\n     *     // Print cluster leaves in the console\n     *     console.log('Cluster leaves:', error, features);\n     *   })\n     * });\n     */\n    getClusterLeaves(clusterId: number, limit: number, offset: number, callback: Callback<Array<GeoJSON.Feature>>) {\n        this.actor.send('geojson.getClusterLeaves', {\n            source: this.id,\n            clusterId,\n            limit,\n            offset\n        }, callback);\n        return this;\n    }\n\n    /*\n     * Responsible for invoking WorkerSource's geojson.loadData target, which\n     * handles loading the geojson data and preparing to serve it up as tiles,\n     * using geojson-vt or supercluster as appropriate.\n     */\n    _updateWorkerData(sourceDataType: MapSourceDataType) {\n        const options = extend({}, this.workerOptions);\n        const data = this._data;\n        if (typeof data === 'string') {\n            options.request = this.map._requestManager.transformRequest(browser.resolveURL(data), ResourceType.Source);\n            options.request.collectResourceTiming = this._collectResourceTiming;\n        } else {\n            options.data = JSON.stringify(data);\n        }\n\n        this._pendingLoads++;\n        this.fire(new Event('dataloading', {dataType: 'source'}));\n\n        // target {this.type}.loadData rather than literally geojson.loadData,\n        // so that other geojson-like source types can easily reuse this\n        // implementation\n        this.actor.send(`${this.type}.loadData`, options, (err, result) => {\n            this._pendingLoads--;\n\n            if (this._removed || (result && result.abandoned)) {\n                return;\n            }\n\n            let resourceTiming = null;\n            if (result && result.resourceTiming && result.resourceTiming[this.id])\n                resourceTiming = result.resourceTiming[this.id].slice(0);\n            // Any `loadData` calls that piled up while we were processing\n            // this one will get coalesced into a single call when this\n            // 'coalesce' message is processed.\n            // We would self-send from the worker if we had access to its\n            // message queue. Waiting instead for the 'coalesce' to round-trip\n            // through the foreground just means we're throttling the worker\n            // to run at a little less than full-throttle.\n            this.actor.send(`${this.type}.coalesce`, {source: options.source}, null);\n\n            if (err) {\n                this.fire(new ErrorEvent(err));\n                return;\n            }\n\n            const data: any = {dataType: 'source', sourceDataType};\n            if (this._collectResourceTiming && resourceTiming && resourceTiming.length > 0)\n                extend(data, {resourceTiming});\n\n            this.fire(new Event('data', data));\n        });\n    }\n\n    loaded(): boolean {\n        return this._pendingLoads === 0;\n    }\n\n    loadTile(tile: Tile, callback: Callback<void>) {\n        const message = !tile.actor ? 'loadTile' : 'reloadTile';\n        tile.actor = this.actor;\n        const params = {\n            type: this.type,\n            uid: tile.uid,\n            tileID: tile.tileID,\n            zoom: tile.tileID.overscaledZ,\n            maxZoom: this.maxzoom,\n            tileSize: this.tileSize,\n            source: this.id,\n            pixelRatio: this.map.getPixelRatio(),\n            showCollisionBoxes: this.map.showCollisionBoxes,\n            promoteId: this.promoteId\n        };\n\n        tile.request = this.actor.send(message, params, (err, data) => {\n            delete tile.request;\n            tile.unloadVectorData();\n\n            if (tile.aborted) {\n                return callback(null);\n            }\n\n            if (err) {\n                return callback(err);\n            }\n\n            tile.loadVectorData(data, this.map.painter, message === 'reloadTile');\n\n            return callback(null);\n        });\n    }\n\n    abortTile(tile: Tile) {\n        if (tile.request) {\n            tile.request.cancel();\n            delete tile.request;\n        }\n        tile.aborted = true;\n    }\n\n    unloadTile(tile: Tile) {\n        tile.unloadVectorData();\n        this.actor.send('removeTile', {uid: tile.uid, type: this.type, source: this.id});\n    }\n\n    onRemove() {\n        this._removed = true;\n        this.actor.send('removeSource', {type: this.type, source: this.id});\n    }\n\n    serialize() {\n        return extend({}, this._options, {\n            type: this.type,\n            data: this._data\n        });\n    }\n\n    hasTransition() {\n        return false;\n    }\n}"
             },
@@ -64499,8 +64168,7 @@
                       "line": 197,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -64699,8 +64367,7 @@
                       "line": 185,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -64909,8 +64576,7 @@
                       "line": 232,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [
@@ -65164,8 +64830,7 @@
                       "line": 173,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/geojson_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -65324,8 +64989,7 @@
                 "line": 199,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts"
+            }
           },
           "augments": [
             {
@@ -65438,7 +65102,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000031!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts 00000056",
               "code": "{\n    options: VideoSourceSpecification;\n    urls: Array<string>;\n    video: HTMLVideoElement;\n    roundZoom: boolean;\n\n    /**\n     * @private\n     */\n    constructor(id: string, options: VideoSourceSpecification, dispatcher: Dispatcher, eventedParent: Evented) {\n        super(id, options, dispatcher, eventedParent);\n        this.roundZoom = true;\n        this.type = 'video';\n        this.options = options;\n    }\n\n    load() {\n        this._loaded = false;\n        const options = this.options;\n\n        this.urls = [];\n        for (const url of options.urls) {\n            this.urls.push(this.map._requestManager.transformRequest(url, ResourceType.Source).url);\n        }\n\n        getVideo(this.urls, (err, video) => {\n            this._loaded = true;\n            if (err) {\n                this.fire(new ErrorEvent(err));\n            } else if (video) {\n                this.video = video;\n                this.video.loop = true;\n\n                // Start repainting when video starts playing. hasTransition() will then return\n                // true to trigger additional frames as long as the videos continues playing.\n                this.video.addEventListener('playing', () => {\n                    this.map.triggerRepaint();\n                });\n\n                if (this.map) {\n                    this.video.play();\n                }\n\n                this._finishLoading();\n            }\n        });\n    }\n\n    /**\n     * Pauses the video.\n     */\n    pause() {\n        if (this.video) {\n            this.video.pause();\n        }\n    }\n\n    /**\n     * Plays the video.\n     */\n    play() {\n        if (this.video) {\n            this.video.play();\n        }\n    }\n\n    /**\n     * Sets playback to a timestamp, in seconds.\n     * @private\n     */\n    seek(seconds: number) {\n        if (this.video) {\n            const seekableRange = this.video.seekable;\n            if (seconds < seekableRange.start(0) || seconds > seekableRange.end(0)) {\n                this.fire(new ErrorEvent(new ValidationError(`sources.${this.id}`, null, `Playback for this video can be set only between the ${seekableRange.start(0)} and ${seekableRange.end(0)}-second mark.`)));\n            } else this.video.currentTime = seconds;\n        }\n    }\n\n    /**\n     * Returns the HTML `video` element.\n     *\n     * @returns {HTMLVideoElement} The HTML `video` element.\n     */\n    getVideo() {\n        return this.video;\n    }\n\n    onAdd(map: Map) {\n        if (this.map) return;\n        this.map = map;\n        this.load();\n        if (this.video) {\n            this.video.play();\n            this.setCoordinates(this.coordinates);\n        }\n    }\n\n    /**\n     * Sets the video's coordinates and re-renders the map.\n     *\n     * @method setCoordinates\n     * @instance\n     * @memberof VideoSource\n     * @returns {VideoSource} this\n     */\n    // setCoordinates inherited from ImageSource\n\n    prepare() {\n        if (Object.keys(this.tiles).length === 0 || this.video.readyState < 2) {\n            return; // not enough data for current position\n        }\n\n        const context = this.map.painter.context;\n        const gl = context.gl;\n\n        if (!this.boundsBuffer) {\n            this.boundsBuffer = context.createVertexBuffer(this._boundsArray, rasterBoundsAttributes.members);\n        }\n\n        if (!this.boundsSegments) {\n            this.boundsSegments = SegmentVector.simpleSegment(0, 0, 4, 2);\n        }\n\n        if (!this.texture) {\n            this.texture = new Texture(context, this.video, gl.RGBA);\n            this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);\n        } else if (!this.video.paused) {\n            this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);\n            gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, 0, gl.RGBA, gl.UNSIGNED_BYTE, this.video);\n        }\n\n        for (const w in this.tiles) {\n            const tile = this.tiles[w];\n            if (tile.state !== 'loaded') {\n                tile.state = 'loaded';\n                tile.texture = this.texture;\n            }\n        }\n    }\n\n    serialize() {\n        return {\n            type: 'video',\n            urls: this.urls,\n            coordinates: this.coordinates\n        };\n    }\n\n    hasTransition() {\n        return this.video && !this.video.paused;\n    }\n}"
             },
@@ -65521,8 +65185,7 @@
                       "line": 133,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -65624,8 +65287,7 @@
                       "line": 102,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -65697,8 +65359,7 @@
                       "line": 111,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -65796,8 +65457,7 @@
                       "line": 186,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/video_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -65918,8 +65578,7 @@
                 "line": 274,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/image_source.ts"
+            }
           },
           "augments": [
             {
@@ -66025,7 +65684,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/image_source.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000028!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/image_source.ts 00000088",
               "code": "{\n    type: string;\n    id: string;\n    minzoom: number;\n    maxzoom: number;\n    tileSize: number;\n    url: string;\n\n    coordinates: Coordinates;\n    tiles: {[_: string]: Tile};\n    options: any;\n    dispatcher: Dispatcher;\n    map: Map;\n    texture: Texture | null;\n    image: HTMLImageElement | ImageBitmap;\n    tileID: CanonicalTileID;\n    _boundsArray: RasterBoundsArray;\n    boundsBuffer: VertexBuffer;\n    boundsSegments: SegmentVector;\n    _loaded: boolean;\n\n    /**\n     * @private\n     */\n    constructor(id: string, options: ImageSourceSpecification | VideoSourceSpecification | CanvasSourceSpecification, dispatcher: Dispatcher, eventedParent: Evented) {\n        super();\n        this.id = id;\n        this.dispatcher = dispatcher;\n        this.coordinates = options.coordinates;\n\n        this.type = 'image';\n        this.minzoom = 0;\n        this.maxzoom = 22;\n        this.tileSize = 512;\n        this.tiles = {};\n        this._loaded = false;\n\n        this.setEventedParent(eventedParent);\n\n        this.options = options;\n    }\n\n    load(newCoordinates?: Coordinates, successCallback?: () => void) {\n        this._loaded = false;\n        this.fire(new Event('dataloading', {dataType: 'source'}));\n\n        this.url = this.options.url;\n\n        getImage(this.map._requestManager.transformRequest(this.url, ResourceType.Image), (err, image) => {\n            this._loaded = true;\n            if (err) {\n                this.fire(new ErrorEvent(err));\n            } else if (image) {\n                this.image = image;\n                if (newCoordinates) {\n                    this.coordinates = newCoordinates;\n                }\n                if (successCallback) {\n                    successCallback();\n                }\n                this._finishLoading();\n            }\n        });\n    }\n\n    loaded(): boolean {\n        return this._loaded;\n    }\n\n    /**\n     * Updates the image URL and, optionally, the coordinates. To avoid having the image flash after changing,\n     * set the `raster-fade-duration` paint property on the raster layer to 0.\n     *\n     * @param {Object} options Options object.\n     * @param {string} [options.url] Required image URL.\n     * @param {Array<Array<number>>} [options.coordinates] Four geographical coordinates,\n     *   represented as arrays of longitude and latitude numbers, which define the corners of the image.\n     *   The coordinates start at the top left corner of the image and proceed in clockwise order.\n     *   They do not have to represent a rectangle.\n     * @returns {ImageSource} this\n     */\n    updateImage(options: {\n        url: string;\n        coordinates?: Coordinates;\n    }) {\n        if (!this.image || !options.url) {\n            return this;\n        }\n        this.options.url = options.url;\n        this.load(options.coordinates, () => { this.texture = null; });\n        return this;\n    }\n\n    _finishLoading() {\n        if (this.map) {\n            this.setCoordinates(this.coordinates);\n            this.fire(new Event('data', {dataType: 'source', sourceDataType: 'metadata'}));\n        }\n    }\n\n    onAdd(map: Map) {\n        this.map = map;\n        this.load();\n    }\n\n    /**\n     * Sets the image's coordinates and re-renders the map.\n     *\n     * @param {Array<Array<number>>} coordinates Four geographical coordinates,\n     *   represented as arrays of longitude and latitude numbers, which define the corners of the image.\n     *   The coordinates start at the top left corner of the image and proceed in clockwise order.\n     *   They do not have to represent a rectangle.\n     * @returns {ImageSource} this\n     */\n    setCoordinates(coordinates: Coordinates) {\n        this.coordinates = coordinates;\n\n        // Calculate which mercator tile is suitable for rendering the video in\n        // and create a buffer with the corner coordinates. These coordinates\n        // may be outside the tile, because raster tiles aren't clipped when rendering.\n\n        // transform the geo coordinates into (zoom 0) tile space coordinates\n        const cornerCoords = coordinates.map(MercatorCoordinate.fromLngLat);\n\n        // Compute the coordinates of the tile we'll use to hold this image's\n        // render data\n        this.tileID = getCoordinatesCenterTileID(cornerCoords);\n\n        // Constrain min/max zoom to our tile's zoom level in order to force\n        // SourceCache to request this tile (no matter what the map's zoom\n        // level)\n        this.minzoom = this.maxzoom = this.tileID.z;\n\n        // Transform the corner coordinates into the coordinate space of our\n        // tile.\n        const tileCoords = cornerCoords.map((coord) => this.tileID.getTilePoint(coord)._round());\n\n        this._boundsArray = new RasterBoundsArray();\n        this._boundsArray.emplaceBack(tileCoords[0].x, tileCoords[0].y, 0, 0);\n        this._boundsArray.emplaceBack(tileCoords[1].x, tileCoords[1].y, EXTENT, 0);\n        this._boundsArray.emplaceBack(tileCoords[3].x, tileCoords[3].y, 0, EXTENT);\n        this._boundsArray.emplaceBack(tileCoords[2].x, tileCoords[2].y, EXTENT, EXTENT);\n\n        if (this.boundsBuffer) {\n            this.boundsBuffer.destroy();\n            delete this.boundsBuffer;\n        }\n\n        this.fire(new Event('data', {dataType:'source', sourceDataType: 'content'}));\n        return this;\n    }\n\n    prepare() {\n        if (Object.keys(this.tiles).length === 0 || !this.image) {\n            return;\n        }\n\n        const context = this.map.painter.context;\n        const gl = context.gl;\n\n        if (!this.boundsBuffer) {\n            this.boundsBuffer = context.createVertexBuffer(this._boundsArray, rasterBoundsAttributes.members);\n        }\n\n        if (!this.boundsSegments) {\n            this.boundsSegments = SegmentVector.simpleSegment(0, 0, 4, 2);\n        }\n\n        if (!this.texture) {\n            this.texture = new Texture(context, this.image, gl.RGBA);\n            this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);\n        }\n\n        for (const w in this.tiles) {\n            const tile = this.tiles[w];\n            if (tile.state !== 'loaded') {\n                tile.state = 'loaded';\n                tile.texture = this.texture;\n            }\n        }\n    }\n\n    loadTile(tile: Tile, callback: Callback<void>) {\n        // We have a single tile -- whoose coordinates are this.tileID -- that\n        // covers the image we want to render.  If that's the one being\n        // requested, set it up with the image; otherwise, mark the tile as\n        // `errored` to indicate that we have no data for it.\n        // If the world wraps, we may have multiple \"wrapped\" copies of the\n        // single tile.\n        if (this.tileID && this.tileID.equals(tile.tileID.canonical)) {\n            this.tiles[String(tile.tileID.wrap)] = tile;\n            tile.buckets = {};\n            callback(null);\n        } else {\n            tile.state = 'errored';\n            callback(null);\n        }\n    }\n\n    serialize(): any {\n        return {\n            type: 'image',\n            url: this.options.url,\n            coordinates: this.coordinates\n        };\n    }\n\n    hasTransition() {\n        return false;\n    }\n}"
             },
@@ -66128,8 +65787,7 @@
                       "line": 214,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/image_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -66337,8 +65995,7 @@
                       "line": 155,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/image_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -66556,8 +66213,7 @@
                 "line": 235,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts"
+            }
           },
           "augments": [
             {
@@ -66645,7 +66301,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000027!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts 00000071",
               "code": "{\n    options: CanvasSourceSpecification;\n    animate: boolean;\n    canvas: HTMLCanvasElement;\n    width: number;\n    height: number;\n    play: () => void;\n    pause: () => void;\n    _playing: boolean;\n\n    /**\n     * @private\n     */\n    constructor(id: string, options: CanvasSourceSpecification, dispatcher: Dispatcher, eventedParent: Evented) {\n        super(id, options, dispatcher, eventedParent);\n\n        // We build in some validation here, since canvas sources aren't included in the style spec:\n        if (!options.coordinates) {\n            this.fire(new ErrorEvent(new ValidationError(`sources.${id}`, null, 'missing required property \"coordinates\"')));\n        } else if (!Array.isArray(options.coordinates) || options.coordinates.length !== 4 ||\n                options.coordinates.some(c => !Array.isArray(c) || c.length !== 2 || c.some(l => typeof l !== 'number'))) {\n            this.fire(new ErrorEvent(new ValidationError(`sources.${id}`, null, '\"coordinates\" property must be an array of 4 longitude/latitude array pairs')));\n        }\n\n        if (options.animate && typeof options.animate !== 'boolean') {\n            this.fire(new ErrorEvent(new ValidationError(`sources.${id}`, null, 'optional \"animate\" property must be a boolean value')));\n        }\n\n        if (!options.canvas) {\n            this.fire(new ErrorEvent(new ValidationError(`sources.${id}`, null, 'missing required property \"canvas\"')));\n        } else if (typeof options.canvas !== 'string' && !(options.canvas instanceof HTMLCanvasElement)) {\n            this.fire(new ErrorEvent(new ValidationError(`sources.${id}`, null, '\"canvas\" must be either a string representing the ID of the canvas element from which to read, or an HTMLCanvasElement instance')));\n        }\n\n        this.options = options;\n        this.animate = options.animate !== undefined ? options.animate : true;\n    }\n\n    /**\n     * Enables animation. The image will be copied from the canvas to the map on each frame.\n     * @method play\n     * @instance\n     * @memberof CanvasSource\n     */\n\n    /**\n     * Disables animation. The map will display a static copy of the canvas image.\n     * @method pause\n     * @instance\n     * @memberof CanvasSource\n     */\n\n    load() {\n        this._loaded = true;\n        if (!this.canvas) {\n            this.canvas = (this.options.canvas instanceof HTMLCanvasElement) ?\n                this.options.canvas :\n                document.getElementById(this.options.canvas) as HTMLCanvasElement;\n            // cast to HTMLCanvasElement in else of ternary\n            // should we do a safety check and throw if it's not actually HTMLCanvasElement?\n        }\n        this.width = this.canvas.width;\n        this.height = this.canvas.height;\n\n        if (this._hasInvalidDimensions()) {\n            this.fire(new ErrorEvent(new Error('Canvas dimensions cannot be less than or equal to zero.')));\n            return;\n        }\n\n        this.play = function() {\n            this._playing = true;\n            this.map.triggerRepaint();\n        };\n\n        this.pause = function() {\n            if (this._playing) {\n                this.prepare();\n                this._playing = false;\n            }\n        };\n\n        this._finishLoading();\n    }\n\n    /**\n     * Returns the HTML `canvas` element.\n     *\n     * @returns {HTMLCanvasElement} The HTML `canvas` element.\n     */\n    getCanvas() {\n        return this.canvas;\n    }\n\n    onAdd(map: Map) {\n        this.map = map;\n        this.load();\n        if (this.canvas) {\n            if (this.animate) this.play();\n        }\n    }\n\n    onRemove() {\n        this.pause();\n    }\n\n    // /**\n    // * Sets the canvas's coordinates and re-renders the map.\n    // *\n    // * @method setCoordinates\n    // * @instance\n    // * @memberof CanvasSource\n    // * @param {Array<Array<number>>} coordinates Four geographical coordinates,\n    // *   represented as arrays of longitude and latitude numbers, which define the corners of the canvas.\n    // *   The coordinates start at the top left corner of the canvas and proceed in clockwise order.\n    // *   They do not have to represent a rectangle.\n    // * @returns {CanvasSource} this\n    // */\n    // setCoordinates inherited from ImageSource\n\n    prepare() {\n        let resize = false;\n        if (this.canvas.width !== this.width) {\n            this.width = this.canvas.width;\n            resize = true;\n        }\n        if (this.canvas.height !== this.height) {\n            this.height = this.canvas.height;\n            resize = true;\n        }\n\n        if (this._hasInvalidDimensions()) return;\n\n        if (Object.keys(this.tiles).length === 0) return; // not enough data for current position\n\n        const context = this.map.painter.context;\n        const gl = context.gl;\n\n        if (!this.boundsBuffer) {\n            this.boundsBuffer = context.createVertexBuffer(this._boundsArray, rasterBoundsAttributes.members);\n        }\n\n        if (!this.boundsSegments) {\n            this.boundsSegments = SegmentVector.simpleSegment(0, 0, 4, 2);\n        }\n\n        if (!this.texture) {\n            this.texture = new Texture(context, this.canvas, gl.RGBA, {premultiply: true});\n        } else if (resize || this._playing) {\n            this.texture.update(this.canvas, {premultiply: true});\n        }\n\n        for (const w in this.tiles) {\n            const tile = this.tiles[w];\n            if (tile.state !== 'loaded') {\n                tile.state = 'loaded';\n                tile.texture = this.texture;\n            }\n        }\n    }\n\n    serialize(): any {\n        return {\n            type: 'canvas',\n            coordinates: this.coordinates\n        };\n    }\n\n    hasTransition() {\n        return this._playing;\n    }\n\n    _hasInvalidDimensions() {\n        for (const x of [this.canvas.width, this.canvas.height]) {\n            if (isNaN(x) || x <= 0) return true;\n        }\n        return false;\n    }\n}"
             },
@@ -66728,8 +66384,7 @@
                       "line": 149,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -66848,8 +66503,7 @@
                       "line": 140,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -66938,8 +66592,7 @@
                       "line": 140,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -67099,8 +66752,7 @@
                 "line": 235,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/canvas_source.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -67450,8 +67102,7 @@
                 "line": 173,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/evented.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -67541,8 +67192,7 @@
                       "line": 84,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/evented.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -67713,8 +67363,7 @@
                       "line": 70,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/evented.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -67918,8 +67567,7 @@
                       "line": 100,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/evented.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68086,8 +67734,7 @@
                 "line": 134,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+            }
           },
           "augments": [
             {
@@ -68186,7 +67833,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000009!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts:00000011!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts 00000127",
               "code": "{\n    /**\n     * The event type (one of {@link Map.event:mousedown},\n     * {@link Map.event:mouseup},\n     * {@link Map.event:click},\n     * {@link Map.event:dblclick},\n     * {@link Map.event:mousemove},\n     * {@link Map.event:mouseover},\n     * {@link Map.event:mouseenter},\n     * {@link Map.event:mouseleave},\n     * {@link Map.event:mouseout},\n     * {@link Map.event:contextmenu}).\n     */\n    type: 'mousedown' | 'mouseup' | 'click' | 'dblclick' | 'mousemove' | 'mouseover' | 'mouseenter' | 'mouseleave' | 'mouseout' | 'contextmenu';\n\n    /**\n     * The `Map` object that fired the event.\n     */\n    target: Map;\n\n    /**\n     * The DOM event which caused the map event.\n     */\n    originalEvent: MouseEvent;\n\n    /**\n     * The pixel coordinates of the mouse cursor, relative to the map and measured from the top left corner.\n     */\n    point: Point;\n\n    /**\n     * The geographic location on the map of the mouse cursor.\n     */\n    lngLat: LngLat;\n\n    /**\n     * Prevents subsequent default processing of the event by the map.\n     *\n     * Calling this method will prevent the following default map behaviors:\n     *\n     *   * On `mousedown` events, the behavior of {@link DragPanHandler}\n     *   * On `mousedown` events, the behavior of {@link DragRotateHandler}\n     *   * On `mousedown` events, the behavior of {@link BoxZoomHandler}\n     *   * On `dblclick` events, the behavior of {@link DoubleClickZoomHandler}\n     *\n     */\n    preventDefault() {\n        this._defaultPrevented = true;\n    }\n\n    /**\n     * `true` if `preventDefault` has been called.\n     * @private\n     */\n    get defaultPrevented(): boolean {\n        return this._defaultPrevented;\n    }\n\n    _defaultPrevented: boolean;\n\n    /**\n     * @private\n     */\n    constructor(type: string, map: Map, originalEvent: MouseEvent, data: any = {}) {\n        const point = DOM.mousePos(map.getCanvasContainer(), originalEvent);\n        const lngLat = map.unproject(point);\n        super(type, extend({point, lngLat, originalEvent}, data));\n        this._defaultPrevented = false;\n        this.target = map;\n    }\n}"
             },
@@ -68251,8 +67898,7 @@
                       "line": 97,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68328,8 +67974,7 @@
                       "line": 87,
                       "column": 30
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68405,8 +68050,7 @@
                       "line": 92,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68643,8 +68287,7 @@
                       "line": 112,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68724,8 +68367,7 @@
                       "line": 82,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -68961,8 +68603,7 @@
                       "line": 77,
                       "column": 144
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69100,8 +68741,7 @@
                 "line": 216,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+            }
           },
           "augments": [
             {
@@ -69187,7 +68827,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000009!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts:00000011!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts 00000205",
               "code": "{\n    /**\n     * The event type.\n     */\n    type: 'touchstart' | 'touchmove' | 'touchend' | 'touchcancel';\n\n    /**\n     * The `Map` object that fired the event.\n     */\n    target: Map;\n\n    /**\n     * The DOM event which caused the map event.\n     */\n    originalEvent: TouchEvent;\n\n    /**\n     * The geographic location on the map of the center of the touch event points.\n     */\n    lngLat: LngLat;\n\n    /**\n     * The pixel coordinates of the center of the touch event points, relative to the map and measured from the top left\n     * corner.\n     */\n    point: Point;\n\n    /**\n     * The array of pixel coordinates corresponding to a\n     * [touch event's `touches`](https://developer.mozilla.org/en-US/docs/Web/API/TouchEvent/touches) property.\n     */\n    points: Array<Point>;\n\n    /**\n     * The geographical locations on the map corresponding to a\n     * [touch event's `touches`](https://developer.mozilla.org/en-US/docs/Web/API/TouchEvent/touches) property.\n     */\n    lngLats: Array<LngLat>;\n\n    /**\n     * Prevents subsequent default processing of the event by the map.\n     *\n     * Calling this method will prevent the following default map behaviors:\n     *\n     *   * On `touchstart` events, the behavior of {@link DragPanHandler}\n     *   * On `touchstart` events, the behavior of {@link TouchZoomRotateHandler}\n     *\n     */\n    preventDefault() {\n        this._defaultPrevented = true;\n    }\n\n    /**\n     * `true` if `preventDefault` has been called.\n     * @private\n     */\n    get defaultPrevented(): boolean {\n        return this._defaultPrevented;\n    }\n\n    _defaultPrevented: boolean;\n\n    /**\n     * @private\n     */\n    constructor(type: string, map: Map, originalEvent: TouchEvent) {\n        const touches = type === 'touchend' ? originalEvent.changedTouches : originalEvent.touches;\n        const points = DOM.touchPos(map.getCanvasContainer(), touches);\n        const lngLats = points.map((t) => map.unproject(t));\n        const point = points.reduce((prev, curr, i, arr) => {\n            return prev.add(curr.div(arr.length));\n        }, new Point(0, 0));\n        const lngLat = map.unproject(point);\n        super(type, {points, point, lngLats, lngLat, originalEvent});\n        this._defaultPrevented = false;\n    }\n}"
             },
@@ -69252,8 +68892,7 @@
                       "line": 159,
                       "column": 19
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69348,8 +68987,7 @@
                       "line": 177,
                       "column": 27
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69434,8 +69072,7 @@
                       "line": 154,
                       "column": 30
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69511,8 +69148,7 @@
                       "line": 165,
                       "column": 17
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69607,8 +69243,7 @@
                       "line": 171,
                       "column": 25
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69782,8 +69417,7 @@
                       "line": 190,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69863,8 +69497,7 @@
                       "line": 149,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -69940,8 +69573,7 @@
                       "line": 144,
                       "column": 66
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -70105,8 +69737,7 @@
                 "line": 278,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -70497,8 +70128,7 @@
                 "line": 312,
                 "column": 2
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+            }
           },
           "augments": [],
           "examples": [
@@ -70906,8 +70536,7 @@
                 "line": 264,
                 "column": 1
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+            }
           },
           "augments": [
             {
@@ -70988,7 +70617,7 @@
                   "column": 5
                 }
               },
-              "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts",
+
               "sortKey": "!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/index.ts:00000009!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/marker.ts:00000011!/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts 00000260",
               "code": "{\n    /**\n     * The event type.\n     */\n    type: 'wheel';\n\n    /**\n     * The `Map` object that fired the event.\n     */\n    target: Map;\n\n    /**\n     * The DOM event which caused the map event.\n     */\n    originalEvent: WheelEvent;\n\n    /**\n     * Prevents subsequent default processing of the event by the map.\n     *\n     * Calling this method will prevent the the behavior of {@link ScrollZoomHandler}.\n     */\n    preventDefault() {\n        this._defaultPrevented = true;\n    }\n\n    /**\n     * `true` if `preventDefault` has been called.\n     * @private\n     */\n    get defaultPrevented(): boolean {\n        return this._defaultPrevented;\n    }\n\n    _defaultPrevented: boolean;\n\n    /**\n     * @private\n     */\n    constructor(type: string, map: Map, originalEvent: WheelEvent) {\n        super(type, {originalEvent});\n        this._defaultPrevented = false;\n    }\n}"
             },
@@ -71053,8 +70682,7 @@
                       "line": 236,
                       "column": 30
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -71155,8 +70783,7 @@
                       "line": 245,
                       "column": 5
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -71236,8 +70863,7 @@
                       "line": 231,
                       "column": 16
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -71313,8 +70939,7 @@
                       "line": 226,
                       "column": 18
                     }
-                  },
-                  "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+                  }
                 },
                 "augments": [],
                 "examples": [],
@@ -71448,8 +71073,7 @@
           "line": 119,
           "column": 1
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+      }
     },
     "augments": [
       {
@@ -71604,8 +71228,7 @@
                 "line": 110,
                 "column": 15
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -71681,8 +71304,7 @@
                 "line": 95,
                 "column": 19
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -71758,8 +71380,7 @@
                 "line": 100,
                 "column": 23
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -71835,8 +71456,7 @@
                 "line": 105,
                 "column": 16
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/util/ajax.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -71924,8 +71544,7 @@
           "line": 33,
           "column": 1
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style-spec/migrate/expressions.ts"
+      }
     },
     "augments": [],
     "examples": [],
@@ -72045,8 +71664,7 @@
           "line": 77,
           "column": 1
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/control/logo_control.ts"
+      }
     },
     "augments": [],
     "examples": [],
@@ -72180,8 +71798,7 @@
           "line": 389,
           "column": 2
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/ui/events.ts"
+      }
     },
     "augments": [],
     "examples": [],
@@ -73763,8 +73380,7 @@
           "line": 15,
           "column": 29
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/style-spec/expression/expression.ts"
+      }
     },
     "augments": [],
     "examples": [],
@@ -73901,8 +73517,7 @@
           "line": 252,
           "column": 1
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/vector_tile_source.ts"
+      }
     },
     "augments": [
       {
@@ -74101,8 +73716,7 @@
                 "line": 151,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/vector_tile_source.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -74257,8 +73871,7 @@
                 "line": 166,
                 "column": 5
               }
-            },
-            "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/source/vector_tile_source.ts"
+            }
           },
           "augments": [],
           "examples": [],
@@ -74444,8 +74057,7 @@
           "line": 213,
           "column": 33
         }
-      },
-      "file": "/Users/bogdan.simon/Work/MaplibreDocs/maplibre-gl-js/src/render/glyph_manager.ts"
+      }
     },
     "augments": [],
     "examples": [],
