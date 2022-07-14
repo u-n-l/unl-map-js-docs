@@ -13,33 +13,16 @@ import { withLocation } from "@mapbox/batfish/modules/with-location";
 import navigation from "@mapbox/batfish/data/navigation";
 import filters from "@mapbox/batfish/data/filters";
 import apiNavigation from "@mapbox/batfish/data/api-navigation";
-
-import { styleSpecNavigation } from "../data/style-spec-navigation";
-import plugins from "../data/plugins.json";
-
 import Search from "./api/search";
 import AppropriateImage from "./appropriate-image";
 import Browser from "@mapbox/dr-ui/browser";
 import redirectApiRef from "../util/api-ref-redirect";
 import classnames from "classnames";
-import { version as styleSpecVersion } from "../../maplibre-gl-js/src/style-spec/package.json";
 
-import slug from "slugg";
 import { UNL_MAP_JS_VERSION } from "./urls.js";
-
-const redirectStyleSpec = require("../util/style-spec-redirect");
 
 class PageShell extends React.Component {
   componentDidMount() {
-    // redirect hashes on /style-spec/
-    if (
-      this.props.location.pathname === "/maplibre-gl-js-docs/style-spec/" &&
-      this.props.location.hash
-    ) {
-      if (redirectStyleSpec(this.props.location))
-        window.location = redirectStyleSpec(this.props.location);
-    }
-
     // redirect hashes on /api/
     if (
       this.props.location.pathname === "/maplibre-gl-js-docs/api/" &&
@@ -49,6 +32,7 @@ class PageShell extends React.Component {
         window.location = redirectApiRef(this.props.location);
     }
   }
+
   renderCustomHeadings = () => {
     const { location, frontMatter } = this.props;
 
@@ -58,23 +42,7 @@ class PageShell extends React.Component {
         frontMatter.headings ||
         apiNavigation.filter((f) => f.path === location.pathname)[0].subnav
       );
-    else if (subSection === "/maplibre-gl-js-docs/style-spec/") {
-      return (
-        styleSpecNavigation.filter((f) => f.path === location.pathname)[0]
-          .subnav || frontMatter.headings
-      );
-    } else if (subSection === "/maplibre-gl-js-docs/plugins/") {
-      const headings = Object.keys(plugins).reduce((arr, key) => {
-        arr.push({
-          slug: slug(key),
-          text: key,
-          level: 2,
-        });
-        return arr;
-      }, []);
-
-      return headings || [];
-    } else {
+    else {
       return frontMatter.headings;
     }
   };
@@ -86,12 +54,11 @@ class PageShell extends React.Component {
   render() {
     const { location, children, frontMatter } = this.props;
     const meta = buildMeta(frontMatter, location.pathname, navigation);
-    const isStyleSpec = location.pathname.indexOf("/style-spec/") > -1;
 
     return (
       <ReactPageShell
         site={constants.SITE}
-        subsite={isStyleSpec ? "Style Specification" : undefined}
+        subsite={undefined}
         {...this.props}
         meta={meta}
         darkHeaderText={true}
@@ -108,7 +75,7 @@ class PageShell extends React.Component {
             ...(frontMatter.overviewHeader && {
               overviewHeader: {
                 ...frontMatter.overviewHeader,
-                version: isStyleSpec ? styleSpecVersion : UNL_MAP_JS_VERSION,
+                version: UNL_MAP_JS_VERSION,
                 ...(frontMatter.overviewHeader.image && {
                   image: (
                     <div className="overview-header-browser mb6">
@@ -130,16 +97,9 @@ class PageShell extends React.Component {
           navigation={navigation}
           filters={filters}
           AppropriateImage={AppropriateImage}
-          // use custom sidebar for API and Style Spec since this data needs to be generated
           customAside={this.renderCustomAside()}
         >
-          <div
-            className={classnames("", {
-              "style-spec-page": isStyleSpec,
-            })}
-          >
-            {children}
-          </div>
+          <div className={classnames("")}>{children}</div>
         </PageLayout>
       </ReactPageShell>
     );
