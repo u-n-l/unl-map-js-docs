@@ -4,10 +4,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/api</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/authentication</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/api</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/custom-controls</loc>
@@ -19,16 +22,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/examples</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/overview</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/plugins</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/plugins</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/api/events</loc>
@@ -52,7 +52,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/api/sources</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-3d-model</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/3d-buildings</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-a-marker</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/3d-extrusion-floorplan</loc>
@@ -61,19 +67,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-a-marker</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-3d-model</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image-animated</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image-generated</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image-missing-generated</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image-animated</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/add-image-stretchable</loc>
@@ -85,73 +85,70 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-images</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-camera-around-point</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-marker</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-point-along-line</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-marker</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-camera-around-point</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/animate-point-along-route</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/attribution-position</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/camera-animation</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/center-on-symbol</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/canvas-source</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/change-building-color-based-on-zoom-level</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/canvas-source</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/center-on-symbol</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/cluster-html</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/cluster</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/camera-animation</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/change-case-of-labels</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/custom-style-layer</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/cluster</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/disable-rotation</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/cluster-html</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/custom-marker-icons</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/check-for-support</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/color-switcher</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/custom-marker-icons</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/data-driven-lines</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/display-and-style-rich-text-labels</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/drag-a-marker</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/custom-style-layer</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/disable-scroll-zoom</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/drag-a-point</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/disable-rotation</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/drag-a-marker</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/fallback-image</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/featuresat</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/drag-a-point</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/fill-pattern</loc>
@@ -172,9 +169,6 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/fullscreen</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/geocoder</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/flyto-options</loc>
     </url>
     <url>
@@ -187,19 +181,19 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/geojson-markers</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/geojson-line</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/geojson-polygon</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/heatmap</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/hover-styles</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/geojson-line</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/heatmap-layer</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/hover-styles</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/interactive-false</loc>
@@ -208,16 +202,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/jump-to</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/language-switch</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/live-update-feature</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/line-gradient</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/line-across-180th-meridian</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/live-geojson</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/local-geojson</loc>
@@ -226,28 +217,19 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/local-geojson-experimental</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/local-ideographs</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/live-geojson</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/locate-user</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/live-update-feature</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/mapbox-gl-draw</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/mapbox-gl-rtl-text</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/map-tiles</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/marker-popup</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/locate-user</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/mapbox-gl-supported</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/marker-popup</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/measure</loc>
@@ -256,13 +238,16 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/mouse-position</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/navigation</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/multiple-geometries</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/navigation</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/polygon-popup-on-click</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/popup-on-click</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/popup</loc>
@@ -271,25 +256,19 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/offset-vanishing-point-with-padding</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/queryrenderedfeatures</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/popup-on-click</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/popup-on-hover</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/queryrenderedfeatures</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/render-world-copies</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/restrict-bounds</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/satellite-map</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/scroll-fly-to</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/restrict-bounds</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/set-perspective</loc>
@@ -298,16 +277,13 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/set-popup</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/third-party</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/simple-map</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/timeline-animation</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/third-party</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/variable-label-placement</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/toggle-interaction-handlers</loc>
@@ -319,28 +295,25 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/example/vector-source</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/visualize-population-density</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/video-on-a-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/wms</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/variable-label-placement</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/example/zoomto-linestring</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/example/check-for-support</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/visualize-population-density</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/glyphs</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/example/wms</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/expressions</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/light</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/glyphs</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/layers</loc>
@@ -349,18 +322,21 @@
         <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/other</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/root</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/light</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/sprite</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/root</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/sources</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/transition</loc>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/sprite</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/types</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/unl-map-js-docs/style-spec/transition</loc>
     </url>
 </urlset>
