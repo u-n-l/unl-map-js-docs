@@ -1,5 +1,5 @@
 {
-  "SITE": "UNL Map Js Docs",
+  "SITE": "UNL Map JS Docs",
   "BASEURL": "/unl-map-js-docs",
   "FORWARD_EVENT_WEBHOOK": {
     "staging": "https://evj5gwoa8j.execute-api.us-east-1.amazonaws.com/hookshot/webhook",
