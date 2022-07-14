@@ -4,7 +4,7 @@ description: Code examples for MapLibre GL JS.
 contentType: example
 layout: example
 hideFeedback: true
-navOrder: 5
+navOrder: 0
 language:
   - JavaScript
 hideCardLanguage: true # hides the language from card (repetitive)
