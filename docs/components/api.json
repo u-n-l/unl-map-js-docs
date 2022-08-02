@@ -754,7 +754,7 @@
             },
             {
               "title": "example",
-              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n center: [-122.420679, 37.772537],\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
+              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n center: [-122.420679, 37.772537], \n zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
               "lineNumber": 75
             },
             {
@@ -796,7 +796,7 @@
           ],
           "examples": [
             {
-              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n  center: [-122.420679, 37.772537],\n  zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});"
+              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n  apiKey: 'YOUR-UNL-API-KEY', \n  vpmId: 'YOUR-UNL-VPM-ID', \n  center: [-122.420679, 37.772537],\n  zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});"
             }
           ],
           "implements": [],
@@ -3511,15 +3511,8 @@
                           "value": "Adds a "
                         },
                         {
-                          "type": "link",
-                          "title": null,
-                          "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                          "children": [
-                            {
-                              "type": "text",
-                              "value": "MapLibre style layer"
-                            }
-                          ]
+                          "type": "text",
+                          "value": "new layer"
                         },
                         {
                           "type": "text",
@@ -3532,18 +3525,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "value": "A layer defines how data from a specified source will be styled. Read more about layer types\nand available paint and layout properties in the "
-                        },
-                        {
-                          "type": "link",
-                          "title": null,
-                          "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                          "children": [
-                            {
-                              "type": "text",
-                              "value": "MapLibre Style Specification"
-                            }
-                          ]
+                          "value": "A layer defines how data from a specified source will be styled."
                         },
                         {
                           "type": "text",
@@ -3556,7 +3538,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "The layer to add, conforming to either the MapLibre Style Specification's [layer definition](https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers) or, less commonly, the {@link CustomLayerInterface} specification.\nThe MapLibre Style Specification's layer definition is appropriate for most layers.",
+                    "description": "The layer to add.",
                     "lineNumber": 7,
                     "type": {
                       "type": "UnionType",
@@ -3585,7 +3567,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The type of layer (for example `fill` or `symbol`).\nA list of layer types is available in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#type).\n\n(This can also be `custom`. For more information, see {@link CustomLayerInterface}.)",
+                    "description": "The type of layer (for example `fill` or `symbol`)",
                     "lineNumber": 11,
                     "type": {
                       "type": "NameExpression",
@@ -3820,38 +3802,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The layer to add, conforming to either the MapLibre Style Specification's "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "layer definition"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " or, less commonly, the "
-                            },
-                            {
-                              "type": "link",
-                              "url": "CustomLayerInterface",
-                              "title": null,
-                              "jsdoc": true,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "CustomLayerInterface"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " specification.\nThe MapLibre Style Specification's layer definition is appropriate for most layers."
+                              "value": "The layer to add."
                             }
                           ]
                         }
@@ -3919,58 +3870,6 @@
                                 {
                                   "type": "inlineCode",
                                   "value": "symbol"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ").\nA list of layer types is available in the "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#type",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "MapLibre Style Specification"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "value": "."
-                                }
-                              ]
-                            },
-                            {
-                              "type": "paragraph",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "(This can also be "
-                                },
-                                {
-                                  "type": "inlineCode",
-                                  "value": "custom"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ". For more information, see "
-                                },
-                                {
-                                  "type": "link",
-                                  "url": "CustomLayerInterface",
-                                  "title": null,
-                                  "jsdoc": true,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "CustomLayerInterface"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ".)"
                                 }
                               ]
                             }

@@ -50,3 +50,6 @@ The last step is to give the service account contributor rights in order to allo
 ## Copy the api key and vpm id created above
 
 Now that a VPM, service account, and api are configured it is possible to initialise the Unl Map SDK, by copying the api key associated with the service account and the vpm id that your service account has access to.
+<br />
+<br />
+<br />

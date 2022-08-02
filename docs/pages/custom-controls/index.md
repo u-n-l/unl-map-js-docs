@@ -159,3 +159,7 @@ map.addControl(new UnlSdk.DraftShapesControl(), "bottom-right");
 Enabling the draft shapes control, will fetch and render all the shapes added in the VPM whose id is passed during the map initialisation. Additionally, by clicking on a shape, it can be moved, edited or deleted. New shapes can be created: polygon, circle or rectangles, via the three corresponding control buttons and they will get saved in the same VPM.
 
 ![Draft shapes creation & editing and delete](https://github.com/u-n-l/unl-map-js/blob/main/docs/gifs/draft_shapes.gif?raw=true)
+
+<br />
+<br />
+<br />
