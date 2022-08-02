@@ -143,7 +143,7 @@
             },
             {
               "title": "param",
-              "description": "The minimum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.",
+              "description": "The minimum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.",
               "lineNumber": 14,
               "type": {
                 "type": "OptionalType",
@@ -157,7 +157,7 @@
             },
             {
               "title": "param",
-              "description": "The maximum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.",
+              "description": "The maximum pitch of the map (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.",
               "lineNumber": 15,
               "type": {
                 "type": "OptionalType",
@@ -171,7 +171,7 @@
             },
             {
               "title": "param",
-              "description": "The map's MapLibre style. This must be an a JSON object conforming to\nthe schema described in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/), or a URL to\nsuch JSON.",
+              "description": "The map's style. This must be an a JSON object conforming to\nthe schema described in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/), or a URL to\nsuch JSON.",
               "lineNumber": 16,
               "type": {
                 "type": "OptionalType",
@@ -589,7 +589,7 @@
             },
             {
               "title": "param",
-              "description": "The initial pitch (tilt) of the map, measured in degrees away from the plane of the screen (0-85). If `pitch` is not specified in the constructor options, UNL Map JS will look for it in the map's style object. If it is not specified in the style, either, it will default to `0`. Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the UNL project.",
+              "description": "The initial pitch (tilt) of the map, measured in degrees away from the plane of the screen (0-85). If `pitch` is not specified in the constructor options, UNL Map JS will look for it in the map's style object. If it is not specified in the style, either, it will default to `0`. Values greater than 60 degrees are experimental and may result in rendering issues.",
               "lineNumber": 54,
               "type": {
                 "type": "OptionalType",
@@ -754,7 +754,7 @@
             },
             {
               "title": "example",
-              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n center: [-122.420679, 37.772537],\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
+              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n apiKey: 'YOUR-UNL-API-KEY', \n vpmId: 'YOUR-UNL-VPM-ID', \n center: [-122.420679, 37.772537], \n zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});",
               "lineNumber": 75
             },
             {
@@ -796,7 +796,7 @@
           ],
           "examples": [
             {
-              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n  center: [-122.420679, 37.772537],\n  zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});"
+              "description": "var map = new UnlSdk.Map({\n  container: 'map',\n  apiKey: 'YOUR-UNL-API-KEY', \n  vpmId: 'YOUR-UNL-VPM-ID', \n  center: [-122.420679, 37.772537],\n  zoom: 13,\n  style: style_object,\n  hash: true,\n  transformRequest: (url, resourceType)=> {\n    if(resourceType === 'Source' && url.startsWith('http://myHost')) {\n      return {\n       url: url.replace('http', 'https'),\n       headers: { 'my-custom-header': true},\n       credentials: 'include'  // Include cookies for cross-origin requests\n     }\n    }\n  }\n});"
             }
           ],
           "implements": [],
@@ -3511,15 +3511,8 @@
                           "value": "Adds a "
                         },
                         {
-                          "type": "link",
-                          "title": null,
-                          "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                          "children": [
-                            {
-                              "type": "text",
-                              "value": "MapLibre style layer"
-                            }
-                          ]
+                          "type": "text",
+                          "value": "new layer"
                         },
                         {
                           "type": "text",
@@ -3532,18 +3525,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "value": "A layer defines how data from a specified source will be styled. Read more about layer types\nand available paint and layout properties in the "
-                        },
-                        {
-                          "type": "link",
-                          "title": null,
-                          "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                          "children": [
-                            {
-                              "type": "text",
-                              "value": "MapLibre Style Specification"
-                            }
-                          ]
+                          "value": "A layer defines how data from a specified source will be styled."
                         },
                         {
                           "type": "text",
@@ -3556,7 +3538,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "The layer to add, conforming to either the MapLibre Style Specification's [layer definition](https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers) or, less commonly, the {@link CustomLayerInterface} specification.\nThe MapLibre Style Specification's layer definition is appropriate for most layers.",
+                    "description": "The layer to add.",
                     "lineNumber": 7,
                     "type": {
                       "type": "UnionType",
@@ -3585,7 +3567,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The type of layer (for example `fill` or `symbol`).\nA list of layer types is available in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#type).\n\n(This can also be `custom`. For more information, see {@link CustomLayerInterface}.)",
+                    "description": "The type of layer (for example `fill` or `symbol`)",
                     "lineNumber": 11,
                     "type": {
                       "type": "NameExpression",
@@ -3630,7 +3612,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "(optional) An expression specifying conditions on source features.\nOnly features that match the filter are displayed.\nThe MapLibre Style Specification includes more information on the limitations of the [`filter`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#filter) parameter\nand a complete list of available [expressions](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/).\nIf no filter is provided, all features in the source (or source layer for vector tilesets) will be displayed.",
+                    "description": "(optional) An expression specifying conditions on source features.\nOnly features that match the filter are displayed.\nIf no filter is provided, all features in the source (or source layer for vector tilesets) will be displayed.",
                     "lineNumber": 21,
                     "type": {
                       "type": "OptionalType",
@@ -3643,7 +3625,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "(optional) Paint properties for the layer.\nAvailable paint properties vary by `layer.type`.\nA full list of paint properties for each layer type is available in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/).\nIf no paint properties are specified, default values will be used.",
+                    "description": "(optional) Paint properties for the layer.\nAvailable paint properties vary by `layer.type`.\nIf no paint properties are specified, default values will be used.",
                     "lineNumber": 26,
                     "type": {
                       "type": "OptionalType",
@@ -3656,7 +3638,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "(optional) Layout properties for the layer.\nAvailable layout properties vary by `layer.type`.\nA full list of layout properties for each layer type is available in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/).\nIf no layout properties are specified, default values will be used.",
+                    "description": "(optional) Layout properties for the layer.\nAvailable layout properties vary by `layer.type`.\nIf no layout properties are specified, default values will be used.",
                     "lineNumber": 30,
                     "type": {
                       "type": "OptionalType",
@@ -3743,7 +3725,7 @@
                   },
                   {
                     "title": "example",
-                    "description": "// Add a circle layer with a vector source\nmap.addLayer({\n  id: 'points-of-interest',\n  source: {\n    type: 'vector',\n    url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n  },\n  'source-layer': 'poi_label',\n  type: 'circle',\n  paint: {\n    // MapLibre Style Specification paint properties\n  },\n  layout: {\n    // MapLibre Style Specification layout properties\n  }\n});",
+                    "description": "// Add a circle layer with a vector source\nmap.addLayer({\n  id: 'points-of-interest',\n  source: {\n    type: 'vector',\n    url: <YOUR-TILES-URL>\n  },\n  'source-layer': 'poi_label',\n  type: 'circle',\n  paint: {\n    // Paint properties\n  },\n  layout: {\n    // Layout properties\n  }\n});",
                     "lineNumber": 52
                   },
                   {
@@ -3797,7 +3779,7 @@
                 "augments": [],
                 "examples": [
                   {
-                    "description": "// Add a circle layer with a vector source\nmap.addLayer({\n  id: 'points-of-interest',\n  source: {\n    type: 'vector',\n    url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n  },\n  'source-layer': 'poi_label',\n  type: 'circle',\n  paint: {\n    // MapLibre Style Specification paint properties\n  },\n  layout: {\n    // MapLibre Style Specification layout properties\n  }\n});"
+                    "description": "// Add a circle layer with a vector source\nmap.addLayer({\n  id: 'points-of-interest',\n  source: {\n    type: 'vector',\n    url: <YOUR-TILES-URL>\n  },\n  'source-layer': 'poi_label',\n  type: 'circle',\n  paint: {\n    // Paint properties\n  },\n  layout: {\n    // Layout properties\n  }\n});"
                   },
                   {
                     "description": "// Define a source before using it to create a new layer\nmap.addSource('state-data', {\n  type: 'geojson',\n  data: 'path/to/data.geojson'\n});\n\nmap.addLayer({\n  id: 'states',\n  // References the GeoJSON source defined above\n  // and does not require a `source-layer`\n  source: 'state-data',\n  type: 'symbol',\n  layout: {\n    // Set the label content to the\n    // feature's `name` property\n    text-field: ['get', 'name']\n  }\n});"
@@ -3820,38 +3802,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The layer to add, conforming to either the MapLibre Style Specification's "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#layers",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "layer definition"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " or, less commonly, the "
-                            },
-                            {
-                              "type": "link",
-                              "url": "CustomLayerInterface",
-                              "title": null,
-                              "jsdoc": true,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "CustomLayerInterface"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " specification.\nThe MapLibre Style Specification's layer definition is appropriate for most layers."
+                              "value": "The layer to add."
                             }
                           ]
                         }
@@ -3919,58 +3870,6 @@
                                 {
                                   "type": "inlineCode",
                                   "value": "symbol"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ").\nA list of layer types is available in the "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#type",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "MapLibre Style Specification"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "value": "."
-                                }
-                              ]
-                            },
-                            {
-                              "type": "paragraph",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "(This can also be "
-                                },
-                                {
-                                  "type": "inlineCode",
-                                  "value": "custom"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ". For more information, see "
-                                },
-                                {
-                                  "type": "link",
-                                  "url": "CustomLayerInterface",
-                                  "title": null,
-                                  "jsdoc": true,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "CustomLayerInterface"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ".)"
                                 }
                               ]
                             }
@@ -4019,22 +3918,12 @@
                                 },
                                 {
                                   "type": "text",
-                                  "value": " using a source object (as defined in the "
+                                  "value": " using a source object "
                                 },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "MapLibre Style Specification"
-                                    }
-                                  ]
-                                },
+
                                 {
                                   "type": "text",
-                                  "value": ") directly.\nThis is "
+                                  "value": "directly.\nThis is "
                                 },
                                 {
                                   "type": "strong",
@@ -4174,37 +4063,11 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "value": "(optional) An expression specifying conditions on source features.\nOnly features that match the filter are displayed.\nThe MapLibre Style Specification includes more information on the limitations of the "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#filter",
-                                  "children": [
-                                    {
-                                      "type": "inlineCode",
-                                      "value": "filter"
-                                    }
-                                  ]
+                                  "value": "(optional) An expression specifying conditions on source features.\nOnly features that match the filter are displayed.\n"
                                 },
                                 {
                                   "type": "text",
-                                  "value": " parameter\nand a complete list of available "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "expressions"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ".\nIf no filter is provided, all features in the source (or source layer for vector tilesets) will be displayed."
+                                  "value": "\nIf no filter is provided, all features in the source (or source layer for vector tilesets) will be displayed."
                                 }
                               ]
                             }
@@ -4235,21 +4098,6 @@
                                 {
                                   "type": "inlineCode",
                                   "value": "layer.type"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ".\nA full list of paint properties for each layer type is available in the "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "MapLibre Style Specification"
-                                    }
-                                  ]
                                 },
                                 {
                                   "type": "text",
@@ -4284,21 +4132,6 @@
                                 {
                                   "type": "inlineCode",
                                   "value": "layer.type"
-                                },
-                                {
-                                  "type": "text",
-                                  "value": ".\nA full list of layout properties for each layer type is available in the "
-                                },
-                                {
-                                  "type": "link",
-                                  "title": null,
-                                  "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "value": "MapLibre Style Specification"
-                                    }
-                                  ]
                                 },
                                 {
                                   "type": "text",
@@ -4658,7 +4491,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The source object, conforming to the\nMapLibre Style Specification's [source definition](https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources) or\n{@link CanvasSourceOptions}.",
+                    "description": "The source object.",
                     "lineNumber": 4,
                     "type": {
                       "type": "NameExpression",
@@ -4682,7 +4515,7 @@
                   },
                   {
                     "title": "example",
-                    "description": "map.addSource('my-data', {\n  type: 'vector',\n  url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n});",
+                    "description": "map.addSource('my-data', {\n  type: 'vector',\n  url: <YOUR-TILES-URL>'\n});",
                     "lineNumber": 9
                   },
                   {
@@ -4721,7 +4554,7 @@
                 "augments": [],
                 "examples": [
                   {
-                    "description": "map.addSource('my-data', {\n  type: 'vector',\n  url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n});"
+                    "description": "map.addSource('my-data', {\n  type: 'vector',\n  url: <YOUR-TILES-URL>\n});"
                   },
                   {
                     "description": "map.addSource('my-data', {\n  \"type\": \"geojson\",\n  \"data\": {\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"Point\",\n      \"coordinates\": [-77.0323, 38.9131]\n    },\n    \"properties\": {\n      \"title\": \"Mapbox DC\",\n      \"marker-symbol\": \"monument\"\n    }\n  }\n});"
@@ -4764,38 +4597,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The source object, conforming to the\nMapLibre Style Specification's "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "source definition"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " or\n"
-                            },
-                            {
-                              "type": "link",
-                              "url": "CanvasSourceOptions",
-                              "title": null,
-                              "jsdoc": true,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "CanvasSourceOptions"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": "."
+                              "value": "The source object."
                             }
                           ]
                         }
@@ -11294,7 +11096,7 @@
                   },
                   {
                     "title": "returns",
-                    "description": "The style source with the specified ID or `undefined` if the ID\ncorresponds to no existing sources.\nThe shape of the object varies by source type.\nA list of options for each source type is available on the MapLibre Style Specification's\n[Sources](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/) page.",
+                    "description": "The style source with the specified ID or `undefined` if the ID\ncorresponds to no existing sources.\nThe shape of the object varies by source type.\n",
                     "lineNumber": 9,
                     "type": {
                       "type": "UnionType",
@@ -11403,22 +11205,7 @@
                             },
                             {
                               "type": "text",
-                              "value": " if the ID\ncorresponds to no existing sources.\nThe shape of the object varies by source type.\nA list of options for each source type is available on the MapLibre Style Specification's\n"
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "Sources"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": " page."
+                              "value": " if the ID\ncorresponds to no existing sources.\nThe shape of the object varies by source type.\n"
                             }
                           ]
                         }
@@ -11549,7 +11336,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "value": "Returns the map's MapLibre style object, a JSON object which can be used to recreate the map's style."
+                          "value": "Returns the map's style object, a JSON object which can be used to recreate the map's style."
                         }
                       ]
                     }
@@ -14340,7 +14127,7 @@
                   },
                   {
                     "title": "example",
-                    "description": "// Set an event listener that will fire\n// when the map has finished loading\nmap.on('load', function() {\n  // Once the map has finished loading,\n  // add a new layer\n  map.addLayer({\n    id: 'points-of-interest',\n    source: {\n      type: 'vector',\n      url: 'https://u-n-l.github.io/unl-map-js-docs/style-spec/'\n    },\n    'source-layer': 'poi_label',\n    type: 'circle',\n    paint: {\n      // MapLibre Style Specification paint properties\n    },\n    layout: {\n      // MapLibre Style Specification layout properties\n    }\n  });\n});",
+                    "description": "// Set an event listener that will fire\n// when the map has finished loading\nmap.on('load', function() {\n  // Once the map has finished loading,\n  // add a new layer\n  map.addLayer({\n    id: 'points-of-interest',\n    source: {\n      type: 'vector',\n      url: 'https://u-n-l.github.io/unl-map-js-docs/style-spec/'\n    },\n    'source-layer': 'poi_label',\n    type: 'circle',\n    paint: {\n      // Paint properties\n    },\n    layout: {\n      // Layout properties\n    }\n  });\n});",
                     "lineNumber": 65
                   },
                   {
@@ -14394,7 +14181,7 @@
                 "augments": [],
                 "examples": [
                   {
-                    "description": "// Set an event listener that will fire\n// when the map has finished loading\nmap.on('load', function() {\n  // Once the map has finished loading,\n  // add a new layer\n  map.addLayer({\n    id: 'points-of-interest',\n    source: {\n      type: 'vector',\n      url: 'https://u-n-l.github.io/unl-map-js-docs/style-spec/'\n    },\n    'source-layer': 'poi_label',\n    type: 'circle',\n    paint: {\n      // MapLibre Style Specification paint properties\n    },\n    layout: {\n      // MapLibre Style Specification layout properties\n    }\n  });\n});"
+                    "description": "// Set an event listener that will fire\n// when the map has finished loading\nmap.on('load', function() {\n  // Once the map has finished loading,\n  // add a new layer\n  map.addLayer({\n    id: 'points-of-interest',\n    source: {\n      type: 'vector',\n      url: 'https://u-n-l.github.io/unl-map-js-docs/style-spec/'\n    },\n    'source-layer': 'poi_label',\n    type: 'circle',\n    paint: {\n      // Paint properties\n    },\n    layout: {\n      // Layout properties\n    }\n  });\n});"
                   },
                   {
                     "description": "// Set an event listener that will fire\n// when a feature on the countries layer of the map is clicked\nmap.on('click', 'countries', function(e) {\n  new UnlSdk.Popup()\n    .setLngLat(e.lngLat)\n    .setHTML(`Country name: ${e.features[0].properties.name}`)\n    .addTo(map);\n});"
@@ -21584,7 +21371,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The filter, conforming to the MapLibre Style Specification's\n  [filter definition](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#filter).  If `null` or `undefined` is provided, the function removes any existing filter from the layer.",
+                    "description": "The filter to be applied. If `null` or `undefined` is provided, the function removes any existing filter from the layer.",
                     "lineNumber": 12,
                     "type": {
                       "type": "UnionType",
@@ -21731,22 +21518,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The filter, conforming to the MapLibre Style Specification's\n"
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#filter",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "filter definition"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": ".  If "
+                              "value": "The filter to be applied. If \n"
                             },
                             {
                               "type": "inlineCode",
@@ -22218,7 +21990,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The value of the layout property. Must be of a type appropriate for the property, as defined in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/).",
+                    "description": "The value of the layout property. Must be of a type appropriate for the property.",
                     "lineNumber": 5,
                     "type": {
                       "type": "AllLiteral"
@@ -22355,22 +22127,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The value of the layout property. Must be of a type appropriate for the property, as defined in the "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "MapLibre Style Specification"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": "."
+                              "value": "The value of the layout property. Must be of a type appropriate for the property."
                             }
                           ]
                         }
@@ -22512,7 +22269,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "Light properties to set. Must conform to the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/#light).",
+                    "description": "Light properties to set.",
                     "lineNumber": 3,
                     "type": null,
                     "name": "light"
@@ -22601,22 +22358,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "Light properties to set. Must conform to the "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#light",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "MapLibre Style Specification"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": "."
+                              "value": "Light properties to set."
                             }
                           ]
                         }
@@ -22945,7 +22687,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "The maximum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.\n  If `null` or `undefined` is provided, the function removes the current maximum pitch (sets it to 60).",
+                    "description": "The maximum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.\n  If `null` or `undefined` is provided, the function removes the current maximum pitch (sets it to 60).",
                     "lineNumber": 5,
                     "type": {
                       "type": "UnionType",
@@ -23012,7 +22754,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The maximum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.\nIf "
+                              "value": "The maximum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.\nIf "
                             },
                             {
                               "type": "inlineCode",
@@ -23306,7 +23048,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "The minimum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.\n  If `null` or `undefined` is provided, the function removes the current minimum pitch (i.e. sets it to 0).",
+                    "description": "The minimum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.\n  If `null` or `undefined` is provided, the function removes the current minimum pitch (i.e. sets it to 0).",
                     "lineNumber": 5,
                     "type": {
                       "type": "UnionType",
@@ -23373,7 +23115,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The minimum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues. If you encounter any, please raise an issue with details in the MapLibre project.\nIf "
+                              "value": "The minimum pitch to set (0-85). Values greater than 60 degrees are experimental and may result in rendering issues.\nIf "
                             },
                             {
                               "type": "inlineCode",
@@ -23920,7 +23662,7 @@
                   },
                   {
                     "title": "param",
-                    "description": "The value of the paint property to set.\n  Must be of a type appropriate for the property, as defined in the [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/).",
+                    "description": "The value of the paint property to set.\n  Must be of a type appropriate for the property.",
                     "lineNumber": 5,
                     "type": {
                       "type": "AllLiteral"
@@ -24067,22 +23809,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "The value of the paint property to set.\nMust be of a type appropriate for the property, as defined in the "
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "MapLibre Style Specification"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": "."
+                              "value": "The value of the paint property to set.\nMust be of a type appropriate for the property."
                             }
                           ]
                         }
@@ -24902,7 +24629,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "value": "Updates the map's MapLibre style object with a new value."
+                          "value": "Updates the map's style object with a new value."
                         }
                       ]
                     },
@@ -24933,7 +24660,7 @@
                 "tags": [
                   {
                     "title": "param",
-                    "description": "A JSON object conforming to the schema described in the\n  [MapLibre Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/), or a URL to such JSON.",
+                    "description": "A JSON object conforming to the schema, or a URL to such JSON.",
                     "lineNumber": 10,
                     "type": null,
                     "name": "style"
@@ -24987,11 +24714,6 @@
                       "type": "NameExpression",
                       "name": "Map"
                     }
-                  },
-                  {
-                    "title": "example",
-                    "description": "map.setStyle(\"https://demotiles.maplibre.org/style.json\");",
-                    "lineNumber": 22
                   }
                 ],
                 "loc": {
@@ -25017,11 +24739,6 @@
                   }
                 },
                 "augments": [],
-                "examples": [
-                  {
-                    "description": "map.setStyle(\"https://demotiles.maplibre.org/style.json\");"
-                  }
-                ],
                 "implements": [],
                 "params": [
                   {
@@ -25036,22 +24753,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "value": "A JSON object conforming to the schema described in the\n"
-                            },
-                            {
-                              "type": "link",
-                              "title": null,
-                              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "value": "MapLibre Style Specification"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "value": ", or a URL to such JSON."
+                              "value": "A JSON object conforming to the schema described in the schema, or a URL to such JSON.\n"
                             }
                           ]
                         }
@@ -36243,7 +35945,7 @@
             },
             {
               "title": "param",
-              "description": "URL pointing to the Mapbox RTL text plugin source.",
+              "description": "URL pointing to the  RTL text plugin source.",
               "lineNumber": 5,
               "type": {
                 "type": "NameExpression",
@@ -36263,18 +35965,13 @@
             },
             {
               "title": "param",
-              "description": "If set to `true`, mapboxgl will defer loading the plugin until rtl text is encountered,\n   rtl text will then be rendered only after the plugin finishes loading.",
+              "description": "If set to `true`, map will defer loading the plugin until rtl text is encountered,\n   rtl text will then be rendered only after the plugin finishes loading.",
               "lineNumber": 7,
               "type": {
                 "type": "NameExpression",
                 "name": "boolean"
               },
               "name": "lazy"
-            },
-            {
-              "title": "example",
-              "description": "UnlSdk.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');",
-              "lineNumber": 9
             },
             {
               "title": "see",
@@ -36305,11 +36002,6 @@
             }
           },
           "augments": [],
-          "examples": [
-            {
-              "description": "UnlSdk.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');"
-            }
-          ],
           "implements": [],
           "params": [
             {
@@ -36324,7 +36016,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "URL pointing to the Mapbox RTL text plugin source."
+                        "value": "URL pointing to the map RTL text plugin source."
                       }
                     ]
                   }
@@ -36378,7 +36070,7 @@
                       },
                       {
                         "type": "text",
-                        "value": ", mapboxgl will defer loading the plugin until rtl text is encountered,\nrtl text will then be rendered only after the plugin finishes loading."
+                        "value": ", map will defer loading the plugin until rtl text is encountered,\nrtl text will then be rendered only after the plugin finishes loading."
                       }
                     ]
                   }
@@ -36583,7 +36275,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Clears browser storage used by this library. Using this method flushes the MapLibre tile\ncache that is managed by this library. Tiles may still be cached by the browser\nin some cases."
+                    "value": "Clears browser storage used by this library. Using this method flushes the Unl Map Js tile\ncache that is managed by this library. Tiles may still be cached by the browser\nin some cases."
                   }
                 ]
               },
@@ -36778,7 +36470,7 @@
             },
             {
               "title": "example",
-              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nmaplibre.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nmaplibre.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});",
+              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nUnlSdk.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nUnlSdk.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});",
               "lineNumber": 9
             }
           ],
@@ -36807,7 +36499,7 @@
           "augments": [],
           "examples": [
             {
-              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nmaplibre.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nmaplibre.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});"
+              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nUnlSdk.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nUnlSdk.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});"
             }
           ],
           "implements": [],
@@ -37442,7 +37134,7 @@
             },
             {
               "title": "example",
-              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});",
+              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});",
               "lineNumber": 16
             },
             {
@@ -37491,7 +37183,7 @@
           "augments": [],
           "examples": [
             {
-              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});"
+              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});"
             }
           ],
           "implements": [],
@@ -48902,15 +48594,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " element. To use UNL Map JS's\ndefault control styling, add the "
-                  },
-                  {
-                    "type": "inlineCode",
-                    "value": "maplibregl-ctrl"
-                  },
-                  {
-                    "type": "text",
-                    "value": " class to your control's\nnode."
+                    "value": " element."
                   }
                 ]
               }
@@ -48921,11 +48605,6 @@
               "title": "interface",
               "description": "IControl",
               "lineNumber": 10
-            },
-            {
-              "title": "example",
-              "description": "// Control implemented as ES6 class\nclass HelloWorldControl {\n    onAdd(map) {\n        this._map = map;\n        this._container = document.createElement('div');\n        this._container.className = 'maplibregl-ctrl';\n        this._container.textContent = 'Hello, world';\n        return this._container;\n    }\n\n    onRemove() {\n        this._container.parentNode.removeChild(this._container);\n        this._map = undefined;\n    }\n}\n\n// Control implemented as ES5 prototypical class\nfunction HelloWorldControl() { }\n\nHelloWorldControl.prototype.onAdd = function(map) {\n    this._map = map;\n    this._container = document.createElement('div');\n    this._container.className = 'maplibregl-ctrl';\n    this._container.textContent = 'Hello, world';\n    return this._container;\n};\n\nHelloWorldControl.prototype.onRemove = function () {\n     this._container.parentNode.removeChild(this._container);\n     this._map = undefined;\n};",
-              "lineNumber": 11
             }
           ],
           "loc": {
@@ -48951,11 +48630,7 @@
             }
           },
           "augments": [],
-          "examples": [
-            {
-              "description": "// Control implemented as ES6 class\nclass HelloWorldControl {\n    onAdd(map) {\n        this._map = map;\n        this._container = document.createElement('div');\n        this._container.className = 'maplibregl-ctrl';\n        this._container.textContent = 'Hello, world';\n        return this._container;\n    }\n\n    onRemove() {\n        this._container.parentNode.removeChild(this._container);\n        this._map = undefined;\n    }\n}\n\n// Control implemented as ES5 prototypical class\nfunction HelloWorldControl() { }\n\nHelloWorldControl.prototype.onAdd = function(map) {\n    this._map = map;\n    this._container = document.createElement('div');\n    this._container.className = 'maplibregl-ctrl';\n    this._container.textContent = 'Hello, world';\n    return this._container;\n};\n\nHelloWorldControl.prototype.onRemove = function () {\n     this._container.parentNode.removeChild(this._container);\n     this._map = undefined;\n};"
-            }
-          ],
+
           "implements": [],
           "params": [],
           "properties": [],
@@ -53432,7 +53107,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Note that any Mapbox GL method that accepts a "
+                    "value": "Note that any UNL Map Js method that accepts a "
                   },
                   {
                     "type": "inlineCode",
@@ -63185,22 +62860,7 @@
           "children": [
             {
               "type": "text",
-              "value": "The source types UNL Map JS can handle in addition to the ones described in the "
-            },
-            {
-              "type": "link",
-              "title": null,
-              "url": "/maplibre-gl-js-docs/style-spec/",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "MapLibre Style Specification"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "value": "."
+              "value": "The source types UNL Map JS can handle."
             }
           ]
         }
@@ -63235,22 +62895,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A source containing GeoJSON.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-geojson",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A source containing GeoJSON.\n"
                   }
                 ]
               }
@@ -64366,22 +64011,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A data source containing video.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-video",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A data source containing video.\n"
                   }
                 ]
               }
@@ -64390,7 +64020,7 @@
           "tags": [
             {
               "title": "example",
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: [\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.mp4',\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.webm'\n   ],\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove",
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: <YOUR-VIDEO-SOURCE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove",
               "lineNumber": 4
             },
             {
@@ -64429,7 +64059,7 @@
           ],
           "examples": [
             {
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: [\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.mp4',\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.webm'\n   ],\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove"
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: <YOUR-VIDEO-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove"
             }
           ],
           "implements": [],
@@ -64960,22 +64590,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A data source containing an image.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-image",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A data source containing an image.\n"
                   }
                 ]
               }
@@ -64984,7 +64599,7 @@
           "tags": [
             {
               "title": "example",
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.maplibre.org/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove",
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove",
               "lineNumber": 4
             }
           ],
@@ -65018,7 +64633,7 @@
           ],
           "examples": [
             {
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.maplibre.org/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove"
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove"
             }
           ],
           "implements": [
@@ -72689,28 +72304,9 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Mapbox Vector Tile format"
+                  "value": "Mapbox Vector Tile format."
                 }
               ]
-            },
-            {
-              "type": "text",
-              "value": ".\n(See the "
-            },
-            {
-              "type": "link",
-              "title": null,
-              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "Style Specification"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "value": " for detailed documentation of options.)"
             }
           ]
         }
@@ -72719,7 +72315,7 @@
     "tags": [
       {
         "title": "example",
-        "description": "map.addSource('some id', {\n    type: 'vector',\n    url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n});",
+        "description": "map.addSource('some id', {\n    type: 'vector',\n    url: <YOUR-TILES-URL>\n});",
         "lineNumber": 4
       },
       {
@@ -72729,7 +72325,7 @@
       },
       {
         "title": "example",
-        "description": "map.getSource('some id').setUrl(\"https://demotiles.maplibre.org/tiles/tiles.json\");",
+        "description": "map.getSource('some id').setUrl(<YOUR-TILES-URL>);",
         "lineNumber": 18
       },
       {
@@ -72778,13 +72374,13 @@
     ],
     "examples": [
       {
-        "description": "map.addSource('some id', {\n    type: 'vector',\n    url: 'https://demotiles.maplibre.org/tiles/tiles.json'\n});"
+        "description": "map.addSource('some id', {\n    type: 'vector',\n    url: <YOUR-TILES-URL>\n});"
       },
       {
         "description": "map.addSource('some id', {\n    type: 'vector',\n    tiles: ['https://d25uarhxywzl1j.cloudfront.net/v0.1/{z}/{x}/{y}.mvt'],\n    minzoom: 6,\n    maxzoom: 14\n});"
       },
       {
-        "description": "map.getSource('some id').setUrl(\"https://demotiles.maplibre.org/tiles/tiles.json\");"
+        "description": "map.getSource('some id').setUrl(<YOUR-TILES-URL>);"
       },
       {
         "description": "map.getSource('some id').setTiles(['https://d25uarhxywzl1j.cloudfront.net/v0.1/{z}/{x}/{y}.mvt']);"
