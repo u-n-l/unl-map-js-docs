@@ -35945,7 +35945,7 @@
             },
             {
               "title": "param",
-              "description": "URL pointing to the Mapbox RTL text plugin source.",
+              "description": "URL pointing to the  RTL text plugin source.",
               "lineNumber": 5,
               "type": {
                 "type": "NameExpression",
@@ -35965,18 +35965,13 @@
             },
             {
               "title": "param",
-              "description": "If set to `true`, mapboxgl will defer loading the plugin until rtl text is encountered,\n   rtl text will then be rendered only after the plugin finishes loading.",
+              "description": "If set to `true`, map will defer loading the plugin until rtl text is encountered,\n   rtl text will then be rendered only after the plugin finishes loading.",
               "lineNumber": 7,
               "type": {
                 "type": "NameExpression",
                 "name": "boolean"
               },
               "name": "lazy"
-            },
-            {
-              "title": "example",
-              "description": "UnlSdk.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');",
-              "lineNumber": 9
             },
             {
               "title": "see",
@@ -36007,11 +36002,6 @@
             }
           },
           "augments": [],
-          "examples": [
-            {
-              "description": "UnlSdk.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');"
-            }
-          ],
           "implements": [],
           "params": [
             {
@@ -36026,7 +36016,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "URL pointing to the Mapbox RTL text plugin source."
+                        "value": "URL pointing to the map RTL text plugin source."
                       }
                     ]
                   }
@@ -36080,7 +36070,7 @@
                       },
                       {
                         "type": "text",
-                        "value": ", mapboxgl will defer loading the plugin until rtl text is encountered,\nrtl text will then be rendered only after the plugin finishes loading."
+                        "value": ", map will defer loading the plugin until rtl text is encountered,\nrtl text will then be rendered only after the plugin finishes loading."
                       }
                     ]
                   }
@@ -36285,7 +36275,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Clears browser storage used by this library. Using this method flushes the MapLibre tile\ncache that is managed by this library. Tiles may still be cached by the browser\nin some cases."
+                    "value": "Clears browser storage used by this library. Using this method flushes the Unl Map Js tile\ncache that is managed by this library. Tiles may still be cached by the browser\nin some cases."
                   }
                 ]
               },
@@ -36480,7 +36470,7 @@
             },
             {
               "title": "example",
-              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nmaplibre.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nmaplibre.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});",
+              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nUnlSdk.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nUnlSdk.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});",
               "lineNumber": 9
             }
           ],
@@ -36509,7 +36499,7 @@
           "augments": [],
           "examples": [
             {
-              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nmaplibre.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nmaplibre.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});"
+              "description": "// this will fetch a file using the fetch API (this is obviously a non iteresting example...)\nUnlSdk.addProtocol('custom', (params, callback) => {\nfetch(`https://${params.url.split(\"://\")[1]}`)\n.then(t => {\nif (t.status == 200) {\nt.arrayBuffer().then(arr => {\ncallback(null, arr, null, null);\n});\n} else {\ncallback(new Error(`Tile fetch error: ${t.statusText}`));\n}\n})\n.catch(e => {\ncallback(new Error(e));\n});\nreturn { cancel: () => { } };\n});\n// the following is an example of a way to return an error when trying to load a tile\nUnlSdk.addProtocol('custom2', (params, callback) => {\n     callback(new Error('someErrorMessage'));\n     return { cancel: () => { } };\n});"
             }
           ],
           "implements": [],
@@ -37144,7 +37134,7 @@
             },
             {
               "title": "example",
-              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});",
+              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});",
               "lineNumber": 16
             },
             {
@@ -37193,7 +37183,7 @@
           "augments": [],
           "examples": [
             {
-              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});"
+              "description": "// set the map's initial perspective with CameraOptions\nvar map = new UnlSdk.Map({\n  container: 'map',\n center: [-73.5804, 45.53483],\n  pitch: 60,\n  bearing: -60,\n  zoom: 10\n});"
             }
           ],
           "implements": [],
@@ -48604,15 +48594,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " element. To use UNL Map JS's\ndefault control styling, add the "
-                  },
-                  {
-                    "type": "inlineCode",
-                    "value": "maplibregl-ctrl"
-                  },
-                  {
-                    "type": "text",
-                    "value": " class to your control's\nnode."
+                    "value": " element."
                   }
                 ]
               }
@@ -48623,11 +48605,6 @@
               "title": "interface",
               "description": "IControl",
               "lineNumber": 10
-            },
-            {
-              "title": "example",
-              "description": "// Control implemented as ES6 class\nclass HelloWorldControl {\n    onAdd(map) {\n        this._map = map;\n        this._container = document.createElement('div');\n        this._container.className = 'maplibregl-ctrl';\n        this._container.textContent = 'Hello, world';\n        return this._container;\n    }\n\n    onRemove() {\n        this._container.parentNode.removeChild(this._container);\n        this._map = undefined;\n    }\n}\n\n// Control implemented as ES5 prototypical class\nfunction HelloWorldControl() { }\n\nHelloWorldControl.prototype.onAdd = function(map) {\n    this._map = map;\n    this._container = document.createElement('div');\n    this._container.className = 'maplibregl-ctrl';\n    this._container.textContent = 'Hello, world';\n    return this._container;\n};\n\nHelloWorldControl.prototype.onRemove = function () {\n     this._container.parentNode.removeChild(this._container);\n     this._map = undefined;\n};",
-              "lineNumber": 11
             }
           ],
           "loc": {
@@ -48653,11 +48630,7 @@
             }
           },
           "augments": [],
-          "examples": [
-            {
-              "description": "// Control implemented as ES6 class\nclass HelloWorldControl {\n    onAdd(map) {\n        this._map = map;\n        this._container = document.createElement('div');\n        this._container.className = 'maplibregl-ctrl';\n        this._container.textContent = 'Hello, world';\n        return this._container;\n    }\n\n    onRemove() {\n        this._container.parentNode.removeChild(this._container);\n        this._map = undefined;\n    }\n}\n\n// Control implemented as ES5 prototypical class\nfunction HelloWorldControl() { }\n\nHelloWorldControl.prototype.onAdd = function(map) {\n    this._map = map;\n    this._container = document.createElement('div');\n    this._container.className = 'maplibregl-ctrl';\n    this._container.textContent = 'Hello, world';\n    return this._container;\n};\n\nHelloWorldControl.prototype.onRemove = function () {\n     this._container.parentNode.removeChild(this._container);\n     this._map = undefined;\n};"
-            }
-          ],
+
           "implements": [],
           "params": [],
           "properties": [],
@@ -53134,7 +53107,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Note that any Mapbox GL method that accepts a "
+                    "value": "Note that any UNL Map Js method that accepts a "
                   },
                   {
                     "type": "inlineCode",
@@ -62887,22 +62860,7 @@
           "children": [
             {
               "type": "text",
-              "value": "The source types UNL Map JS can handle in addition to the ones described in the "
-            },
-            {
-              "type": "link",
-              "title": null,
-              "url": "/maplibre-gl-js-docs/style-spec/",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "MapLibre Style Specification"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "value": "."
+              "value": "The source types UNL Map JS can handle."
             }
           ]
         }
@@ -62937,22 +62895,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A source containing GeoJSON.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-geojson",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A source containing GeoJSON.\n"
                   }
                 ]
               }
@@ -64068,22 +64011,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A data source containing video.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-video",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A data source containing video.\n"
                   }
                 ]
               }
@@ -64092,7 +64020,7 @@
           "tags": [
             {
               "title": "example",
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: [\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.mp4',\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.webm'\n   ],\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove",
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: <YOUR-VIDEO-SOURCE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove",
               "lineNumber": 4
             },
             {
@@ -64131,7 +64059,7 @@
           ],
           "examples": [
             {
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: [\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.mp4',\n       'https://www.mapbox.com/blog/assets/baltimore-smoke.webm'\n   ],\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove"
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'video',\n   url: <YOUR-VIDEO-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\nmap.removeSource('some id');  // remove"
             }
           ],
           "implements": [],
@@ -64662,22 +64590,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "A data source containing an image.\n(See the "
-                  },
-                  {
-                    "type": "link",
-                    "title": null,
-                    "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-image",
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Style Specification"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " for detailed documentation of options.)"
+                    "value": "A data source containing an image.\n"
                   }
                 ]
               }
@@ -64686,7 +64599,7 @@
           "tags": [
             {
               "title": "example",
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.maplibre.org/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove",
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove",
               "lineNumber": 4
             }
           ],
@@ -64720,7 +64633,7 @@
           ],
           "examples": [
             {
-              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.maplibre.org/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.maplibre.org/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove"
+              "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: <YOUR-IMAGE-URL>,\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove"
             }
           ],
           "implements": [
@@ -72391,28 +72304,9 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Mapbox Vector Tile format"
+                  "value": "Mapbox Vector Tile format."
                 }
               ]
-            },
-            {
-              "type": "text",
-              "value": ".\n(See the "
-            },
-            {
-              "type": "link",
-              "title": null,
-              "url": "https://u-n-l.github.io/unl-map-js-docs/style-spec/",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "Style Specification"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "value": " for detailed documentation of options.)"
             }
           ]
         }
