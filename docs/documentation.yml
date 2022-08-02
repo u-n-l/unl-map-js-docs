@@ -1,11 +1,11 @@
 toc:
   - name: "Map class" # Note: changed to "map class" to get filtering to work for now to differentiate our page name "Map" from the maplibre-gl-js "Map"
-    page: 'map'
+    page: "map"
     children:
       - Map
 
   - name: Properties and options
-    page: 'properties'
+    page: "properties"
     description: |
       MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
     children:
@@ -27,7 +27,7 @@ toc:
       - clearPrewarmedResources
 
   - name: Markers and controls
-    page: 'markers'
+    page: "markers"
     description: |
       User interface elements that can be added to the map. The items in this section exist outside of the map's `canvas` element.
     children:
@@ -41,7 +41,7 @@ toc:
       - FullscreenControl
 
   - name: Geography and geometry
-    page: 'geography'
+    page: "geography"
     description: |
       General utilities and types that relate to working with and manipulating geographic information or geometries.
     children:
@@ -54,7 +54,7 @@ toc:
       - EdgeInsets
 
   - name: User interaction handlers
-    page: 'handlers'
+    page: "handlers"
     description: |
       Items related to the ways in which the map responds to user input.
     children:
@@ -68,9 +68,9 @@ toc:
       - TouchPitchHandler
 
   - name: Sources
-    page: 'sources'
+    page: "sources"
     description: |
-      The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/maplibre-gl-js-docs/style-spec/).
+      The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/unl-map-js-docs/style-spec/).
     children:
       - GeoJSONSource
       - VideoSource
@@ -79,11 +79,11 @@ toc:
       - CanvasSourceOptions
 
   - name: Events
-    page: 'events'
+    page: "events"
     description: |
       The different types of events that MapLibre GL JS can raise.
 
-      You can also find additional event documentation for: [`Map`](/maplibre-gl-js-docs/api/map/#map-events), [`Marker`](/maplibre-gl-js-docs/api/markers/#marker-events), [`Popup`](/maplibre-gl-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/maplibre-gl-js-docs/api/markers/#geolocatecontrol-events).
+      You can also find additional event documentation for: [`Map`](/unl-map-js-docs/api/map/#map-events), [`Marker`](/unl-map-js-docs/api/markers/#marker-events), [`Popup`](/unl-map-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/unl-map-js-docs/api/markers/#geolocatecontrol-events).
     children:
       - Evented
       - MapMouseEvent

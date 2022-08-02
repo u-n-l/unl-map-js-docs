@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './queryrenderedfeatures.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './queryrenderedfeatures.html';"
 ---
 
-Use [`queryRenderedFeatures`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
+Use [`queryRenderedFeatures`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
 
 {{ <Example html={html} {...this.props} /> }}

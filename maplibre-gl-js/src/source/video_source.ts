@@ -1,20 +1,20 @@
-import {getVideo, ResourceType} from '../util/ajax';
+import { getVideo, ResourceType } from "../util/ajax";
 
-import ImageSource from './image_source';
-import rasterBoundsAttributes from '../data/raster_bounds_attributes';
-import SegmentVector from '../data/segment';
-import Texture from '../render/texture';
-import {ErrorEvent} from '../util/evented';
-import ValidationError from '../style-spec/error/validation_error';
+import ImageSource from "./image_source";
+import rasterBoundsAttributes from "../data/raster_bounds_attributes";
+import SegmentVector from "../data/segment";
+import Texture from "../render/texture";
+import { ErrorEvent } from "../util/evented";
+import ValidationError from "../style-spec/error/validation_error";
 
-import type Map from '../ui/map';
-import type Dispatcher from '../util/dispatcher';
-import type {Evented} from '../util/evented';
-import type {VideoSourceSpecification} from '../style-spec/types.g';
+import type Map from "../ui/map";
+import type Dispatcher from "../util/dispatcher";
+import type { Evented } from "../util/evented";
+import type { VideoSourceSpecification } from "../style-spec/types.g";
 
 /**
  * A data source containing video.
- * (See the [Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/#sources-video) for detailed documentation of options.)
+ * (See the [Style Specification](https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources-video) for detailed documentation of options.)
  *
  * @example
  * // add to map
@@ -42,160 +42,188 @@ import type {VideoSourceSpecification} from '../style-spec/types.g';
  * ]);
  *
  * map.removeSource('some id');  // remove
- * @see [Add a video](https://maplibre.org/maplibre-gl-js-docs/example/video-on-a-map/)
+ * @see [Add a video](https://u-n-l.github.io/unl-map-js-docs/example/video-on-a-map/)
  */
 class VideoSource extends ImageSource {
-    options: VideoSourceSpecification;
-    urls: Array<string>;
-    video: HTMLVideoElement;
-    roundZoom: boolean;
+  options: VideoSourceSpecification;
+  urls: Array<string>;
+  video: HTMLVideoElement;
+  roundZoom: boolean;
 
-    /**
-     * @private
-     */
-    constructor(id: string, options: VideoSourceSpecification, dispatcher: Dispatcher, eventedParent: Evented) {
-        super(id, options, dispatcher, eventedParent);
-        this.roundZoom = true;
-        this.type = 'video';
-        this.options = options;
+  /**
+   * @private
+   */
+  constructor(
+    id: string,
+    options: VideoSourceSpecification,
+    dispatcher: Dispatcher,
+    eventedParent: Evented
+  ) {
+    super(id, options, dispatcher, eventedParent);
+    this.roundZoom = true;
+    this.type = "video";
+    this.options = options;
+  }
+
+  load() {
+    this._loaded = false;
+    const options = this.options;
+
+    this.urls = [];
+    for (const url of options.urls) {
+      this.urls.push(
+        this.map._requestManager.transformRequest(url, ResourceType.Source).url
+      );
     }
 
-    load() {
-        this._loaded = false;
-        const options = this.options;
+    getVideo(this.urls, (err, video) => {
+      this._loaded = true;
+      if (err) {
+        this.fire(new ErrorEvent(err));
+      } else if (video) {
+        this.video = video;
+        this.video.loop = true;
 
-        this.urls = [];
-        for (const url of options.urls) {
-            this.urls.push(this.map._requestManager.transformRequest(url, ResourceType.Source).url);
-        }
-
-        getVideo(this.urls, (err, video) => {
-            this._loaded = true;
-            if (err) {
-                this.fire(new ErrorEvent(err));
-            } else if (video) {
-                this.video = video;
-                this.video.loop = true;
-
-                // Start repainting when video starts playing. hasTransition() will then return
-                // true to trigger additional frames as long as the videos continues playing.
-                this.video.addEventListener('playing', () => {
-                    this.map.triggerRepaint();
-                });
-
-                if (this.map) {
-                    this.video.play();
-                }
-
-                this._finishLoading();
-            }
+        // Start repainting when video starts playing. hasTransition() will then return
+        // true to trigger additional frames as long as the videos continues playing.
+        this.video.addEventListener("playing", () => {
+          this.map.triggerRepaint();
         });
-    }
 
-    /**
-     * Pauses the video.
-     */
-    pause() {
-        if (this.video) {
-            this.video.pause();
-        }
-    }
-
-    /**
-     * Plays the video.
-     */
-    play() {
-        if (this.video) {
-            this.video.play();
-        }
-    }
-
-    /**
-     * Sets playback to a timestamp, in seconds.
-     * @private
-     */
-    seek(seconds: number) {
-        if (this.video) {
-            const seekableRange = this.video.seekable;
-            if (seconds < seekableRange.start(0) || seconds > seekableRange.end(0)) {
-                this.fire(new ErrorEvent(new ValidationError(`sources.${this.id}`, null, `Playback for this video can be set only between the ${seekableRange.start(0)} and ${seekableRange.end(0)}-second mark.`)));
-            } else this.video.currentTime = seconds;
-        }
-    }
-
-    /**
-     * Returns the HTML `video` element.
-     *
-     * @returns {HTMLVideoElement} The HTML `video` element.
-     */
-    getVideo() {
-        return this.video;
-    }
-
-    onAdd(map: Map) {
-        if (this.map) return;
-        this.map = map;
-        this.load();
-        if (this.video) {
-            this.video.play();
-            this.setCoordinates(this.coordinates);
-        }
-    }
-
-    /**
-     * Sets the video's coordinates and re-renders the map.
-     *
-     * @method setCoordinates
-     * @instance
-     * @memberof VideoSource
-     * @returns {VideoSource} this
-     */
-    // setCoordinates inherited from ImageSource
-
-    prepare() {
-        if (Object.keys(this.tiles).length === 0 || this.video.readyState < 2) {
-            return; // not enough data for current position
+        if (this.map) {
+          this.video.play();
         }
 
-        const context = this.map.painter.context;
-        const gl = context.gl;
+        this._finishLoading();
+      }
+    });
+  }
 
-        if (!this.boundsBuffer) {
-            this.boundsBuffer = context.createVertexBuffer(this._boundsArray, rasterBoundsAttributes.members);
-        }
+  /**
+   * Pauses the video.
+   */
+  pause() {
+    if (this.video) {
+      this.video.pause();
+    }
+  }
 
-        if (!this.boundsSegments) {
-            this.boundsSegments = SegmentVector.simpleSegment(0, 0, 4, 2);
-        }
+  /**
+   * Plays the video.
+   */
+  play() {
+    if (this.video) {
+      this.video.play();
+    }
+  }
 
-        if (!this.texture) {
-            this.texture = new Texture(context, this.video, gl.RGBA);
-            this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);
-        } else if (!this.video.paused) {
-            this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);
-            gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, 0, gl.RGBA, gl.UNSIGNED_BYTE, this.video);
-        }
+  /**
+   * Sets playback to a timestamp, in seconds.
+   * @private
+   */
+  seek(seconds: number) {
+    if (this.video) {
+      const seekableRange = this.video.seekable;
+      if (seconds < seekableRange.start(0) || seconds > seekableRange.end(0)) {
+        this.fire(
+          new ErrorEvent(
+            new ValidationError(
+              `sources.${this.id}`,
+              null,
+              `Playback for this video can be set only between the ${seekableRange.start(
+                0
+              )} and ${seekableRange.end(0)}-second mark.`
+            )
+          )
+        );
+      } else this.video.currentTime = seconds;
+    }
+  }
 
-        for (const w in this.tiles) {
-            const tile = this.tiles[w];
-            if (tile.state !== 'loaded') {
-                tile.state = 'loaded';
-                tile.texture = this.texture;
-            }
-        }
+  /**
+   * Returns the HTML `video` element.
+   *
+   * @returns {HTMLVideoElement} The HTML `video` element.
+   */
+  getVideo() {
+    return this.video;
+  }
+
+  onAdd(map: Map) {
+    if (this.map) return;
+    this.map = map;
+    this.load();
+    if (this.video) {
+      this.video.play();
+      this.setCoordinates(this.coordinates);
+    }
+  }
+
+  /**
+   * Sets the video's coordinates and re-renders the map.
+   *
+   * @method setCoordinates
+   * @instance
+   * @memberof VideoSource
+   * @returns {VideoSource} this
+   */
+  // setCoordinates inherited from ImageSource
+
+  prepare() {
+    if (Object.keys(this.tiles).length === 0 || this.video.readyState < 2) {
+      return; // not enough data for current position
     }
 
-    serialize() {
-        return {
-            type: 'video',
-            urls: this.urls,
-            coordinates: this.coordinates
-        };
+    const context = this.map.painter.context;
+    const gl = context.gl;
+
+    if (!this.boundsBuffer) {
+      this.boundsBuffer = context.createVertexBuffer(
+        this._boundsArray,
+        rasterBoundsAttributes.members
+      );
     }
 
-    hasTransition() {
-        return this.video && !this.video.paused;
+    if (!this.boundsSegments) {
+      this.boundsSegments = SegmentVector.simpleSegment(0, 0, 4, 2);
     }
+
+    if (!this.texture) {
+      this.texture = new Texture(context, this.video, gl.RGBA);
+      this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);
+    } else if (!this.video.paused) {
+      this.texture.bind(gl.LINEAR, gl.CLAMP_TO_EDGE);
+      gl.texSubImage2D(
+        gl.TEXTURE_2D,
+        0,
+        0,
+        0,
+        gl.RGBA,
+        gl.UNSIGNED_BYTE,
+        this.video
+      );
+    }
+
+    for (const w in this.tiles) {
+      const tile = this.tiles[w];
+      if (tile.state !== "loaded") {
+        tile.state = "loaded";
+        tile.texture = this.texture;
+      }
+    }
+  }
+
+  serialize() {
+    return {
+      type: "video",
+      urls: this.urls,
+      coordinates: this.coordinates,
+    };
+  }
+
+  hasTransition() {
+    return this.video && !this.video.paused;
+  }
 }
 
 export default VideoSource;

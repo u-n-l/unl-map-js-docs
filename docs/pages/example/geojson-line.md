@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './geojson-line.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './geojson-line.html';"
 ---
 
-Add a GeoJSON line to a map using [`addSource`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#addsource), then style it using [`addLayer`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#addlayer)’s [`paint`](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#line) properties.
+Add a GeoJSON line to a map using [`addSource`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addsource), then style it using [`addLayer`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addlayer)’s [`paint`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#line) properties.
 
 {{ <Example html={html} {...this.props} /> }}

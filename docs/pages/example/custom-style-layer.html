@@ -15,7 +15,7 @@
     type: "custom",
 
     // method called when the layer is added to the map
-    // https://maplibre.org/maplibre-gl-js-docs/api/properties/#styleimageinterface#onadd
+    // https://u-n-l.github.io/unl-map-js-docs/api/properties/#styleimageinterface#onadd
     onAdd: function (map, gl) {
       // create GLSL source for vertex shader
       var vertexSource =
@@ -83,7 +83,7 @@
     },
 
     // method fired on each animation frame
-    // https://maplibre.org/maplibre-gl-js-docs/api/map/#map.event:render
+    // https://u-n-l.github.io/unl-map-js-docs/api/map/#map.event:render
     render: function (gl, matrix) {
       gl.useProgram(this.program);
       gl.uniformMatrix4fv(

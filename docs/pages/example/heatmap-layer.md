@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './heatmap-layer.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './heatmap-layer.html';"
 ---
 
-Visualize earthquake frequency by location using a [heatmap layer](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#heatmap).
+Visualize earthquake frequency by location using a [heatmap layer](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#heatmap).
 
 {{ <Example html={html} {...this.props} /> }}

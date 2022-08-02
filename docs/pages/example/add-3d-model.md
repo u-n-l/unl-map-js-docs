@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './add-3d-model.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './add-3d-model.html';"
 ---
 
-Use a [custom style layer](https://maplibre.org/maplibre-gl-js-docs/api/properties/#customlayerinterface) with [three.js](https://threejs.org) to add a 3D model to the map.
+Use a [custom style layer](https://u-n-l.github.io/unl-map-js-docs/api/properties/#customlayerinterface) with [three.js](https://threejs.org) to add a 3D model to the map.
 
 {{ <Example html={html} {...this.props} /> }}

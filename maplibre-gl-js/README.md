@@ -51,13 +51,13 @@ And replace `mapboxgl` with `maplibregl` in your JavaScript and optionally in yo
 +    <button class="maplibregl-ctrl">
 ```
 
-Want an example? Have a look at the official [MapLibre GL JS Documentation](https://maplibre.org/maplibre-gl-js-docs/example/).
+Want an example? Have a look at the official [MapLibre GL JS Documentation](https://u-n-l.github.io/unl-map-js-docs/example/).
 
 Use MapLibre GL JS bindings for React (https://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork) and Angular (https://github.com/maplibre/ngx-maplibre-gl). Find more at [awesome-maplibre](https://github.com/maplibre/awesome-maplibre).
 
 ### Roadmap
 
-This project's initial plans are outlined in the [Roadmap](https://github.com/maplibre/maplibre-gl-js/projects/2) project. The primary goal is consistency and continued bug fixes and maintenance as we advance. 
+This project's initial plans are outlined in the [Roadmap](https://github.com/maplibre/maplibre-gl-js/projects/2) project. The primary goal is consistency and continued bug fixes and maintenance as we advance.
 
 > **MapLibre GL** is developed following [Semantic Versioning (2.0.0)](http://semver.org/spec/v2.0.0.html).
 

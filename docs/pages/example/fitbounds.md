@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './fitbounds.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './fitbounds.html';"
 ---
 
-Use [`fitBounds`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
+Use [`fitBounds`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
 
 {{ <Example html={html} {...this.props} /> }}

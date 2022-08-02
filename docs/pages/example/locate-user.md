@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './locate-user.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './locate-user.html';"
 ---
 
-Geolocate the user and then track their current location on the map using the [`GeolocateControl`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#geolocatecontrol).
+Geolocate the user and then track their current location on the map using the [`GeolocateControl`](https://u-n-l.github.io/unl-map-js-docs/api/markers/#geolocatecontrol).
 
 {{ <Example html={html} {...this.props} /> }}

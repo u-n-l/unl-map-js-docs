@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './custom-marker-icons.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './custom-marker-icons.html';"
 ---
 
-Use [`Marker`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) to add custom icons to your map.
+Use [`Marker`](https://u-n-l.github.io/unl-map-js-docs/api/markers/#marker) to add custom icons to your map.
 
 {{ <Example html={html} {...this.props} /> }}
