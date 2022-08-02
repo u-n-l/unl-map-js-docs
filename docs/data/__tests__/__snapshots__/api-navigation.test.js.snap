@@ -3,7 +3,7 @@
 exports[`api-navigation 1`] = `
 Array [
   Object {
-    "path": "/maplibre-gl-js-docs/api/",
+    "path": "/unl-map-js-docs/api/",
     "subnav": Array [
       Object {
         "path": "quickstart",
@@ -29,7 +29,7 @@ Array [
     "title": "Introduction",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/map/",
+    "path": "/unl-map-js-docs/api/map/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -60,7 +60,7 @@ Array [
     "title": "Map",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/properties/",
+    "path": "/unl-map-js-docs/api/properties/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -321,7 +321,7 @@ Array [
     "title": "Properties and options",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/markers/",
+    "path": "/unl-map-js-docs/api/markers/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -507,7 +507,7 @@ Array [
     "title": "Markers and controls",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/geography/",
+    "path": "/unl-map-js-docs/api/geography/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -643,7 +643,7 @@ Array [
     "title": "Geography and geometry",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/handlers/",
+    "path": "/unl-map-js-docs/api/handlers/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -729,7 +729,7 @@ Array [
     "title": "User interaction handlers",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/sources/",
+    "path": "/unl-map-js-docs/api/sources/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -815,7 +815,7 @@ Array [
     "title": "Sources",
   },
   Object {
-    "path": "/maplibre-gl-js-docs/api/events/",
+    "path": "/unl-map-js-docs/api/events/",
     "subnav": Array [
       Object {
         "level": 2,

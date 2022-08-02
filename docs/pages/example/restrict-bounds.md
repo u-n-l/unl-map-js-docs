@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './restrict-bounds.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './restrict-bounds.html';"
 ---
 
-Prevent a map from being panned to a different place by setting [`maxBounds`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#setmaxbounds).
+Prevent a map from being panned to a different place by setting [`maxBounds`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#setmaxbounds).
 
 {{ <Example html={html} {...this.props} /> }}

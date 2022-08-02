@@ -25,7 +25,7 @@ class PageShell extends React.Component {
   componentDidMount() {
     // redirect hashes on /api/
     if (
-      this.props.location.pathname === "/maplibre-gl-js-docs/api/" &&
+      this.props.location.pathname === "/unl-map-js-docs/api/" &&
       this.props.location.hash
     ) {
       if (redirectApiRef(this.props.location))
@@ -37,7 +37,7 @@ class PageShell extends React.Component {
     const { location, frontMatter } = this.props;
 
     const subSection = findParentPath(navigation, location.pathname);
-    if (subSection === "/maplibre-gl-js-docs/api/")
+    if (subSection === "/unl-map-js-docs/api/")
       return (
         frontMatter.headings ||
         apiNavigation.filter((f) => f.path === location.pathname)[0].subnav
@@ -48,7 +48,7 @@ class PageShell extends React.Component {
   };
   renderCustomAside = () => {
     const subSection = findParentPath(navigation, this.props.location.pathname);
-    if (subSection === "/maplibre-gl-js-docs/api/") return <Search />;
+    if (subSection === "/unl-map-js-docs/api/") return <Search />;
     else return undefined;
   };
   render() {

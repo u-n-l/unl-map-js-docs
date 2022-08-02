@@ -186,32 +186,32 @@ function PageHelmet() {
     React.createElement("link", {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "/maplibre-gl-js-docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL",
     }),
     React.createElement("link", {
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      href: "/maplibre-gl-js-docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL",
     }),
     React.createElement("link", {
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      href: "/maplibre-gl-js-docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL",
     }),
     React.createElement("link", {
       rel: "manifest",
-      href: "/maplibre-gl-js-docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL",
     }),
     React.createElement("link", {
       rel: "mask-icon",
-      href: "/maplibre-gl-js-docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
       color: "#4264fb",
     }),
     React.createElement("link", {
       rel: "shortcut icon",
-      href: "/maplibre-gl-js-docs/assets/favicon/favicon.ico?v=rMBbQAR5BL",
+      href: "/unl-map-js-docs/assets/favicon/favicon.ico?v=rMBbQAR5BL",
     }),
     React.createElement("meta", {
       name: "msapplication-TileColor",
@@ -219,8 +219,7 @@ function PageHelmet() {
     }),
     React.createElement("meta", {
       name: "msapplication-config",
-      content:
-        "/maplibre-gl-js-docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL",
+      content: "/unl-map-js-docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL",
     }),
     React.createElement("meta", {
       name: "theme-color",
@@ -341,7 +340,7 @@ var navigationMenuData = {
   nav: nav,
 };
 
-var ORIGIN_DOCS_PRODUCTION = "https://maplibre.org/maplibre-gl-js-docs";
+var ORIGIN_DOCS_PRODUCTION = "https://u-n-l.github.io/unl-map-js-docs";
 var DEFAULT_SOCIAL_IMAGE_URL =
   "https://static-assets.mapbox.com/branding/social/social-1200x630.v1.png";
 var DEFAULT_SOCIAL_IMAGE_THUMBNAIL_URL =
@@ -626,7 +625,7 @@ function MetaTagger(props) {
   );
   var suffixedTitle = "".concat(title, " | UNL");
   var preppedDescription = props.description.replace(/\s+/g, " ");
-  var prodUrl = "https://maplibre.org";
+  var prodUrl = "https://u-n-l.github.io";
   if (props.pathname[0] !== "/") prodUrl += "/";
   prodUrl += props.pathname;
   var metaItems = [

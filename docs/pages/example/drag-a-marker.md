@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './drag-a-marker.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './drag-a-marker.html';"
 ---
 
-Drag the [`Marker`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) to a new location on a map and populate its coordinates in a display.
+Drag the [`Marker`](https://u-n-l.github.io/unl-map-js-docs/api/markers/#marker) to a new location on a map and populate its coordinates in a display.
 
 {{ <Example html={html} {...this.props} /> }}

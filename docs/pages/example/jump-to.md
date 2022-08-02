@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './jump-to.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './jump-to.html';"
 ---
 
-Use the [`jumpTo` function](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#jumpto) to showcase multiple locations.
+Use the [`jumpTo` function](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#jumpto) to showcase multiple locations.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -16,7 +16,7 @@
       // GeoJSON Data source used in vector tiles, documented at
       // https://gist.github.com/ryanbaumann/a7d970386ce59d11c16278b90dde094d
       type: "geojson",
-      data: "https://maplibre.org/maplibre-gl-js-docs/assets/indoor-3d-map.geojson",
+      data: "https://u-n-l.github.io/unl-map-js-docs/assets/indoor-3d-map.geojson",
     });
     map.addLayer({
       id: "room-extrusion",
@@ -24,7 +24,7 @@
       source: "floorplan",
       paint: {
         // See the MapLibre Style Specification for details on data expressions.
-        // https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/
+        // https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/
 
         // Get the fill-extrusion-color from the source 'color' property.
         "fill-extrusion-color": ["get", "color"],

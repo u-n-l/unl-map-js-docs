@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './wms.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './wms.html';"
 ---
 
-Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#addsource)'s [`tiles`](https://maplibre.org/maplibre-gl-js-docs/style-spec/sources/#raster-tiles) option.
+Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addsource)'s [`tiles`](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#raster-tiles) option.
 
 {{ <Example html={html} {...this.props} /> }}

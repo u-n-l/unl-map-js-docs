@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './popup-on-click.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './popup-on-click.html';"
 ---
 
-When a user clicks a symbol, show a [`Popup`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#popup) containing more information.
+When a user clicks a symbol, show a [`Popup`](https://u-n-l.github.io/unl-map-js-docs/api/markers/#popup) containing more information.
 
 {{ <Example html={html} {...this.props} /> }}

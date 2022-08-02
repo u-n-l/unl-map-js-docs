@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './geojson-layer-in-stack.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './geojson-layer-in-stack.html';"
 ---
 
-Use the second argument of [`addLayer`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#addlayer), you can be more precise when adding a new layer below labels.
+Use the second argument of [`addLayer`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addlayer), you can be more precise when adding a new layer below labels.
 
 {{ <Example html={html} {...this.props} /> }}

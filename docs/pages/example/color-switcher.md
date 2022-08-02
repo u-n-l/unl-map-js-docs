@@ -9,14 +9,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './color-switcher.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './color-switcher.html';"
 ---
 
-Use [`setPaintProperty`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#setpaintproperty) to change a layer's fill color.
+Use [`setPaintProperty`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#setpaintproperty) to change a layer's fill color.
 
 {{ <Example html={html} {...this.props} /> }}

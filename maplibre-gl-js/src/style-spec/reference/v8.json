@@ -4,9 +4,7 @@
     "version": {
       "required": true,
       "type": "enum",
-      "values": [
-        8
-      ],
+      "values": [8],
       "doc": "Style specification version number. Must be 8.",
       "example": 8
     },
@@ -23,10 +21,7 @@
       "type": "array",
       "value": "number",
       "doc": "Default map center in longitude and latitude.  The style center will be used only if the map has not been positioned by other means (e.g. map options or user interaction).",
-      "example": [
-        -73.9749,
-        40.7736
-      ]
+      "example": [-73.9749, 40.7736]
     },
     "zoom": {
       "type": "number",
@@ -64,7 +59,7 @@
       "example": {
         "maplibre-demotiles": {
           "type": "vector",
-          "url": "https://demotiles.maplibre.org/tiles/tiles.json"
+          "url": "https://demotiles.u-n-l.github.io/tiles/tiles.json"
         }
       }
     },
@@ -76,7 +71,7 @@
     "glyphs": {
       "type": "string",
       "doc": "A URL template for loading signed-distance-field glyph sets in PBF format. The URL must include `{fontstack}` and `{range}` tokens. This property is required if any layer uses the `text-field` layout property. The URL must be absolute, containing the [scheme, authority and path components](https://en.wikipedia.org/wiki/URL#Syntax).",
-      "example": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf"
+      "example": "https://demotiles.u-n-l.github.io/font/{fontstack}/{range}.pbf"
     },
     "transition": {
       "type": "transition",
@@ -142,12 +137,7 @@
       "type": "array",
       "value": "number",
       "length": 4,
-      "default": [
-        -180,
-        -85.051129,
-        180,
-        85.051129
-      ],
+      "default": [-180, -85.051129, 180, 85.051129],
       "doc": "An array containing the longitude and latitude of the southwest and northeast corners of the source's bounding box in the following order: `[sw.lng, sw.lat, ne.lng, ne.lat]`. When this property is included in a source, no tiles outside of the given bounds are requested by MapLibre GL."
     },
     "scheme": {
@@ -221,12 +211,7 @@
       "type": "array",
       "value": "number",
       "length": 4,
-      "default": [
-        -180,
-        -85.051129,
-        180,
-        85.051129
-      ],
+      "default": [-180, -85.051129, 180, 85.051129],
       "doc": "An array containing the longitude and latitude of the southwest and northeast corners of the source's bounding box in the following order: `[sw.lng, sw.lat, ne.lng, ne.lat]`. When this property is included in a source, no tiles outside of the given bounds are requested by MapLibre GL."
     },
     "minzoom": {
@@ -302,12 +287,7 @@
       "type": "array",
       "value": "number",
       "length": 4,
-      "default": [
-        -180,
-        -85.051129,
-        180,
-        85.051129
-      ],
+      "default": [-180, -85.051129, 180, 85.051129],
       "doc": "An array containing the longitude and latitude of the southwest and northeast corners of the source's bounding box in the following order: `[sw.lng, sw.lat, ne.lng, ne.lat]`. When this property is included in a source, no tiles outside of the given bounds are requested by MapLibre GL."
     },
     "minzoom": {
@@ -700,10 +680,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -750,10 +727,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -854,9 +828,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -891,10 +863,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -917,9 +886,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -942,9 +909,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -967,10 +932,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1029,9 +991,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1056,9 +1016,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1076,9 +1034,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1101,10 +1057,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1133,9 +1086,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1159,9 +1110,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1179,9 +1128,7 @@
         }
       },
       "doc": "Allows for control over whether to show an icon when it overlaps other symbols on the map. If `icon-overlap` is not set, `icon-allow-overlap` is used instead.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "2.1.0"
@@ -1189,9 +1136,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1199,9 +1144,7 @@
       "type": "boolean",
       "default": false,
       "doc": "If true, other symbols can be visible even if they collide with the icon.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1212,9 +1155,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1222,10 +1163,7 @@
       "type": "boolean",
       "default": false,
       "doc": "If true, text will display without their corresponding icons when the icon collides with other symbols and the text does not.",
-      "requires": [
-        "icon-image",
-        "text-field"
-      ],
+      "requires": ["icon-image", "text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1236,9 +1174,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1257,9 +1193,7 @@
       },
       "default": "auto",
       "doc": "In combination with `symbol-placement`, determines the rotation behavior of icons.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1276,9 +1210,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1288,9 +1220,7 @@
       "minimum": 0,
       "units": "factor of the original icon size",
       "doc": "Scales the original size of the icon by the provided factor. The new pixel size of the image will be the original pixel size multiplied by `icon-size`. 1 is the original size; 3 triples the size of the image.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1307,10 +1237,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1332,10 +1259,7 @@
       },
       "default": "none",
       "doc": "Scales the icon to fit around the associated text.",
-      "requires": [
-        "icon-image",
-        "text-field"
-      ],
+      "requires": ["icon-image", "text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.21.0",
@@ -1352,9 +1276,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1362,23 +1284,14 @@
       "type": "array",
       "value": "number",
       "length": 4,
-      "default": [
-        0,
-        0,
-        0,
-        0
-      ],
+      "default": [0, 0, 0, 0],
       "units": "pixels",
       "doc": "Size of the additional area added to dimensions determined by `icon-text-fit`, in clockwise order: top, right, bottom, left.",
       "requires": [
         "icon-image",
         "text-field",
         {
-          "icon-text-fit": [
-            "both",
-            "width",
-            "height"
-          ]
+          "icon-text-fit": ["both", "width", "height"]
         }
       ],
       "sdk-support": {
@@ -1391,9 +1304,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1417,10 +1328,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1430,9 +1338,7 @@
       "period": 360,
       "units": "degrees",
       "doc": "Rotates the icon clockwise.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1449,10 +1355,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1462,9 +1365,7 @@
       "minimum": 0,
       "units": "pixels",
       "doc": "Size of the additional area around the icon bounding box used for detecting symbol collisions.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1475,9 +1376,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1491,10 +1390,7 @@
           "icon-rotation-alignment": "map"
         },
         {
-          "symbol-placement": [
-            "line",
-            "line-center"
-          ]
+          "symbol-placement": ["line", "line-center"]
         }
       ],
       "sdk-support": {
@@ -1507,9 +1403,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1517,14 +1411,9 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "doc": "Offset distance of icon from its anchor. Positive values indicate right and down, while negative values indicate left and up. Each component is multiplied by the value of `icon-size` to obtain the final offset in pixels. When combined with `icon-rotate` the offset will be as if the rotated direction was up.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1541,10 +1430,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1581,9 +1467,7 @@
       },
       "default": "center",
       "doc": "Part of the icon placed closest to the anchor.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.40.0",
@@ -1600,10 +1484,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1622,9 +1503,7 @@
       },
       "default": "auto",
       "doc": "Orientation of icon when map is pitched.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.39.0",
@@ -1635,9 +1514,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1656,9 +1533,7 @@
       },
       "default": "auto",
       "doc": "Orientation of text when map is pitched.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.21.0",
@@ -1675,9 +1550,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1699,9 +1572,7 @@
       },
       "default": "auto",
       "doc": "In combination with `symbol-placement`, determines the rotation behavior of the individual glyphs forming the text.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1721,9 +1592,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1748,24 +1617,16 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
     "text-font": {
       "type": "array",
       "value": "string",
-      "default": [
-        "Open Sans Regular",
-        "Arial Unicode MS Regular"
-      ],
+      "default": ["Open Sans Regular", "Arial Unicode MS Regular"],
       "doc": "Font stack to use for displaying text.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1782,10 +1643,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1795,9 +1653,7 @@
       "minimum": 0,
       "units": "pixels",
       "doc": "Font size.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1814,10 +1670,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1827,9 +1680,7 @@
       "minimum": 0,
       "units": "ems",
       "doc": "The maximum line width for text wrapping.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1846,10 +1697,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1858,9 +1706,7 @@
       "default": 1.2,
       "units": "ems",
       "doc": "Text leading value for multi-line text.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1871,9 +1717,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -1882,9 +1726,7 @@
       "default": 0,
       "units": "ems",
       "doc": "Text tracking amount.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1901,10 +1743,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1926,9 +1765,7 @@
       },
       "default": "center",
       "doc": "Text justification options.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -1951,10 +1788,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -1977,16 +1811,11 @@
           "macos": "0.14.0"
         }
       },
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "property-type": "data-driven",
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       }
     },
     "text-variable-anchor": {
@@ -2024,9 +1853,7 @@
       "requires": [
         "text-field",
         {
-          "symbol-placement": [
-            "point"
-          ]
+          "symbol-placement": ["point"]
         }
       ],
       "doc": "To increase the chance of placing high-priority labels on the map, you can provide an array of `text-anchor` locations: the renderer will attempt to place the label at each location, in order, before moving onto the next label. Use `text-justify: auto` to choose justification based on anchor position. To apply an offset, use the `text-radial-offset` or the two-dimensional `text-offset`.",
@@ -2040,9 +1867,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2101,10 +1926,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -2116,10 +1938,7 @@
       "requires": [
         "text-field",
         {
-          "symbol-placement": [
-            "line",
-            "line-center"
-          ]
+          "symbol-placement": ["line", "line-center"]
         }
       ],
       "sdk-support": {
@@ -2132,9 +1951,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2153,9 +1970,7 @@
       "requires": [
         "text-field",
         {
-          "symbol-placement": [
-            "point"
-          ]
+          "symbol-placement": ["point"]
         }
       ],
       "sdk-support": {
@@ -2168,9 +1983,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2180,9 +1993,7 @@
       "period": 360,
       "units": "degrees",
       "doc": "Rotates the text clockwise.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -2199,10 +2010,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -2212,9 +2020,7 @@
       "minimum": 0,
       "units": "pixels",
       "doc": "Size of the additional area around the text bounding box used for detecting symbol collisions.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -2225,9 +2031,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2241,10 +2045,7 @@
           "text-rotation-alignment": "map"
         },
         {
-          "symbol-placement": [
-            "line",
-            "line-center"
-          ]
+          "symbol-placement": ["line", "line-center"]
         }
       ],
       "sdk-support": {
@@ -2257,9 +2058,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2278,9 +2077,7 @@
       },
       "default": "none",
       "doc": "Specifies how to capitalize text, similar to the CSS `text-transform` property.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -2297,10 +2094,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -2310,10 +2104,7 @@
       "value": "number",
       "units": "ems",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "requires": [
         "text-field",
         {
@@ -2336,10 +2127,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "data-driven"
     },
@@ -2363,9 +2151,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2383,9 +2169,7 @@
         }
       },
       "doc": "Allows for control over whether to show symbol text when it overlaps other symbols on the map. If `text-overlap` is not set, `text-allow-overlap` is used instead",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "2.1.0"
@@ -2393,9 +2177,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2403,9 +2185,7 @@
       "type": "boolean",
       "default": false,
       "doc": "If true, other symbols can be visible even if they collide with the text.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -2416,9 +2196,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2426,10 +2204,7 @@
       "type": "boolean",
       "default": false,
       "doc": "If true, icons will display without their corresponding text when the text collides with other symbols and the icon does not.",
-      "requires": [
-        "text-field",
-        "icon-image"
-      ],
+      "requires": ["text-field", "icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -2440,9 +2215,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -2651,10 +2424,7 @@
     "type": "array",
     "minimum": 0,
     "maximum": 24,
-    "value": [
-      "number",
-      "color"
-    ],
+    "value": ["number", "color"],
     "length": 2,
     "doc": "Zoom level and value pair."
   },
@@ -3718,9 +3488,7 @@
       "transition": false,
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "doc": "Whether extruded geometries are lit relative to the map or viewport.",
       "example": "map",
@@ -3735,27 +3503,17 @@
     },
     "position": {
       "type": "array",
-      "default": [
-        1.15,
-        210,
-        30
-      ],
+      "default": [1.15, 210, 30],
       "length": 3,
       "value": "number",
       "property-type": "data-constant",
       "transition": true,
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "doc": "Position of the light source relative to lit (extruded) geometries, in [r radial coordinate, a azimuthal angle, p polar angle] where r indicates the distance from the center of the base of an object to its light, a indicates the position of the light relative to 0° (0° when `light.anchor` is set to `viewport` corresponds to the top of the viewport, or 0° when `light.anchor` is set to `map` corresponds to due north, and degrees proceed clockwise), and p indicates the height of the light (from 0°, directly above, to 180°, directly below).",
-      "example": [
-        1.5,
-        90,
-        80
-      ],
+      "example": [1.5, 90, 80],
       "sdk-support": {
         "basic functionality": {
           "js": "0.27.0",
@@ -3771,9 +3529,7 @@
       "default": "#ffffff",
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "transition": true,
       "doc": "Color tint for lighting extruded geometries.",
@@ -3794,9 +3550,7 @@
       "maximum": 1,
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "transition": true,
       "doc": "Intensity of lighting (on a scale from 0 to 1). Higher numbers will present as more extreme contrast.",
@@ -3836,9 +3590,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -3865,11 +3617,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -3899,11 +3647,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -3935,11 +3679,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -3947,10 +3687,7 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "The geometry's offset. Values are [x, y] where negatives indicate left and up, respectively.",
@@ -3964,9 +3701,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -3982,9 +3717,7 @@
       },
       "doc": "Controls the frame of reference for `fill-translate`.",
       "default": "map",
-      "requires": [
-        "fill-translate"
-      ],
+      "requires": ["fill-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -3995,9 +3728,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4021,10 +3752,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "cross-faded-data-driven"
     }
@@ -4047,9 +3775,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4079,11 +3805,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4091,10 +3813,7 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "The geometry's offset. Values are [x, y] where negatives indicate left and up (on the flat plane), respectively.",
@@ -4108,9 +3827,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4126,9 +3843,7 @@
       },
       "doc": "Controls the frame of reference for `fill-extrusion-translate`.",
       "default": "map",
-      "requires": [
-        "fill-extrusion-translate"
-      ],
+      "requires": ["fill-extrusion-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.27.0",
@@ -4139,9 +3854,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4165,10 +3878,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "cross-faded-data-driven"
     },
@@ -4195,11 +3905,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4210,9 +3916,7 @@
       "units": "meters",
       "doc": "The height with which to extrude the base of this layer. Must be less than or equal to `fill-extrusion-height`.",
       "transition": true,
-      "requires": [
-        "fill-extrusion-height"
-      ],
+      "requires": ["fill-extrusion-height"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.27.0",
@@ -4229,11 +3933,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4251,9 +3951,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }
@@ -4282,11 +3980,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4316,11 +4010,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4328,10 +4018,7 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "The geometry's offset. Values are [x, y] where negatives indicate left and up, respectively.",
@@ -4345,9 +4032,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4363,9 +4048,7 @@
       },
       "doc": "Controls the frame of reference for `line-translate`.",
       "default": "map",
-      "requires": [
-        "line-translate"
-      ],
+      "requires": ["line-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -4376,9 +4059,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4405,11 +4086,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4436,11 +4113,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4466,11 +4139,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4497,11 +4166,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4528,9 +4193,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "cross-faded"
     },
@@ -4554,10 +4217,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom",
-          "feature"
-        ]
+        "parameters": ["zoom", "feature"]
       },
       "property-type": "cross-faded-data-driven"
     },
@@ -4590,9 +4250,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "line-progress"
-        ]
+        "parameters": ["line-progress"]
       },
       "property-type": "color-ramp"
     }
@@ -4621,11 +4279,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4650,11 +4304,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4679,11 +4329,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4710,11 +4356,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4722,10 +4364,7 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "The geometry's offset. Values are [x, y] where negatives indicate left and up, respectively.",
@@ -4739,9 +4378,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4757,9 +4394,7 @@
       },
       "doc": "Controls the frame of reference for `circle-translate`.",
       "default": "map",
-      "requires": [
-        "circle-translate"
-      ],
+      "requires": ["circle-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -4770,9 +4405,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4798,9 +4431,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4826,9 +4457,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -4855,11 +4484,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4884,11 +4509,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4915,11 +4536,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     }
@@ -4948,11 +4565,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -4978,11 +4591,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5002,9 +4611,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5012,12 +4619,8 @@
       "type": "color",
       "default": [
         "interpolate",
-        [
-          "linear"
-        ],
-        [
-          "heatmap-density"
-        ],
+        ["linear"],
+        ["heatmap-density"],
         0,
         "rgba(0, 0, 255, 0)",
         0.1,
@@ -5044,9 +4647,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "heatmap-density"
-        ]
+        "parameters": ["heatmap-density"]
       },
       "property-type": "color-ramp"
     },
@@ -5067,9 +4668,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }
@@ -5082,9 +4681,7 @@
       "minimum": 0,
       "maximum": 1,
       "transition": true,
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5101,11 +4698,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5114,9 +4707,7 @@
       "default": "#000000",
       "transition": true,
       "doc": "The color of the icon. This can only be used with sdf icons.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5133,11 +4724,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5146,9 +4733,7 @@
       "default": "rgba(0, 0, 0, 0)",
       "transition": true,
       "doc": "The color of the icon's halo. Icon halos can only be used with SDF icons.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5165,11 +4750,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5180,9 +4761,7 @@
       "transition": true,
       "units": "pixels",
       "doc": "Distance of halo to the icon outline.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5199,11 +4778,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5214,9 +4789,7 @@
       "transition": true,
       "units": "pixels",
       "doc": "Fade out the halo towards the outside.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5233,11 +4806,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5245,16 +4814,11 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "Distance that the icon's anchor is moved from its original placement. Positive values indicate right and down, while negative values indicate left and up.",
-      "requires": [
-        "icon-image"
-      ],
+      "requires": ["icon-image"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5265,9 +4829,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5283,10 +4845,7 @@
       },
       "doc": "Controls the frame of reference for `icon-translate`.",
       "default": "map",
-      "requires": [
-        "icon-image",
-        "icon-translate"
-      ],
+      "requires": ["icon-image", "icon-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5297,9 +4856,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5310,9 +4867,7 @@
       "minimum": 0,
       "maximum": 1,
       "transition": true,
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5329,11 +4884,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5343,9 +4894,7 @@
       "default": "#000000",
       "transition": true,
       "overridable": true,
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5362,11 +4911,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5375,9 +4920,7 @@
       "default": "rgba(0, 0, 0, 0)",
       "transition": true,
       "doc": "The color of the text's halo, which helps it stand out from backgrounds.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5394,11 +4937,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5409,9 +4948,7 @@
       "transition": true,
       "units": "pixels",
       "doc": "Distance of halo to the font outline. Max text halo width is 1/4 of the font-size.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5428,11 +4965,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5443,9 +4976,7 @@
       "transition": true,
       "units": "pixels",
       "doc": "The halo's fadeout distance towards the outside.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5462,11 +4993,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom",
-          "feature",
-          "feature-state"
-        ]
+        "parameters": ["zoom", "feature", "feature-state"]
       },
       "property-type": "data-driven"
     },
@@ -5474,16 +5001,11 @@
       "type": "array",
       "value": "number",
       "length": 2,
-      "default": [
-        0,
-        0
-      ],
+      "default": [0, 0],
       "transition": true,
       "units": "pixels",
       "doc": "Distance that the text's anchor is moved from its original placement. Positive values indicate right and down, while negative values indicate left and up.",
-      "requires": [
-        "text-field"
-      ],
+      "requires": ["text-field"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5494,9 +5016,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5512,10 +5032,7 @@
       },
       "doc": "Controls the frame of reference for `text-translate`.",
       "default": "map",
-      "requires": [
-        "text-field",
-        "text-translate"
-      ],
+      "requires": ["text-field", "text-translate"],
       "sdk-support": {
         "basic functionality": {
           "js": "0.10.0",
@@ -5526,9 +5043,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }
@@ -5551,9 +5066,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5574,9 +5087,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5597,9 +5108,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5620,9 +5129,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5643,9 +5150,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5666,9 +5171,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5694,9 +5197,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5717,9 +5218,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }
@@ -5742,9 +5241,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5770,9 +5267,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5793,9 +5288,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5814,9 +5307,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5835,9 +5326,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5856,9 +5345,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }
@@ -5884,9 +5371,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     },
@@ -5905,9 +5390,7 @@
       },
       "expression": {
         "interpolated": false,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "cross-faded"
     },
@@ -5928,9 +5411,7 @@
       },
       "expression": {
         "interpolated": true,
-        "parameters": [
-          "zoom"
-        ]
+        "parameters": ["zoom"]
       },
       "property-type": "data-constant"
     }

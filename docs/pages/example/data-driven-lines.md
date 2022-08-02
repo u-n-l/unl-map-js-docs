@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './data-driven-lines.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './data-driven-lines.html';"
 ---
 
-Create a visualization with a data expression for [`line-color`](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#paint-line-line-color).
+Create a visualization with a data expression for [`line-color`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-line-line-color).
 
 {{ <Example html={html} {...this.props} /> }}

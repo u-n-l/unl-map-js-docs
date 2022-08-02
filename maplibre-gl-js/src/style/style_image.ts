@@ -1,20 +1,20 @@
-import {RGBAImage} from '../util/image';
+import { RGBAImage } from "../util/image";
 
-import type Map from '../ui/map';
+import type Map from "../ui/map";
 
 export type StyleImageData = {
-    data: RGBAImage;
-    version: number;
-    hasRenderCallback?: boolean;
-    userImage?: StyleImageInterface;
+  data: RGBAImage;
+  version: number;
+  hasRenderCallback?: boolean;
+  userImage?: StyleImageInterface;
 };
 
 export type StyleImageMetadata = {
-    pixelRatio: number;
-    sdf: boolean;
-    stretchX?: Array<[number, number]>;
-    stretchY?: Array<[number, number]>;
-    content?: [number, number, number, number];
+  pixelRatio: number;
+  sdf: boolean;
+  stretchX?: Array<[number, number]>;
+  stretchY?: Array<[number, number]>;
+  content?: [number, number, number, number];
 };
 
 export type StyleImage = StyleImageData & StyleImageMetadata;
@@ -29,7 +29,7 @@ export type StyleImage = StyleImageData & StyleImageMetadata;
  * can be used to update the image.
  *
  * @interface StyleImageInterface
- * @see [Add an animated icon to the map.](https://maplibre.org/maplibre-gl-js-docs/example/add-image-animated/)
+ * @see [Add an animated icon to the map.](https://u-n-l.github.io/unl-map-js-docs/example/add-image-animated/)
  *
  * @example
  * var flashingSquare = {
@@ -73,65 +73,65 @@ export type StyleImage = StyleImageData & StyleImageMetadata;
  */
 
 export interface StyleImageInterface {
-    /**
-     * @property {number} width
-     */
-    width: number;
-    /**
-     * @property {number} height
-     */
-    height: number;
-    /**
-     * @property {Uint8Array | Uint8ClampedArray} data
-     */
-    data: Uint8Array | Uint8ClampedArray;
-    /**
-     * This method is called once before every frame where the icon will be used.
-     * The method can optionally update the image's `data` member with a new image.
-     *
-     * If the method updates the image it must return `true` to commit the change.
-     * If the method returns `false` or nothing the image is assumed to not have changed.
-     *
-     * If updates are infrequent it maybe easier to use {@link Map#updateImage} to update
-     * the image instead of implementing this method.
-     *
-     * @function
-     * @memberof StyleImageInterface
-     * @instance
-     * @name render
-     * @return {boolean} `true` if this method updated the image. `false` if the image was not changed.
-     */
-    render?: () => boolean;
-    /**
-     * Optional method called when the layer has been added to the Map with {@link Map#addImage}.
-     *
-     * @function
-     * @memberof StyleImageInterface
-     * @instance
-     * @name onAdd
-     * @param {Map} map The Map this custom layer was just added to.
-     */
-    onAdd?: (map: Map, id: string) => void;
-    /**
-     * Optional method called when the icon is removed from the map with {@link Map#removeImage}.
-     * This gives the image a chance to clean up resources and event listeners.
-     *
-     * @function
-     * @memberof StyleImageInterface
-     * @instance
-     * @name onRemove
-     */
-    onRemove?: () => void;
+  /**
+   * @property {number} width
+   */
+  width: number;
+  /**
+   * @property {number} height
+   */
+  height: number;
+  /**
+   * @property {Uint8Array | Uint8ClampedArray} data
+   */
+  data: Uint8Array | Uint8ClampedArray;
+  /**
+   * This method is called once before every frame where the icon will be used.
+   * The method can optionally update the image's `data` member with a new image.
+   *
+   * If the method updates the image it must return `true` to commit the change.
+   * If the method returns `false` or nothing the image is assumed to not have changed.
+   *
+   * If updates are infrequent it maybe easier to use {@link Map#updateImage} to update
+   * the image instead of implementing this method.
+   *
+   * @function
+   * @memberof StyleImageInterface
+   * @instance
+   * @name render
+   * @return {boolean} `true` if this method updated the image. `false` if the image was not changed.
+   */
+  render?: () => boolean;
+  /**
+   * Optional method called when the layer has been added to the Map with {@link Map#addImage}.
+   *
+   * @function
+   * @memberof StyleImageInterface
+   * @instance
+   * @name onAdd
+   * @param {Map} map The Map this custom layer was just added to.
+   */
+  onAdd?: (map: Map, id: string) => void;
+  /**
+   * Optional method called when the icon is removed from the map with {@link Map#removeImage}.
+   * This gives the image a chance to clean up resources and event listeners.
+   *
+   * @function
+   * @memberof StyleImageInterface
+   * @instance
+   * @name onRemove
+   */
+  onRemove?: () => void;
 }
 
 export function renderStyleImage(image: StyleImage) {
-    const {userImage} = image;
-    if (userImage && userImage.render) {
-        const updated = userImage.render();
-        if (updated) {
-            image.data.replace(new Uint8Array(userImage.data.buffer));
-            return true;
-        }
+  const { userImage } = image;
+  if (userImage && userImage.render) {
+    const updated = userImage.render();
+    if (updated) {
+      image.data.replace(new Uint8Array(userImage.data.buffer));
+      return true;
     }
-    return false;
+  }
+  return false;
 }

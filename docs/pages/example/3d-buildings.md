@@ -8,15 +8,15 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
-- Mapbox Streets tileset
+  - MapLibre GL JS
+  - Mapbox Streets tileset
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './3d-buildings.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './3d-buildings.html';"
 ---
 
-Use [extrusions](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
+Use [extrusions](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
 
 {{ <Example html={html} {...this.props} /> }}

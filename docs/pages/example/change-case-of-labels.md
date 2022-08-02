@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './change-case-of-labels.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './change-case-of-labels.html';"
 ---
 
-Use the [`upcase`](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#upcase) and [`downcase`](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#downcase) expressions to change the case of labels.
+Use the [`upcase`](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#upcase) and [`downcase`](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#downcase) expressions to change the case of labels.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './check-for-support.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './check-for-support.html';"
 ---
 
-Use [`supported`](https://maplibre.org/maplibre-gl-js-docs/api/properties/#supported) to check for MapLibre GL browser support, and show an alert if the browser does not support MapLibre GL.
+Use [`supported`](https://u-n-l.github.io/unl-map-js-docs/api/properties/#supported) to check for MapLibre GL browser support, and show an alert if the browser does not support MapLibre GL.
 
 {{ <Example html={html} {...this.props} /> }}

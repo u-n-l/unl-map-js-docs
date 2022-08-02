@@ -9,14 +9,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './animate-images.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './animate-images.html';"
 ---
 
-Use a series of [image sources](https://maplibre.org/maplibre-gl-js-docs/style-spec/sources/#image) to create an animation.
+Use a series of [image sources](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#image) to create an animation.
 
 {{ <Example html={html} {...this.props} /> }}

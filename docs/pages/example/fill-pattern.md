@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './fill-pattern.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './fill-pattern.html';"
 ---
 
-Use [`fill-pattern`](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#paint-fill-fill-pattern) to draw a polygon from a repeating image pattern.
+Use [`fill-pattern`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-fill-fill-pattern) to draw a polygon from a repeating image pattern.
 
 {{ <Example html={html} {...this.props} /> }}

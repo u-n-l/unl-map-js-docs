@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './canvas-source.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './canvas-source.html';"
 ---
 
-Add a [`CanvasSource`](https://maplibre.org/maplibre-gl-js-docs/api/sources/#canvassource) to the map.
+Add a [`CanvasSource`](https://u-n-l.github.io/unl-map-js-docs/api/sources/#canvassource) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

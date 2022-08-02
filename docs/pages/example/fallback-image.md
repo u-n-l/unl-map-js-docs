@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - MapLibre GL JS
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './fallback-image.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './fallback-image.html';"
 ---
 
-Use a [`coalesce`](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
+Use a [`coalesce`](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
 
 {{ <Example html={html} {...this.props} /> }}

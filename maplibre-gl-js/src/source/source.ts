@@ -1,12 +1,12 @@
-import {bindAll} from '../util/util';
+import { bindAll } from "../util/util";
 
-import type Dispatcher from '../util/dispatcher';
-import type {Event, Evented} from '../util/evented';
-import type Map from '../ui/map';
-import type Tile from './tile';
-import type {OverscaledTileID} from './tile_id';
-import type {Callback} from '../types/callback';
-import {CanonicalTileID} from './tile_id';
+import type Dispatcher from "../util/dispatcher";
+import type { Event, Evented } from "../util/evented";
+import type Map from "../ui/map";
+import type Tile from "./tile";
+import type { OverscaledTileID } from "./tile_id";
+import type { Callback } from "../types/callback";
+import { CanonicalTileID } from "./tile_id";
 
 /**
  * The `Source` interface must be implemented by each source type, including "core" types (`vector`, `raster`,
@@ -33,66 +33,66 @@ import {CanonicalTileID} from './tile_id';
  * if they are floor-ed to the nearest integer.
  */
 export interface Source {
-    readonly type: string;
-    id: string;
-    minzoom: number;
-    maxzoom: number;
-    tileSize: number;
-    attribution?: string;
-    roundZoom?: boolean;
-    isTileClipped?: boolean;
-    tileID?: CanonicalTileID;
-    reparseOverscaled?: boolean;
-    vectorLayerIds?: Array<string>;
-    hasTransition(): boolean;
-    loaded(): boolean;
-    fire(event: Event): unknown;
-    readonly onAdd?: (map: Map) => void;
-    readonly onRemove?: (map: Map) => void;
-    loadTile(tile: Tile, callback: Callback<void>): void;
-    readonly hasTile?: (tileID: OverscaledTileID) => boolean;
-    readonly abortTile?: (tile: Tile, callback: Callback<void>) => void;
-    readonly unloadTile?: (tile: Tile, callback: Callback<void>) => void;
-    /**
-     * @returns A plain (stringifiable) JS object representing the current state of the source.
-     * Creating a source using the returned object as the `options` should result in a Source that is
-     * equivalent to this one.
-     * @private
-     */
-    serialize(): any;
-    readonly prepare?: () => void;
+  readonly type: string;
+  id: string;
+  minzoom: number;
+  maxzoom: number;
+  tileSize: number;
+  attribution?: string;
+  roundZoom?: boolean;
+  isTileClipped?: boolean;
+  tileID?: CanonicalTileID;
+  reparseOverscaled?: boolean;
+  vectorLayerIds?: Array<string>;
+  hasTransition(): boolean;
+  loaded(): boolean;
+  fire(event: Event): unknown;
+  readonly onAdd?: (map: Map) => void;
+  readonly onRemove?: (map: Map) => void;
+  loadTile(tile: Tile, callback: Callback<void>): void;
+  readonly hasTile?: (tileID: OverscaledTileID) => boolean;
+  readonly abortTile?: (tile: Tile, callback: Callback<void>) => void;
+  readonly unloadTile?: (tile: Tile, callback: Callback<void>) => void;
+  /**
+   * @returns A plain (stringifiable) JS object representing the current state of the source.
+   * Creating a source using the returned object as the `options` should result in a Source that is
+   * equivalent to this one.
+   * @private
+   */
+  serialize(): any;
+  readonly prepare?: () => void;
 }
 
 type SourceStatics = {
-    /*
-     * An optional URL to a script which, when run by a Worker, registers a {@link WorkerSource}
-     * implementation for this Source type by calling `self.registerWorkerSource(workerSource: WorkerSource)`.
-     */
-    workerSourceURL?: URL;
+  /*
+   * An optional URL to a script which, when run by a Worker, registers a {@link WorkerSource}
+   * implementation for this Source type by calling `self.registerWorkerSource(workerSource: WorkerSource)`.
+   */
+  workerSourceURL?: URL;
 };
 
 export type SourceClass = {
-    new (...args: any): Source;
+  new (...args: any): Source;
 } & SourceStatics;
 
-import vector from '../source/vector_tile_source';
-import raster from '../source/raster_tile_source';
-import rasterDem from '../source/raster_dem_tile_source';
-import geojson from '../source/geojson_source';
-import video from '../source/video_source';
-import image from '../source/image_source';
-import canvas from '../source/canvas_source';
+import vector from "../source/vector_tile_source";
+import raster from "../source/raster_tile_source";
+import rasterDem from "../source/raster_dem_tile_source";
+import geojson from "../source/geojson_source";
+import video from "../source/video_source";
+import image from "../source/image_source";
+import canvas from "../source/canvas_source";
 
-import type {SourceSpecification} from '../style-spec/types.g';
+import type { SourceSpecification } from "../style-spec/types.g";
 
 const sourceTypes = {
-    vector,
-    raster,
-    'raster-dem': rasterDem,
-    geojson,
-    video,
-    image,
-    canvas
+  vector,
+  raster,
+  "raster-dem": rasterDem,
+  geojson,
+  video,
+  image,
+  canvas,
 };
 
 /*
@@ -100,32 +100,45 @@ const sourceTypes = {
  *
  * @param id
  * @param {Object} source A source definition object compliant with
- * [`maplibre-gl-style-spec`](https://maplibre.org/maplibre-gl-js-docs/style-spec/#sources) or, for a third-party source type,
-  * with that type's requirements.
+ * [`maplibre-gl-style-spec`](https://u-n-l.github.io/unl-map-js-docs/style-spec/#sources) or, for a third-party source type,
+ * with that type's requirements.
  * @param {Dispatcher} dispatcher
  * @returns {Source}
  */
-export const create = function(id: string, specification: SourceSpecification, dispatcher: Dispatcher, eventedParent: Evented) {
-    const source = new sourceTypes[specification.type](id, (specification as any), dispatcher, eventedParent);
+export const create = function (
+  id: string,
+  specification: SourceSpecification,
+  dispatcher: Dispatcher,
+  eventedParent: Evented
+) {
+  const source = new sourceTypes[specification.type](
+    id,
+    specification as any,
+    dispatcher,
+    eventedParent
+  );
 
-    if (source.id !== id) {
-        throw new Error(`Expected Source id to be ${id} instead of ${source.id}`);
-    }
+  if (source.id !== id) {
+    throw new Error(`Expected Source id to be ${id} instead of ${source.id}`);
+  }
 
-    bindAll(['load', 'abort', 'unload', 'serialize', 'prepare'], source);
-    return source;
+  bindAll(["load", "abort", "unload", "serialize", "prepare"], source);
+  return source;
 };
 
 export const getSourceType = function (name: string) {
-    return sourceTypes[name];
+  return sourceTypes[name];
 };
 
-export const setSourceType = function (name: string, type: {
+export const setSourceType = function (
+  name: string,
+  type: {
     new (...args: any): Source;
-}) {
-    sourceTypes[name] = type;
+  }
+) {
+  sourceTypes[name] = type;
 };
 
 export interface Actor {
-    send(type: string, data: any, callback: Callback<any>): void;
+  send(type: string, data: any, callback: Callback<any>): void;
 }
