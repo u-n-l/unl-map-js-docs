@@ -95,7 +95,7 @@ If the second approach is chosen, the following options can be specified during 
 | tiles                  | MapTiles[] | ["vectorial", "traffic", "terrain", "satellite", "base"] | The options that will be included in the tiles selector |
 | displayControlsDefault | boolean    | true                                                     | Display the default tile selector UI                    |
 
-![Tiles selector](https://github.com/u-n-l/unl-map-js/blob/main/docs/gifs/tile_selector.gif?raw=true)
+![Tiles selector](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/tile_selector.gif?raw=true)
 
 ### API Methods
 
@@ -158,7 +158,7 @@ map.addControl(new UnlSdk.DraftShapesControl(), "bottom-right");
 
 Enabling the draft shapes control, will fetch and render all the shapes added in the VPM whose id is passed during the map initialisation. Additionally, by clicking on a shape, it can be moved, edited or deleted. New shapes can be created: polygon, circle or rectangles, via the three corresponding control buttons and they will get saved in the same VPM.
 
-![Draft shapes creation & editing and delete](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/tile_selector.gif?raw=true)
+![Draft shapes creation & editing and delete](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/draft_shapes.gif?raw=true)
 
 <br />
 <br />
