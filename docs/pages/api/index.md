@@ -40,3 +40,7 @@ This documentation is divided into several sections:
 - [**Events**](https://u-n-l.github.io/unl-map-js-docs/api/events/). This section describes the different types of events that UNL Map JS can raise.
 
 Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
+
+## Contribution
+
+UNL Map JS is an advance Map SDK library, builld using the core open-source library of MapLibre GL JS. UNL conforms to MapLibre GL licensing terms listed under 3-Clause BSD License.
