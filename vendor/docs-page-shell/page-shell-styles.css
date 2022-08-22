@@ -22,7 +22,7 @@
   color: #1f3349;
   font-size: 15px !important;
   line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
@@ -59,22 +59,22 @@
   text-decoration: none;
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   /* Notice the absolute URLs! */
-  src: url('https://api.mapbox.com/mapbox-assembly/fonts/opensans-regular.v1.woff2')
-      format('woff2'),
-    url('https://api.mapbox.com/mapbox-assembly/fonts/opensans-regular.v1.woff')
-      format('woff');
+  src: url("https://api.mapbox.com/mapbox-assembly/fonts/opensans-regular.v1.woff2")
+      format("woff2"),
+    url("https://api.mapbox.com/mapbox-assembly/fonts/opensans-regular.v1.woff")
+      format("woff");
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: bold;
   /* Notice the absolute URLs! */
-  src: url('https://api.mapbox.com/mapbox-assembly/fonts/opensans-bold.v1.woff2')
-      format('woff2'),
-    url('https://api.mapbox.com/mapbox-assembly/fonts/opensans-bold.v1.woff')
-      format('woff');
+  src: url("https://api.mapbox.com/mapbox-assembly/fonts/opensans-bold.v1.woff2")
+      format("woff2"),
+    url("https://api.mapbox.com/mapbox-assembly/fonts/opensans-bold.v1.woff")
+      format("woff");
 }
 
 /* Typography */
@@ -479,16 +479,16 @@
 
 /* mapbox-assembly Typography */
 @font-face {
-  font-family: 'Cera';
+  font-family: "Cera";
   font-weight: 700;
   /* Notice the absolute URLs! */
-  src: url('https://api.mapbox.com/mapbox-assembly/mbx/v0.14.0/CeraPRO-Bold.woff2')
-      format('woff2'),
-    url('https://api.mapbox.com/mapbox-assembly/mbx/v0.14.0/CeraPRO-Bold.woff')
-      format('woff');
+  src: url("https://api.mapbox.com/mapbox-assembly/mbx/v0.14.0/CeraPRO-Bold.woff2")
+      format("woff2"),
+    url("https://api.mapbox.com/mapbox-assembly/mbx/v0.14.0/CeraPRO-Bold.woff")
+      format("woff");
 }
 .shell-wrapper .shell-txt-fancy {
-  font-family: 'Cera', sans-serif !important;
+  font-family: "Cera", sans-serif !important;
 }
 
 /* mapbox-assembly Branding */
@@ -730,4 +730,9 @@
 .shell-mobile-nav--visible #mbx-user-menu-mobile a {
   color: #4264fb !important;
   box-shadow: inset 0 0 0 1px currentColor;
+}
+
+.footer {
+  display: flex !important;
+  flex-direction: row;
 }
