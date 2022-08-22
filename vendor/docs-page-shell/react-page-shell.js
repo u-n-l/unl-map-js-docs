@@ -520,6 +520,79 @@ PageHeader.defaultProps = {
   darkText: false,
 };
 
+function FooterLegalStrip(props) {
+  return React.createElement(
+    "div",
+    {
+      className: "footer",
+    },
+    React.createElement(
+      "p",
+      {
+        className:
+          "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+      },
+      "© UNL Global"
+    ),
+    React.createElement(
+      "p",
+      {
+        className:
+          "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+      },
+      "Privacy"
+    ),
+    React.createElement(
+      "p",
+      {
+        className:
+          "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+      },
+      "Terms"
+    ),
+    React.createElement(
+      "p",
+      {
+        className:
+          "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+      },
+      "Contact support"
+    )
+  );
+}
+
+FooterLegalStrip.propTypes = {
+  className: PropTypes.string,
+};
+
+function PageFooter() {
+  return React.createElement(
+    "footer",
+    {
+      id: "page-footer",
+      className: "shell-py12 shell-py48-ml",
+      "data-swiftype-index": "false",
+    },
+    React.createElement(
+      "div",
+      {
+        className: "limiter limiter--wide",
+      },
+      React.createElement(
+        "div",
+        {
+          id: "page-footer-legal-social",
+          className:
+            "shell-grid shell-txt-s shell-color-gray shell-py12 shell-py0-ml",
+        },
+        React.createElement(FooterLegalStrip, {
+          className: "shell-col shell-col--12 shell-col--6-mm shell-my12",
+        })
+      )
+    )
+  );
+}
+
 function unwrapExports(x) {
   return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default")
     ? x.default
@@ -896,6 +969,14 @@ var ReactPageShell =
                   },
                   this.props.children
                 )
+              ),
+              React.createElement(
+                "div",
+                {
+                  className:
+                    "shell-flex-child shell-flex-child--no-shrink shell-wrapper",
+                },
+                React.createElement(PageFooter, null)
               )
             )
           );
