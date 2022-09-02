@@ -551,10 +551,11 @@ function FooterLegalStrip(props) {
       "Terms"
     ),
     React.createElement(
-      "p",
+      "a",
       {
         className:
           "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+        href: "https://alpha.studio.unl.global/contact_support",
       },
       "Contact support"
     )
