@@ -1,6 +1,8 @@
 /* eslint-disable */
 "use strict";
 
+const CONTACT_SUPPORT_URL = "https://sandbox.studio.unl.global/contact_support";
+
 function _interopDefault(ex) {
   return ex && typeof ex === "object" && "default" in ex ? ex["default"] : ex;
 }
@@ -555,7 +557,7 @@ function FooterLegalStrip(props) {
       {
         className:
           "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
-        href: "https://alpha.studio.unl.global/contact_support",
+        href: CONTACT_SUPPORT_URL,
       },
       "Contact support"
     )
