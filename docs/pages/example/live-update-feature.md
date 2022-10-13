@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './live-update-feature.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './live-update-feature.html';"
 ---
 
 Change an existing feature on your map in real-time by updating its data.

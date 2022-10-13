@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './drag-a-point.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './drag-a-point.html';"
 ---
 
 Drag the point to a new location on a map and populate its coordinates in a display.

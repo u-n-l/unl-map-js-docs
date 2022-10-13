@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './animate-point-along-line.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './animate-point-along-line.html';"
 ---
 
 Animate the position of a point by updating a GeoJSON source on each frame.

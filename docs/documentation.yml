@@ -7,7 +7,7 @@ toc:
   - name: Properties and options
     page: "properties"
     description: |
-      MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
+      Unl Map Js's global properties and options that you can access while initializing your map or accessing information about its status.
     children:
       - workerCount
       - maxParallelImageRequests
@@ -70,7 +70,7 @@ toc:
   - name: Sources
     page: "sources"
     description: |
-      The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/unl-map-js-docs/style-spec/).
+      The source types UNL Map JS can handle.
     children:
       - GeoJSONSource
       - VideoSource
@@ -81,7 +81,7 @@ toc:
   - name: Events
     page: "events"
     description: |
-      The different types of events that MapLibre GL JS can raise.
+      The different types of events that Unl Map JS can raise.
 
       You can also find additional event documentation for: [`Map`](/unl-map-js-docs/api/map/#map-events), [`Marker`](/unl-map-js-docs/api/markers/#marker-events), [`Popup`](/unl-map-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/unl-map-js-docs/api/markers/#geolocatecontrol-events).
     children:

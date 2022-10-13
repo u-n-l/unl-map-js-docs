@@ -1,6 +1,6 @@
 ---
 title: Examples
-description: Code examples for MapLibre GL JS.
+description: Code examples for Unl Map Js.
 contentType: example
 layout: example
 hideFeedback: true
@@ -12,5 +12,5 @@ showFilters:
   - topics
   - search
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 ---

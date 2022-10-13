@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './variable-label-placement.html';"
 ---
 
-Use [`text-variable-anchor`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#layout-symbol-text-variable-anchor) to allow high priority labels to shift position to stay on the map.
+Use `text-variable-anchor` to allow high priority labels to shift position to stay on the map.
 
 {{ <Example html={html} {...this.props} /> }}

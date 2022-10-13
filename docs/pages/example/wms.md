@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './wms.html';"
 ---
 
-Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addsource)'s [`tiles`](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#raster-tiles) option.
+Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#addsource)'s `tiles` option.
 
 {{ <Example html={html} {...this.props} /> }}

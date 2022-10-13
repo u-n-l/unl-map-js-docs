@@ -1,6 +1,6 @@
 ---
 title: Create and style clusters
-description: Use MapLibre GL JS' built-in functions to visualize points as clusters.
+description: Use Unl Map Js' built-in functions to visualize points as clusters.
 topics:
   - Layers
 thumbnail: cluster
@@ -8,14 +8,14 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './cluster.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './cluster.html';"
 ---
 
-Use MapLibre GL JS' built-in functions to visualize points as clusters.
+Use Unl Map Js' built-in functions to visualize points as clusters.
 
 {{ <Example html={html} {...this.props} /> }}

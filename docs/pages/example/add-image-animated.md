@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './add-image-animated.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './add-image-animated.html';"
 ---
 
 Add an animated icon to the map that was generated at runtime with the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).

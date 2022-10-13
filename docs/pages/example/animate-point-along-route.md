@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './animate-point-along-route.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './animate-point-along-route.html';"
 ---
 
 Use [Turf](http://turfjs.org/) to smoothly animate a point along the distance of a line.

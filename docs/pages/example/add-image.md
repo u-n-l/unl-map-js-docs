@@ -11,12 +11,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './add-image.html';"
 ---
 
-Add an icon to the map from an external URL and use it in a [symbol layer](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#symbol).
+Add an icon to the map from an external URL and use it in a symbol layer.
 
 {{ <Example html={html} {...this.props} /> }}

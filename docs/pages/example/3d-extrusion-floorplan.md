@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './3d-extrusion-floorplan.html';"
 ---
 
-Create a 3D indoor map with the [`fill-extrude-height`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-fill-extrusion-fill-extrusion-height) paint property.
+Create a 3D indoor map with the `fill-extrude-height` paint property.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './multiple-geometries.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './multiple-geometries.html';"
 ---
 
 Add a polygon and circle layer from the same GeoJSON source.

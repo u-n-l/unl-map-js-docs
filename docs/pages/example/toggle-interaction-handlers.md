@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './toggle-interaction-handlers.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './toggle-interaction-handlers.html';"
 ---
 
 Enable or disable UI handlers on a map.

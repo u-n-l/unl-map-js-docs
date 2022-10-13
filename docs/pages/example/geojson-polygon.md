@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './geojson-polygon.html';"
 ---
 
-Style a polygon with the [fill layer](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#fill) type.
+Style a polygon with the fill layer type.
 
 {{ <Example html={html} {...this.props} /> }}

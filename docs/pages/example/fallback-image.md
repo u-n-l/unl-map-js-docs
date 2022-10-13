@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './fallback-image.html';"
 ---
 
-Use a [`coalesce`](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
+Use a `coalesce` expression to display another image when a requested image is not available.
 
 {{ <Example html={html} {...this.props} /> }}

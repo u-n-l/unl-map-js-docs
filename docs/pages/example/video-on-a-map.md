@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './video-on-a-map.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './video-on-a-map.html';"
 ---
 
 Display a video on top of a satellite raster baselayer. Click the map to play and pause the video.

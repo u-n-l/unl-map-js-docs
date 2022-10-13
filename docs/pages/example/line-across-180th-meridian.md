@@ -10,13 +10,13 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 thumbnail: line-across-180th-meridian
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './line-across-180th-meridian.html';"
 ---
 
-Draw a line across the 180th meridian using a [GeoJSON source](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#geojson).
+Draw a line across the 180th meridian using a GeoJSON source.
 
 {{ <Example html={html} {...this.props} /> }}

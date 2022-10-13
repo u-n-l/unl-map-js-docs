@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './fill-pattern.html';"
 ---
 
-Use [`fill-pattern`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-fill-fill-pattern) to draw a polygon from a repeating image pattern.
+Use `fill-pattern` to draw a polygon from a repeating image pattern.
 
 {{ <Example html={html} {...this.props} /> }}

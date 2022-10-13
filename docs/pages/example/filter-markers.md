@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './filter-markers.html';"
 ---
 
-Filter a set of [symbols](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#symbol) based on a property value in the data.
+Filter a set of symbols based on a property value in the data.
 
 {{ <Example html={html} {...this.props} /> }}

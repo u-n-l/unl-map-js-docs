@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './game-controls.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './game-controls.html';"
 ---
 
 Use the keyboard's arrow keys to move around the map with game-like controls.

@@ -1,5 +1,5 @@
 ---
-title: Check if MapLibre GL JS is supported
+title: Check if Unl Map Js is supported
 description: Check for MapLibre GL browser support.
 topics:
   - Browser support
@@ -10,7 +10,7 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './check-for-support.html';"

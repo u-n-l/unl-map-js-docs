@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './visualize-population-density.html';"
 ---
 
-Use a [variable binding expression](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#variable-binding) to calculate and display population density.
+Use a variable binding expression to calculate and display population density.
 
 {{ <Example html={html} {...this.props} /> }}
