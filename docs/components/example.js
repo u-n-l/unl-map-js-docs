@@ -119,7 +119,15 @@ ${html}
           </Note>
         )}
 
-        {supported() && (
+        {/* TODO: remove this line once we get the restricted credentials */}
+        <Note theme="default">
+          If you want to test this example, edit it in JSFiddle or CodePen and
+          replace the "YOUR-OWN-API-KEY" and "YOUR-OWN-VPM-ID" placeholders with
+          your actual api key and vpm id.
+        </Note>
+
+        {/* TODO: uncomment out this code once we get the restricted credentials */}
+        {/* {supported() && (
           <iframe
             id="demo"
             style={{ height: height }}
@@ -132,7 +140,7 @@ ${html}
             }}
             title={`${frontMatter.title} example`}
           />
-        )}
+        )} */}
 
         {this.props.displaySnippet && this.renderSnippet()}
       </div>
