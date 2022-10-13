@@ -66,11 +66,11 @@ Typescript definition files are included as part of this package.
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css"
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
       rel="stylesheet"
     />
     <link
-      href="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.css"
+      href="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
