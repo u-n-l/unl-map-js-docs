@@ -30,20 +30,22 @@ import UnlSdk from "unl-map-js";
 #### When using CDN
 
 ```
-<script src="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.js"></script>
+<script src="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.js"></script>
 ```
 
 ### CSS
 
+Include the following CSS files in the `<head>` of your HTML file.
+
 ```
- <link
-      href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css"
-      rel="stylesheet"
-    />
- <link
-      href="https://unpkg.com/unl-map-js@0.0.1/lib/unl-map-js.css"
-      rel="stylesheet"
-    />
+<link
+  href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+  rel="stylesheet"
+/>
+<link
+  href="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.css"
+  rel="stylesheet"
+/>
 ```
 
 ### Typescript
