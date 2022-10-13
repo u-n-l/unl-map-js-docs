@@ -10,12 +10,6 @@ language:
   - JavaScript
 products:
   - UNL Map JS
-prependJs:
-  - "import Quickstart from '../../components/quickstart';"
-  - "import Example from '../../components/example';"
-  - "import SimpleMapHtml from '../example/simple-map.html';"
-  - "import Copyable from '../../components/copyable';"
-  - "import urls from '../../components/urls';"
 overviewHeader:
   title: UNL Map JS
   features:

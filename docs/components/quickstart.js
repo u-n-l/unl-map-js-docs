@@ -12,17 +12,23 @@ class Quickstart extends React.Component {
   }
 
   mapOptions = `{
-    container: 'map',
-    style: 'https://demotiles.u-n-l.github.io/style.json', // stylesheet location
-    center: [-74.5, 40], // starting position [lng, lat]
-    zoom: 9 // starting zoom
+    apiKey: "YOUR-OWN-API-KEY",
+    vpmId: "YOUR-OWN-VPM-ID",
+    gridControl: true,
+    indoorMapsControl: true,
+    tilesSelectorControl: true,
+    draftShapesControl: true,
+    container: "map",
+    center: [0, 0],
+    zoom: 1,
+    minZoom: 2,
 }`;
 
   renderCdn() {
     const cdnMapHtml = `
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-var map = new maplibregl.Map(${this.mapOptions});
+var map = new UnlSdk.Map(${this.mapOptions});
 </script>`;
     return (
       <div id="quickstart-cdn">
@@ -32,7 +38,9 @@ var map = new maplibregl.Map(${this.mapOptions});
         </p>
         <Copyable lang="markup">{`
 <script src='${urls.js()}'></script>
+<link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
 <link href='${urls.css()}' rel='stylesheet' />
+
 `}</Copyable>
 
         <p>
@@ -46,14 +54,14 @@ var map = new maplibregl.Map(${this.mapOptions});
 
   renderBundler() {
     const bundlerMapJs = `
-import maplibregl from 'maplibre-gl'; // or "const maplibregl = require('maplibre-gl');"
+import UnlSdk from "unl-map-js";
 
-const map = new maplibregl.Map(${this.mapOptions});`;
+const map = new UnlSdk.Map(${this.mapOptions});`;
     return (
       <div id="quickstart-bundler">
         <p>Install the npm package.</p>
         <Copyable lang="markup">{`
-npm install --save maplibre-gl
+npm install --save unl-map-js
 `}</Copyable>
 
         <p>
@@ -61,6 +69,7 @@ npm install --save maplibre-gl
           file.
         </p>
         <Copyable lang="markup">{`
+<link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
 <link href='${urls.css()}' rel='stylesheet' />
 `}</Copyable>
 
