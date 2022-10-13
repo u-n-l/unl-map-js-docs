@@ -11,12 +11,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './center-on-symbol.html';"
 ---
 
-Use events and [`flyTo`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#flyto) to center the map on a [`symbol`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#symbol).
+Use events and [`flyTo`](https://u-n-l.github.io/unl-map-js-docs/api/map/#map#flyto) to center the map on a `symbol`.
 
 {{ <Example html={html} {...this.props} /> }}

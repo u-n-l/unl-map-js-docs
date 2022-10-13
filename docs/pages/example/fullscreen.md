@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './fullscreen.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './fullscreen.html';"
 ---
 
 Toggle between current view and fullscreen mode.

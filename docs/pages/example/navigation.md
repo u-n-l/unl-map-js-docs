@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './navigation.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './navigation.html';"
 ---
 
 Add zoom and rotation controls to the map.

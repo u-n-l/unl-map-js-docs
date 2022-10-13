@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './vector-source.html';"
 ---
 
-Add a [vector source](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#vector) to a map.
+Add a vector source to a map.
 
 {{ <Example html={html} {...this.props} /> }}

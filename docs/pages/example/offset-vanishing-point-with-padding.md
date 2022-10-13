@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './offset-vanishing-point-with-padding.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './offset-vanishing-point-with-padding.html';"
 ---
 
 Offset the center or [vanishing point](https://en.wikipedia.org/wiki/Vanishing_point) of the map to reduce distortion when floating elements are displayed over the map.

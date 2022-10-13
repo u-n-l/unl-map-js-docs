@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './data-driven-lines.html';"
 ---
 
-Create a visualization with a data expression for [`line-color`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-line-line-color).
+Create a visualization with a data expression for `line-color`.
 
 {{ <Example html={html} {...this.props} /> }}

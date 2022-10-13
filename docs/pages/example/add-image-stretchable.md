@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './add-image-stretchable.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './add-image-stretchable.html';"
 ---
 
 Use a stretchable image as a background for text. Stretchable images allow some parts of the image to stretch while keeping other parts, such as corners, at a constant size. Set the `layout` property `'icon-text-fit': 'both'` to use the image as background for the text.

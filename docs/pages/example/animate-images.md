@@ -11,12 +11,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './animate-images.html';"
 ---
 
-Use a series of [image sources](https://u-n-l.github.io/unl-map-js-docs/style-spec/sources/#image) to create an animation.
+Use a series of image sources to create an animation.
 
 {{ <Example html={html} {...this.props} /> }}

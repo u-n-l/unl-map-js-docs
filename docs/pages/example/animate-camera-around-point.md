@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './animate-camera-around-point.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './animate-camera-around-point.html';"
 ---
 
 Animate the map camera around a point.

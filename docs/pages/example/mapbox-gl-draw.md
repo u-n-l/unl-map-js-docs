@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './mapbox-gl-draw.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './mapbox-gl-draw.html';"
 ---
 
 Use [mapbox-gl-draw](https://github.com/mapbox/mapbox-gl-draw) to draw a polygon and [Turf.js](http://turfjs.org/) to calculate its area in square meters.

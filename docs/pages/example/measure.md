@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './measure.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './measure.html';"
 ---
 
 Click points on a map to create lines that measure distanced using [turf.length](https://turfjs.org/docs/#length).

@@ -6,100 +6,40 @@ language:
   - JavaScript
 navOrder: 1
 layout: page # use the layout page
+prependJs:
+  - "import Quickstart from '../../components/quickstart';"
+  - "import Example from '../../components/example';"
+  - "import SimpleMapHtml from '../example/simple-map.html';"
+  - "import Copyable from '../../components/copyable';"
+  - "import urls from '../../components/urls';"
 hideFeedback: true # hide feedback from page
 products:
   - UNL Map JS
 ---
 
-## Installing
+## Quickstart
 
-```
-npm install unl-map-js
-```
-
-## Usage in your application
-
-### Javascript
-
-#### When using modules
-
-```
-import UnlSdk from "unl-map-js";
-```
-
-#### When using CDN
-
-```
-<script src="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.js"></script>
-```
-
-### CSS
-
-Include the following CSS files in the `<head>` of your HTML file.
-
-```
-<link
-  href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
-  rel="stylesheet"
+{{
+    <Example
+        frontMatter={{
+          title: 'MapLibre GL JS map',
+          description: ''
+        }}
+location={this.props.location}
+html={SimpleMapHtml}
+displaySnippet={false}
+height={300}
+hideWarning={true}
 />
-<link
-  href="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.css"
-  rel="stylesheet"
-/>
-```
+}}
 
-### Typescript
+{{
+<Quickstart />
+}}
+
+## Typescript
 
 Typescript definition files are included as part of this package.
-
-### Initializing the map
-
-#### Example usage
-
-#### index.html
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/unl-map-js@latest/lib/unl-map-js.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Hello world</title>
-  </head>
-  <body>
-    <div id="map" class="map"></div>
-    <script type="module" src="./dist/index.js"></script>
-  </body>
-</html>
-```
-
-#### index.js
-
-```js
-import UnlSdk from "unl-map-js";
-
-const map = new UnlSdk.Map({
-apiKey:  <YOUR-UNL-API-KEY>,
-vpmId: <YOUR-VPM-ID>,
-gridControl: true,
-indoorMapsControl: true,
-tilesSelectorControl: true,
-draftShapesControl: true,
-container: "map",
-center: [0, 0],
-zoom: 1,
-});
-```
 
 <br />
 <br />

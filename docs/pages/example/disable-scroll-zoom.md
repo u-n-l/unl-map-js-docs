@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './disable-scroll-zoom.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './disable-scroll-zoom.html';"
 ---
 
 Disable scroll zoom to prevent scroll from zooming a map.

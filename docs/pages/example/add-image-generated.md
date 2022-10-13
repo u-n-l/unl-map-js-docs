@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './add-image-generated.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './add-image-generated.html';"
 ---
 
 Add an icon to the map that was generated at runtime.

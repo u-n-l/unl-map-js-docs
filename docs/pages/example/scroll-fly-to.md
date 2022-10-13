@@ -8,12 +8,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './scroll-fly-to.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './scroll-fly-to.html';"
 ---
 
 Scroll down through the story and the map will fly to the chapter's location.

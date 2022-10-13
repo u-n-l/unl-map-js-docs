@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './filter-markers-by-input.html';"
 ---
 
-Filter [symbols](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#symbol) by icon name by typing in a text input.
+Filter symbols by icon name by typing in a text input.
 
 {{ <Example html={html} {...this.props} /> }}

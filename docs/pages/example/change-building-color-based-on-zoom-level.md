@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './change-building-color-based-on-zoom-level.html';"
 ---
 
-Use the [`interpolate` expression](https://u-n-l.github.io/unl-map-js-docs/style-spec/expressions/#interpolate) to ease-in the building layer and smoothly fade from one color to the next.
+Use the `interpolate` expression to ease-in the building layer and smoothly fade from one color to the next.
 
 {{ <Example html={html} {...this.props} /> }}

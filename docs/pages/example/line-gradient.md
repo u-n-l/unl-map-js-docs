@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './line-gradient.html';"
 ---
 
-Use the [`line-gradient`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#paint-line-line-gradient) paint property and an expression to visualize distance from the starting point of a line.
+Use the `line-gradient` paint property and an expression to visualize distance from the starting point of a line.
 
 {{ <Example html={html} {...this.props} /> }}

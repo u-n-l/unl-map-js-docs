@@ -9,12 +9,12 @@ contentType: example
 layout: example
 hideFeedback: true
 language:
-- JavaScript
+  - JavaScript
 products:
-- MapLibre GL JS
+  - Unl Map Js
 prependJs:
-- "import Example from '../../components/example';"
-- "import html from './add-image-missing-generated.html';"
+  - "import Example from '../../components/example';"
+  - "import html from './add-image-missing-generated.html';"
 ---
 
 Dynamically generate a missing icon at runtime and add it to the map.

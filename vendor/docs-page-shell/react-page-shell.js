@@ -1,7 +1,7 @@
 /* eslint-disable */
 "use strict";
 
-const CONTACT_SUPPORT_URL = "https://sandbox.studio.unl.global/contact_support";
+const CONTACT_SUPPORT_URL = "https://platform.unl.global/contact_support";
 
 function _interopDefault(ex) {
   return ex && typeof ex === "object" && "default" in ex ? ex["default"] : ex;

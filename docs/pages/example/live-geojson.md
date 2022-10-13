@@ -10,12 +10,12 @@ hideFeedback: true
 language:
   - JavaScript
 products:
-  - MapLibre GL JS
+  - Unl Map Js
 prependJs:
   - "import Example from '../../components/example';"
   - "import html from './live-geojson.html';"
 ---
 
-Use realtime GeoJSON data streams to move a [`symbol`](https://u-n-l.github.io/unl-map-js-docs/style-spec/layers/#symbol) on your map.
+Use realtime GeoJSON data streams to move a `symbol` on your map.
 
 {{ <Example html={html} {...this.props} /> }}
