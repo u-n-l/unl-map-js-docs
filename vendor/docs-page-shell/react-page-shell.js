@@ -2,6 +2,9 @@
 "use strict";
 
 const CONTACT_SUPPORT_URL = "https://platform.unl.global/contact_support";
+const TERMS_AND_CONDITIONS_URL =
+  "https://platform.unl.global/terms_and_conditions";
+const PRIVACY_URL = "https://platform.unl.global/privacy_policy";
 
 function _interopDefault(ex) {
   return ex && typeof ex === "object" && "default" in ex ? ex["default"] : ex;
@@ -537,18 +540,20 @@ function FooterLegalStrip(props) {
       "© UNL Global"
     ),
     React.createElement(
-      "p",
+      "a",
       {
         className:
           "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+        href: PRIVACY_URL,
       },
       "Privacy"
     ),
     React.createElement(
-      "p",
+      "a",
       {
         className:
           "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
+        href: TERMS_AND_CONDITIONS_URL,
       },
       "Terms"
     ),
