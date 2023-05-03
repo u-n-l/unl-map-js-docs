@@ -11,13 +11,15 @@ products:
   - UNL Map JS
 ---
 
+To access the SDKs, users must first sign up for the UNL platform. If you are not currently a user of the platform, please contact support@unl.global for assistance.
+
 ## User Sign-up
 
-A user need to sign up to [UNL studio](https://studio.unl.global/) to configure access keys which will be used to initialize the SDK. Follow the next steps to obtain api key and vpm id.
+A user need to sign up to UNL Platform to configure access keys which will be used to initialize the SDK. Follow the next steps to obtain api key and vpm id.
 
 ## Creating a Virtual Private Maps(VPM)
 
-Once sign-up process is complete, user can Login to UNL studio using the link [UNL Studio](https://studio.unl.global)
+Once sign-up process is complete, user can Login to UNL Platform.
 
 The next step is to create your virtual private map (vpms). Create a Virtual Private Map (VPM) to build your personalised space for accessing UNL products and services. VPM power users to integrate their private map content with UNL services.
 
@@ -31,7 +33,7 @@ In the Dashboard page, go to **Build Your first Virtual Private Map** card.
 
 ![](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/first_vpm_creation.gif?raw=true)
 
-- User can also create VPM from the Studio landing page directly.
+- User can also create VPM from the Platform landing page directly.
 
 #### For returning users
 
