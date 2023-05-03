@@ -812,6 +812,39 @@
               "properties": [
                 {
                   "title": "param",
+                  "description": {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "The env of the api. The api key and vpm id credentials should be generated on the env passed as an option here."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "lineNumber": 11,
+                  "type": {
+                    "type": "UnionType",
+                    "elements": [
+                      {
+                        "type": "NameExpression",
+                        "name": "SANDBOX"
+                      },
+                      {
+                        "type": "NameExpression",
+                        "name": "PROD"
+                      }
+                    ]
+                  },
+                  "name": "options.env",
+                  "default": "Environment.PROD"
+                },
+                {
+                  "title": "param",
                   "name": "options.container",
                   "lineNumber": 11,
                   "description": {

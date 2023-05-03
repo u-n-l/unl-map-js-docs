@@ -24,12 +24,25 @@ class Quickstart extends React.Component {
     minZoom: 2,
 }`;
 
+  mapOptionsSandbox = `{
+  ...
+  env: UnlSdk.Environment.SANDBOX,
+  ...
+}`;
+
   renderCdn() {
     const cdnMapHtml = `
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
 var map = new UnlSdk.Map(${this.mapOptions});
 </script>`;
+
+    const cdnMapHtmlSandbox = `
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+var map = new UnlSdk.Map(${this.mapOptionsSandbox});
+</script>`;
+
     return (
       <div id="quickstart-cdn">
         <p>
@@ -48,6 +61,10 @@ var map = new UnlSdk.Map(${this.mapOptions});
           HTML file.
         </p>
         <Copyable lang="markup">{cdnMapHtml}</Copyable>
+
+        <p>If you are using 'SANDBOX' credentials pass the 'env' like this:</p>
+        <Copyable lang="markup">{cdnMapHtmlSandbox}</Copyable>
+        <p>If the env value is not provided it will default to 'PROD'.</p>
       </div>
     );
   }
@@ -57,6 +74,12 @@ var map = new UnlSdk.Map(${this.mapOptions});
 import UnlSdk from "unl-map-js";
 
 const map = new UnlSdk.Map(${this.mapOptions});`;
+
+    const bundlerMapJsSandbox = `
+import UnlSdk from "unl-map-js";
+
+const map = new UnlSdk.Map(${this.mapOptionsSandbox});`;
+
     return (
       <div id="quickstart-bundler">
         <p>Install the npm package.</p>
@@ -78,6 +101,13 @@ npm install --save unl-map-js
           HTML file.
         </p>
         <Copyable lang="javascript">{bundlerMapJs}</Copyable>
+
+        <p>
+          If you are using the 'SANDBOX' environment then add the 'env'
+          parameter as an initialization option like this:
+        </p>
+        <Copyable lang="javascript">{bundlerMapJsSandbox}</Copyable>
+        <p>If the env value is not provided it will default to 'PROD'.</p>
       </div>
     );
   }
