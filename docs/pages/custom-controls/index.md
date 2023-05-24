@@ -90,10 +90,10 @@ map.addControl(new UnlSdk.TilesSelectorControl({ tiles: ["vectorial", "satellite
 
 If the second approach is chosen, the following options can be specified during the `TilesSelectorControl` initialisation:
 
-| Option                 | Type       | Default                                                  | Description                                             |
-| ---------------------- | ---------- | -------------------------------------------------------- | ------------------------------------------------------- |
-| tiles                  | MapTiles[] | ["vectorial", "traffic", "terrain", "satellite", "base"] | The options that will be included in the tiles selector |
-| displayControlsDefault | boolean    | true                                                     | Display the default tile selector UI                    |
+| Option                 | Type       | Default                                                          | Description                                             |
+| ---------------------- | ---------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
+| tiles                  | MapTiles[] | ["rich", "vectorial", "traffic", "terrain", "satellite", "base"] | The options that will be included in the tiles selector |
+| displayControlsDefault | boolean    | true                                                             | Display the default tile selector UI                    |
 
 ![Tiles selector](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/tile_selector.gif?raw=true)
 
@@ -105,7 +105,7 @@ If the second approach is chosen, the following options can be specified during 
 
 This method takes a `MapTile` parameter and updates the selected tile from the map.
 
-The supported MapTile values are: `vector`, `traffic`, `terrain`, `satellite`, `base`.
+The supported MapTile values are: `rich`, `vector`, `traffic`, `terrain`, `satellite`, `base`.
 
 Example
 
