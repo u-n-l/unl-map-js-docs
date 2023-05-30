@@ -160,6 +160,22 @@ Enabling the draft shapes control, will fetch and render all the shapes added in
 
 ![Draft shapes creation & editing and delete](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/draft_shapes.gif?raw=true)
 
+## Toggle POIs visibility
+
+More detailed POIs are visible on the map starting with zoom 14 and in combination with the vectorial UNL tiles: `rich`, `default` and `base`. In order to enable the control for toggling their visibility the `togglePoisVisibilityControl` property can be used. By default, the pois are hiddent and there is not control on the map for enabling their visibility:
+
+```js
+var map = new UnlSdk.Map({
+     ...
+     apiKey: "YOUR-OWN-API-KEY",
+     vpmId: "YOUR-OWN-VPM-ID",
+     togglePoisVisibilityControl: true,
+      ...
+});
+```
+
+![Draft shapes creation & editing and delete](https://github.com/u-n-l/unl-map-js-docs/blob/main/docs/gifs/toggle_here_pois_visibility.gif?raw=true)
+
 <br />
 <br />
 <br />

@@ -51,7 +51,7 @@ var map = new UnlSdk.Map(${this.mapOptionsSandbox});
         </p>
         <Copyable lang="markup">{`
 <script src='${urls.js()}'></script>
-<link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+<link href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css" rel="stylesheet" />
 <link href='${urls.css()}' rel='stylesheet' />
 
 `}</Copyable>
@@ -92,7 +92,7 @@ npm install --save unl-map-js
           file.
         </p>
         <Copyable lang="markup">{`
-<link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+<link href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css" rel="stylesheet" />
 <link href='${urls.css()}' rel='stylesheet' />
 `}</Copyable>
 

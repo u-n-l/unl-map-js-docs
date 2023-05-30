@@ -1,4 +1,4 @@
-export const UNL_MAP_JS_VERSION = "0.1.3";
+export const UNL_MAP_JS_VERSION = "0.1.5";
 
 function url(ext) {
   return `https://unpkg.com/unl-map-js@${UNL_MAP_JS_VERSION}/lib/unl-map-js.${ext}`;
